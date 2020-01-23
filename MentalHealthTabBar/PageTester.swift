@@ -1,33 +1,22 @@
 //
-//  Music.swift
+//  PageTester.swift
 //  MentalHealthTabBar
 //
-//  Created by Amrita Malhotra on 1/8/20.
+//  Created by Amrita Malhotra on 1/18/20.
 //  Copyright © 2020 Amrita Malhotra. All rights reserved.
 //
 
 import UIKit
-import AVFoundation
 
-class Music: UIViewController {
-    var audioPlayer = AVAudioPlayer()
+class PageTester: UIPageViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
-        let sound = Bundle.main.path(forResource: "SampleAudio_0.4mb", ofType: "mp3")
-        
-        do {
-            audioPlayer = try AVAudioPlayer(contentsOf: URL(fileURLWithPath: sound!))
-        }
-        catch{
-            print(error)
-        }
+
         // Do any additional setup after loading the view.
     }
-    @IBAction func test(_ sender: Any) {
-            audioPlayer.play()
-        }
-        
+    
+
     /*
     // MARK: - Navigation
 

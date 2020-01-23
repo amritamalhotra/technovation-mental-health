@@ -9,13 +9,17 @@
 import UIKit
 
 class Tips: UIViewController {
-
+    
     override func viewDidLoad() {
         super.viewDidLoad()
+        //this is an extra comment
+        
 
         // Do any additional setup after loading the view.
     }
-    
+    @IBAction func toReminders(sender: UIButton) {
+        performSegue(withIdentifier: "NewController", sender: self)
+    }
 
     /*
     // MARK: - Navigation

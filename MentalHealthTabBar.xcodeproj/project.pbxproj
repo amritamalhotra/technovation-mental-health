@@ -16,7 +16,10 @@
 		B8120DEC23C63395004A3E42 /* GuidedBreathing.swift in Sources */ = {isa = PBXBuildFile; fileRef = B8120DEB23C63395004A3E42 /* GuidedBreathing.swift */; };
 		B8120DEE23C633AF004A3E42 /* Game1.swift in Sources */ = {isa = PBXBuildFile; fileRef = B8120DED23C633AF004A3E42 /* Game1.swift */; };
 		B8120DF023C633C6004A3E42 /* Game2.swift in Sources */ = {isa = PBXBuildFile; fileRef = B8120DEF23C633C6004A3E42 /* Game2.swift */; };
-		B8120DF223C633E2004A3E42 /* NewsStories.swift in Sources */ = {isa = PBXBuildFile; fileRef = B8120DF123C633E2004A3E42 /* NewsStories.swift */; };
+		B8B3184523D3C72600B14979 /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B8B3184423D3C72600B14979 /* AVFoundation.framework */; };
+		B8B3184723D3C87C00B14979 /* SampleAudio_0.4mb.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = B8B3184623D3C87C00B14979 /* SampleAudio_0.4mb.mp3 */; };
+		B8B3184823D3C87C00B14979 /* SampleAudio_0.4mb.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = B8B3184623D3C87C00B14979 /* SampleAudio_0.4mb.mp3 */; };
+		B8B3184923D3C87C00B14979 /* SampleAudio_0.4mb.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = B8B3184623D3C87C00B14979 /* SampleAudio_0.4mb.mp3 */; };
 		B8CD203723C276E20031CC57 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B8CD203623C276E20031CC57 /* AppDelegate.swift */; };
 		B8CD203923C276E20031CC57 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B8CD203823C276E20031CC57 /* SceneDelegate.swift */; };
 		B8CD203B23C276E20031CC57 /* Home.swift in Sources */ = {isa = PBXBuildFile; fileRef = B8CD203A23C276E20031CC57 /* Home.swift */; };
@@ -55,7 +58,9 @@
 		B8120DEB23C63395004A3E42 /* GuidedBreathing.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GuidedBreathing.swift; sourceTree = "<group>"; };
 		B8120DED23C633AF004A3E42 /* Game1.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Game1.swift; sourceTree = "<group>"; };
 		B8120DEF23C633C6004A3E42 /* Game2.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Game2.swift; sourceTree = "<group>"; };
-		B8120DF123C633E2004A3E42 /* NewsStories.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewsStories.swift; sourceTree = "<group>"; };
+		B8B3184423D3C72600B14979 /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
+		B8B3184623D3C87C00B14979 /* SampleAudio_0.4mb.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = SampleAudio_0.4mb.mp3; path = ../../../Downloads/SampleAudio_0.4mb.mp3; sourceTree = "<group>"; };
+		B8B3185A23D3DA2F00B14979 /* MentalHealthTabBar.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = MentalHealthTabBar.entitlements; sourceTree = "<group>"; };
 		B8CD203323C276E20031CC57 /* MentalHealthTabBar.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MentalHealthTabBar.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		B8CD203623C276E20031CC57 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		B8CD203823C276E20031CC57 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -78,6 +83,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B8B3184523D3C72600B14979 /* AVFoundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -98,6 +104,14 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		B8B3184323D3C72600B14979 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				B8B3184423D3C72600B14979 /* AVFoundation.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		B8CD202A23C276E20031CC57 = {
 			isa = PBXGroup;
 			children = (
@@ -105,6 +119,7 @@
 				B8CD204E23C276E50031CC57 /* MentalHealthTabBarTests */,
 				B8CD205923C276E50031CC57 /* MentalHealthTabBarUITests */,
 				B8CD203423C276E20031CC57 /* Products */,
+				B8B3184323D3C72600B14979 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -121,6 +136,7 @@
 		B8CD203523C276E20031CC57 /* MentalHealthTabBar */ = {
 			isa = PBXGroup;
 			children = (
+				B8B3185A23D3DA2F00B14979 /* MentalHealthTabBar.entitlements */,
 				B8CD203623C276E20031CC57 /* AppDelegate.swift */,
 				B8CD203823C276E20031CC57 /* SceneDelegate.swift */,
 				B8CD203A23C276E20031CC57 /* Home.swift */,
@@ -134,7 +150,7 @@
 				B8120DEB23C63395004A3E42 /* GuidedBreathing.swift */,
 				B8120DED23C633AF004A3E42 /* Game1.swift */,
 				B8120DEF23C633C6004A3E42 /* Game2.swift */,
-				B8120DF123C633E2004A3E42 /* NewsStories.swift */,
+				B8B3184623D3C87C00B14979 /* SampleAudio_0.4mb.mp3 */,
 				B8CD203E23C276E20031CC57 /* Main.storyboard */,
 				B8CD204123C276E50031CC57 /* Assets.xcassets */,
 				B8CD204323C276E50031CC57 /* LaunchScreen.storyboard */,
@@ -223,6 +239,9 @@
 		B8CD202B23C276E20031CC57 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
+				KnownAssetTags = (
+					New,
+				);
 				LastSwiftUpdateCheck = 1120;
 				LastUpgradeCheck = 1120;
 				ORGANIZATIONNAME = "Amrita Malhotra";
@@ -268,6 +287,7 @@
 				B8CD204523C276E50031CC57 /* LaunchScreen.storyboard in Resources */,
 				B8CD204223C276E50031CC57 /* Assets.xcassets in Resources */,
 				B8CD204023C276E20031CC57 /* Main.storyboard in Resources */,
+				B8B3184723D3C87C00B14979 /* SampleAudio_0.4mb.mp3 in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -275,6 +295,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B8B3184823D3C87C00B14979 /* SampleAudio_0.4mb.mp3 in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -282,6 +303,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B8B3184923D3C87C00B14979 /* SampleAudio_0.4mb.mp3 in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -294,7 +316,6 @@
 			files = (
 				B8CD203D23C276E20031CC57 /* Resources.swift in Sources */,
 				B8120DE223C632D8004A3E42 /* Exercises.swift in Sources */,
-				B8120DF223C633E2004A3E42 /* NewsStories.swift in Sources */,
 				B8CD203B23C276E20031CC57 /* Home.swift in Sources */,
 				B8120DE623C6333C004A3E42 /* Journal.swift in Sources */,
 				B8120DE823C6335B004A3E42 /* MakeMusic.swift in Sources */,
@@ -392,8 +413,12 @@
 				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "Apple Development: amritam04@icloud.com (LBMAY556D2)";
+				CODE_SIGN_STYLE = Manual;
 				COPY_PHASE_STRIP = NO;
 				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEPLOYMENT_LOCATION = YES;
+				DEVELOPMENT_TEAM = V8XQRJ7B26;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				ENABLE_TESTABILITY = YES;
 				GCC_C_LANGUAGE_STANDARD = gnu11;
@@ -414,6 +439,7 @@
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
 				MTL_FAST_MATH = YES;
 				ONLY_ACTIVE_ARCH = YES;
+				PROVISIONING_PROFILE_SPECIFIER = Automatic;
 				SDKROOT = iphoneos;
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
@@ -452,10 +478,15 @@
 				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "Apple Development: amritam04@icloud.com (LBMAY556D2)";
+				CODE_SIGN_STYLE = Manual;
 				COPY_PHASE_STRIP = NO;
 				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEPLOYMENT_LOCATION = YES;
+				DEVELOPMENT_TEAM = V8XQRJ7B26;
 				ENABLE_NS_ASSERTIONS = NO;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
 				GCC_C_LANGUAGE_STANDARD = gnu11;
 				GCC_NO_COMMON_BLOCKS = YES;
 				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
@@ -467,6 +498,8 @@
 				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PROVISIONING_PROFILE_SPECIFIER = Automatic;
 				SDKROOT = iphoneos;
 				SWIFT_COMPILATION_MODE = wholemodule;
 				SWIFT_OPTIMIZATION_LEVEL = "-O";
@@ -478,14 +511,18 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = MentalHealthTabBar/MentalHealthTabBar.entitlements;
+				CODE_SIGN_IDENTITY = "Apple Development";
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = V8XQRJ7B26;
 				INFOPLIST_FILE = MentalHealthTabBar/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = amritamalhotra.MentalHealthTabBar;
+				PRODUCT_BUNDLE_IDENTIFIER = com.amritamalhotra2;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -495,14 +532,19 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = MentalHealthTabBar/MentalHealthTabBar.entitlements;
+				CODE_SIGN_IDENTITY = "Apple Development";
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = V8XQRJ7B26;
 				INFOPLIST_FILE = MentalHealthTabBar/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = amritamalhotra.MentalHealthTabBar;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_BUNDLE_IDENTIFIER = com.amritamalhotra2;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};

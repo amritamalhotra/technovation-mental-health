@@ -15,9 +15,7 @@ class Journal: UIViewController {
 
         // Do any additional setup after loading the view.
     }
-    
-
-    /*
+/*
     // MARK: - Navigation
 
     // In a storyboard-based application, you will often want to do a little preparation before navigation
@@ -26,5 +24,4 @@ class Journal: UIViewController {
         // Pass the selected object to the new view controller.
     }
     */
-
 }
