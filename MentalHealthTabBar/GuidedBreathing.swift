@@ -16,7 +16,10 @@ class GuidedBreathing: UIViewController {
         // Do any additional setup after loading the view.
     }
     
-
+    @IBAction func backGames(_ sender: Any) {
+        self.dismiss(animated: true, completion: nil)
+    }
+    
     /*
     // MARK: - Navigation
 

@@ -16,7 +16,11 @@ class Exercises: UIViewController {
         // Do any additional setup after loading the view.
     }
     
-
+   
+    @IBAction func guidedbreathing(_ sender: UIButton) {
+        performSegue(withIdentifier: "toBreathing", sender: self)
+    }
+    
     /*
     // MARK: - Navigation
 

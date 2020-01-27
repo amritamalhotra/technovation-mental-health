@@ -319,6 +319,10 @@
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="RpN-1b-zG5">
                                 <rect key="frame" x="122" y="105" width="229" height="98"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <connections>
+                                    <action selector="guidedbreathing:" destination="zVY-bl-AFX" eventType="touchUpInside" id="n1S-Jr-nhV"/>
+                                    <segue destination="a3j-KE-iq5" kind="presentation" identifier="toBreathing" id="xeG-eC-7tp"/>
+                                </connections>
                             </button>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="this is a description of the guided breathing. when you click on it it should take you to the guided breathing page." textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="4" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="8di-5r-iRj">
                                 <rect key="frame" x="122" y="105" width="229" height="98"/>
@@ -854,6 +858,9 @@
                                 <rect key="frame" x="16" y="601" width="57" height="43"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <state key="normal" image="arrow.left" catalog="system"/>
+                                <connections>
+                                    <action selector="backGames:" destination="a3j-KE-iq5" eventType="touchUpInside" id="AFT-g7-oSW"/>
+                                </connections>
                             </button>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="back to games" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Eur-4K-aj9">
                                 <rect key="frame" x="59" y="602" width="113" height="48"/>
