@@ -24,6 +24,12 @@ class Music: UIViewController {
         }
         // Do any additional setup after loading the view.
     }
+    
+    
+    @IBAction func toMusicMaker(_ sender: UIButton) {
+        performSegue(withIdentifier: "toMakeMusic", sender: self)
+    }
+    
     @IBAction func test(_ sender: Any) {
             audioPlayer.play()
         }

@@ -598,6 +598,10 @@
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <color key="tintColor" cocoaTouchSystemColor="darkTextColor"/>
                                 <state key="normal" image="music.mic" catalog="system"/>
+                                <connections>
+                                    <action selector="toMusicMaker:" destination="8C5-Vb-kR4" eventType="touchUpInside" id="Nf8-sV-UnM"/>
+                                    <segue destination="pKw-yA-T2n" kind="presentation" identifier="toMakeMusic" id="izz-V7-6Us"/>
+                                </connections>
                             </button>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="recommended music:" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="XmA-uM-1oq">
                                 <rect key="frame" x="16" y="50" width="146" height="40"/>
@@ -703,12 +707,6 @@
                                     <action selector="test:" destination="8C5-Vb-kR4" eventType="touchUpInside" id="XET-hh-BcZ"/>
                                 </connections>
                             </button>
-                            <scrollView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" indicatorStyle="black" translatesAutoresizingMaskIntoConstraints="NO" id="I2n-7P-CVL">
-                                <rect key="frame" x="68" y="0.0" width="240" height="618"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <viewLayoutGuide key="contentLayoutGuide" id="LUC-Fd-Smo"/>
-                                <viewLayoutGuide key="frameLayoutGuide" id="yUv-Ea-uaY"/>
-                            </scrollView>
                         </subviews>
                         <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
                         <viewLayoutGuide key="safeArea" id="1Kd-HY-444"/>
@@ -839,6 +837,9 @@
                                 <rect key="frame" x="16" y="620" width="20" height="22"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <state key="normal" image="arrow.left" catalog="system"/>
+                                <connections>
+                                    <action selector="backToMusic:" destination="pKw-yA-T2n" eventType="touchUpInside" id="XK9-ZG-ahJ"/>
+                                </connections>
                             </button>
                         </subviews>
                         <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
