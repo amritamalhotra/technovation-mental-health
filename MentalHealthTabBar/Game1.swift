@@ -16,7 +16,10 @@ class Game1: UIViewController {
         // Do any additional setup after loading the view.
     }
     
-
+    @IBAction func gameOneToExercises(_ sender: Any) {
+        self.dismiss(animated: true, completion: nil)
+    }
+    
     /*
     // MARK: - Navigation
 

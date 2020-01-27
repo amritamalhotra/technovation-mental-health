@@ -372,6 +372,10 @@
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="0VX-no-1WJ">
                                 <rect key="frame" x="122" y="388" width="229" height="89"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <connections>
+                                    <action selector="gameTwo:" destination="zVY-bl-AFX" eventType="touchUpInside" id="7Bd-30-NfG"/>
+                                    <segue destination="bc2-Nc-84X" kind="presentation" identifier="toGameTwo" id="jzp-we-Pu3"/>
+                                </connections>
                             </button>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text=" games &amp; exercises" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="fUH-km-Beb">
                                 <rect key="frame" x="73" y="11" width="232" height="69"/>
@@ -382,8 +386,12 @@
                                 <color key="shadowColor" systemColor="systemBlueColor" red="0.0" green="0.47843137250000001" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                             </label>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="FQ3-kK-EBw">
-                                <rect key="frame" x="51" y="529" width="229" height="89"/>
+                                <rect key="frame" x="122" y="265" width="229" height="89"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <connections>
+                                    <action selector="gameOne:" destination="zVY-bl-AFX" eventType="touchUpInside" id="3hV-Es-kMG"/>
+                                    <segue destination="exh-o9-Wap" kind="presentation" identifier="toGameOne" id="xzz-OT-KuO"/>
+                                </connections>
                             </button>
                         </subviews>
                         <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
@@ -422,6 +430,9 @@
                                 <rect key="frame" x="16" y="616" width="20" height="22"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <state key="normal" image="arrow.left" catalog="system"/>
+                                <connections>
+                                    <action selector="gameTwoToExercises:" destination="bc2-Nc-84X" eventType="touchUpInside" id="XPO-rR-csW"/>
+                                </connections>
                             </button>
                         </subviews>
                         <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
@@ -951,6 +962,9 @@
                                 <rect key="frame" x="20" y="609" width="20" height="22"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <state key="normal" image="arrow.left" catalog="system"/>
+                                <connections>
+                                    <action selector="gameOneToExercises:" destination="exh-o9-Wap" eventType="touchUpInside" id="YWP-Ph-MfY"/>
+                                </connections>
                             </button>
                         </subviews>
                         <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>

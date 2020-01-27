@@ -21,6 +21,14 @@ class Exercises: UIViewController {
         performSegue(withIdentifier: "toBreathing", sender: self)
     }
     
+    @IBAction func gameOne(_ sender: UIButton) {
+        performSegue(withIdentifier: "toGameOne", sender: self)
+    }
+    
+    
+    @IBAction func gameTwo(_ sender: UIButton) {
+        performSegue(withIdentifier: "toGameTwo", sender: self)
+    }
     /*
     // MARK: - Navigation
 
