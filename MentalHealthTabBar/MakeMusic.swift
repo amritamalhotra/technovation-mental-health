@@ -7,13 +7,20 @@
 //
 
 import UIKit
+import AVFoundation
 
 class MakeMusic: UIViewController {
-
+    var cPlayer = AVAudioPlayer()
     override func viewDidLoad() {
         super.viewDidLoad()
+        let csound = Bundle.main.path(forResource: "C1", ofType: "mp3")
         
-        
+        do {
+            cPlayer = try AVAudioPlayer(contentsOf: URL(fileURLWithPath: csound!))
+            }
+        catch {
+            print(error)
+        }
         
         
         // Do any additional setup after loading the view.
@@ -21,6 +28,10 @@ class MakeMusic: UIViewController {
     
     @IBAction func backToMusic(_ sender: Any) {
         self.dismiss(animated: true, completion: nil)
+    }
+    
+    @IBAction func cPlay(_ sender: Any) {
+        cPlayer.play()
     }
     
     }

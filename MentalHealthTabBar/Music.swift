@@ -7,21 +7,13 @@
 //
 
 import UIKit
-import AVFoundation
 
 class Music: UIViewController {
-    var audioPlayer = AVAudioPlayer()
+    
 
     override func viewDidLoad() {
         super.viewDidLoad()
-        let sound = Bundle.main.path(forResource: "SampleAudio_0.4mb", ofType: "mp3")
         
-        do {
-            audioPlayer = try AVAudioPlayer(contentsOf: URL(fileURLWithPath: sound!))
-        }
-        catch{
-            print(error)
-        }
         // Do any additional setup after loading the view.
     }
     
@@ -31,7 +23,7 @@ class Music: UIViewController {
     }
     
     @IBAction func test(_ sender: Any) {
-            audioPlayer.play()
+            
         }
         
     /*

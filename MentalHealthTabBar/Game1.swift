@@ -7,17 +7,30 @@
 //
 
 import UIKit
+import AVFoundation
 
 class Game1: UIViewController {
-
+    var audioPlayer = AVAudioPlayer()
     override func viewDidLoad() {
         super.viewDidLoad()
+        
+        let sound = Bundle.main.path(forResource: "C1", ofType: "mp3")
+        
+        do {
+            audioPlayer = try AVAudioPlayer(contentsOf: URL(fileURLWithPath: sound!))
+        }
+        catch{
+            print(error)
+        }
 
         // Do any additional setup after loading the view.
     }
     
     @IBAction func gameOneToExercises(_ sender: Any) {
         self.dismiss(animated: true, completion: nil)
+    }
+    @IBAction func playHit(_ sender: Any) {
+        audioPlayer.play()
     }
     
     /*

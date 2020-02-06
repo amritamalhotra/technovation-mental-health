@@ -29,6 +29,7 @@
 		B8CD204523C276E50031CC57 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B8CD204323C276E50031CC57 /* LaunchScreen.storyboard */; };
 		B8CD205023C276E50031CC57 /* MentalHealthTabBarTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B8CD204F23C276E50031CC57 /* MentalHealthTabBarTests.swift */; };
 		B8CD205B23C276E50031CC57 /* MentalHealthTabBarUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B8CD205A23C276E50031CC57 /* MentalHealthTabBarUITests.swift */; };
+		B8D5F6D323E29C97009FA67A /* C1.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = B8D5F6D223E29C97009FA67A /* C1.mp3 */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -76,6 +77,7 @@
 		B8CD205623C276E50031CC57 /* MentalHealthTabBarUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MentalHealthTabBarUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		B8CD205A23C276E50031CC57 /* MentalHealthTabBarUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MentalHealthTabBarUITests.swift; sourceTree = "<group>"; };
 		B8CD205C23C276E50031CC57 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B8D5F6D223E29C97009FA67A /* C1.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = C1.mp3; path = ../../../Downloads/C1.mp3; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -151,6 +153,7 @@
 				B8120DED23C633AF004A3E42 /* Game1.swift */,
 				B8120DEF23C633C6004A3E42 /* Game2.swift */,
 				B8B3184623D3C87C00B14979 /* SampleAudio_0.4mb.mp3 */,
+				B8D5F6D223E29C97009FA67A /* C1.mp3 */,
 				B8CD203E23C276E20031CC57 /* Main.storyboard */,
 				B8CD204123C276E50031CC57 /* Assets.xcassets */,
 				B8CD204323C276E50031CC57 /* LaunchScreen.storyboard */,
@@ -284,6 +287,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B8D5F6D323E29C97009FA67A /* C1.mp3 in Resources */,
 				B8CD204523C276E50031CC57 /* LaunchScreen.storyboard in Resources */,
 				B8CD204223C276E50031CC57 /* Assets.xcassets in Resources */,
 				B8CD204023C276E20031CC57 /* Main.storyboard in Resources */,
