@@ -14,7 +14,7 @@ class Game1: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
         
-        let sound = Bundle.main.path(forResource: "C1", ofType: "mp3")
+        let sound = Bundle.main.path(forResource: "SampleAudio_0.4mb", ofType: "mp3")
         
         do {
             audioPlayer = try AVAudioPlayer(contentsOf: URL(fileURLWithPath: sound!))
@@ -31,6 +31,10 @@ class Game1: UIViewController {
     }
     @IBAction func playHit(_ sender: Any) {
         audioPlayer.play()
+    }
+    
+    @IBAction func stopHit(_ sender: Any) {
+        audioPlayer.stop()
     }
     
     /*
