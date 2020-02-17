@@ -11,6 +11,9 @@ import UserNotifications
 
 class PositivityReminders: UIViewController {
     
+    @IBOutlet weak var inputField: UITextField!
+    @IBOutlet weak var messageDisplay: UITextView!
+    
     override func viewDidLoad() {
         super.viewDidLoad()
 
@@ -29,7 +32,7 @@ class PositivityReminders: UIViewController {
                
                _ = Calendar.current.dateComponents([.year, .month, .day, .hour, .minute, .second], from: date)
                
-               let trigger = UNTimeIntervalNotificationTrigger(timeInterval: 5, repeats: false)
+               let trigger = UNTimeIntervalNotificationTrigger(timeInterval: 1, repeats: false)
                
                let uuidString = UUID().uuidString
                
@@ -44,15 +47,13 @@ class PositivityReminders: UIViewController {
     @IBAction func goback(_ sender: Any) {
         self.dismiss(animated: true, completion: nil)
     }
-    
-    /*
-    // MARK: - Navigation
-
-    // In a storyboard-based application, you will often want to do a little preparation before navigation
-    override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
-        // Get the new view controller using segue.destination.
-        // Pass the selected object to the new view controller.
+    @IBAction func setDefaultMessage(_ sender: Any) {
+        messageDisplay.text = "Current Message:\nKeep Calm and Carry On!"
     }
-    */
-
+    @IBAction func enterPressed(_ sender: Any) {
+        messageDisplay.text = "Current Message:\n\(inputField.text!)"
+    }
+    override func touchesBegan(_ touches: Set<UITouch>, with event: UIEvent?) {
+        inputField?.resignFirstResponder()
+    }
 }
