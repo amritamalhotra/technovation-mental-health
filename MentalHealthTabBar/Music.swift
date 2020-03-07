@@ -9,11 +9,10 @@
 import UIKit
 
 class Music: UIViewController {
-    
 
     override func viewDidLoad() {
         super.viewDidLoad()
-        
+
         // Do any additional setup after loading the view.
     }
     
@@ -21,11 +20,6 @@ class Music: UIViewController {
     @IBAction func toMusicMaker(_ sender: UIButton) {
         performSegue(withIdentifier: "toMakeMusic", sender: self)
     }
-    
-    @IBAction func test(_ sender: Any) {
-            
-        }
-        
     /*
     // MARK: - Navigation
 

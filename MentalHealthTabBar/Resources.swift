@@ -23,4 +23,8 @@ class SecondViewController: UIViewController {
     override func touchesBegan(_ touches: Set<UITouch>, with event: UIEvent?) {
         numberInfo.resignFirstResponder()
     }
+    @IBAction func toPhoneNumbers( sender: Any) {
+        performSegue(withIdentifier: "toPhone", sender: self)
+    }
+    
 }

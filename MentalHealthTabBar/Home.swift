@@ -11,9 +11,10 @@ import UIKit
 class FirstViewController: UIViewController {
 
     @IBOutlet weak var display: UITextView!
-    
+
     override func viewDidLoad() {
         super.viewDidLoad()
+        
     }
     
     @IBAction func happyPressed(_ sender: Any) {

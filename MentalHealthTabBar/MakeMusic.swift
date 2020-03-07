@@ -23,6 +23,9 @@ class MakeMusic: UIViewController {
     var aSharpPlayer = AVAudioPlayer()
     var bPlayer = AVAudioPlayer()
     var cTwoPlayer = AVAudioPlayer()
+    
+    let sounds = ["C1", "C#1", "D1", "D#1", "E1", "F1", "F#1", "G1", "G#1", "A1", "A#1", "B1", "C2"]
+    
 
     override func viewDidLoad() {
         super.viewDidLoad()
