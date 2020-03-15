@@ -7,16 +7,72 @@
 //
 
 import UIKit
+import SQLite
 
 class FirstViewController: UIViewController {
 
     @IBOutlet weak var display: UITextView!
+    var database: Connection!
+    let usersTable = Table("users")
+    let id = Expression<Int>("id")
+    let name = Expression<String>("name")
+    let email = Expression<String>("email")
 
     override func viewDidLoad() {
         super.viewDidLoad()
         
+        do {
+            let documentDirectory = try FileManager.default.url(for: .documentDirectory, in: .userDomainMask, appropriateFor: nil, create: true)
+            let fileUrl = documentDirectory.appendingPathComponent("users").appendingPathExtension("sqlite3")
+            let database = try Connection(fileUrl.path)
+            self.database = database
+        } catch {
+            print(error)
+        }
+        
     }
     
+    @IBAction func createTable(_ sender: Any) {
+        let createTable = self.usersTable.create { (table) in
+            table.column(self.id, primaryKey: true)
+            table.column(self.name)
+            table.column(self.email, unique: true)
+        }
+        do {
+            try self.database.run(createTable)
+            print("Created the table")
+        } catch {
+            print(error)
+        }
+    }
+    @IBAction func insertUserPressed(_ sender: Any) {
+        let alert = UIAlertController(title: "Insert User", message: "Message", preferredStyle: .alert)
+        alert.addTextField{(tf) in tf.placeholder = "Name" }
+        alert.addTextField{(tf) in tf.placeholder = "Email" }
+        let action = UIAlertAction(title: "Submit", style: .default) { (_) in
+            guard let name = alert.textFields?.first?.text,
+                let email = alert.textFields?.last?.text
+                else {return}
+            print(name)
+            print(email)
+        }
+        alert.addAction(action)
+        present(alert, animated: true, completion: nil)
+    }
+    @IBAction func deleteUserPressed(_ sender: Any) {
+        let alert2 = UIAlertController(title: "Delete User", message: "Message", preferredStyle: .alert)
+        alert2.addTextField{(tf) in tf.placeholder = "Name" }
+        alert2.addTextField{(tf) in tf.placeholder = "Email" }
+        let action = UIAlertAction(title: "Submit", style: .default) { (_) in
+            guard let name = alert2.textFields?.first?.text,
+                let email = alert2.textFields?.last?.text
+                else {return}
+            print(name)
+            print(email)
+        }
+        alert2.addAction(action)
+        present(alert2, animated: true, completion: nil)
+    }
     @IBAction func happyPressed(_ sender: Any) {
         display.text = "You chose: happy!"
     }
