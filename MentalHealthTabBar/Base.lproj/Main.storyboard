@@ -170,6 +170,22 @@
                                     <action selector="createTable:" destination="9pv-A4-QxB" eventType="touchUpInside" id="YAt-Sm-0Nf"/>
                                 </connections>
                             </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="m9B-Ej-EfI">
+                                <rect key="frame" x="149" y="420" width="62" height="30"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" title="list users"/>
+                                <connections>
+                                    <action selector="listUsers:" destination="9pv-A4-QxB" eventType="touchUpInside" id="xGO-Z5-JsM"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="QtO-zJ-cuh">
+                                <rect key="frame" x="246" y="420" width="82" height="30"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" title="update user"/>
+                                <connections>
+                                    <action selector="updateUser:" destination="9pv-A4-QxB" eventType="touchUpInside" id="Cny-uI-Hf8"/>
+                                </connections>
+                            </button>
                         </subviews>
                         <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
                         <viewLayoutGuide key="safeArea" id="PQr-Ze-W5v"/>

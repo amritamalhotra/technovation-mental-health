@@ -55,23 +55,71 @@ class FirstViewController: UIViewController {
                 else {return}
             print(name)
             print(email)
+            
+            let insertUser = self.usersTable.insert(self.name <- name, self.email <- email)
+            do {
+                try self.database.run(insertUser)
+                print("Inserted user!")
+            } catch {
+                print(error)
+            }
         }
         alert.addAction(action)
         present(alert, animated: true, completion: nil)
     }
     @IBAction func deleteUserPressed(_ sender: Any) {
         let alert2 = UIAlertController(title: "Delete User", message: "Message", preferredStyle: .alert)
-        alert2.addTextField{(tf) in tf.placeholder = "Name" }
-        alert2.addTextField{(tf) in tf.placeholder = "Email" }
+        alert2.addTextField{(tf) in tf.placeholder = "User ID" }
         let action = UIAlertAction(title: "Submit", style: .default) { (_) in
-            guard let name = alert2.textFields?.first?.text,
-                let email = alert2.textFields?.last?.text
+            guard let userIdString = alert2.textFields?.first?.text,
+                let userId = Int(userIdString)
                 else {return}
-            print(name)
-            print(email)
+            print(userIdString)
+            
+            let user = self.usersTable.filter(self.id == userId)
+            let deleteUser = user.delete()
+            do {
+                try self.database.run(deleteUser)
+            } catch {
+                print(error)
+            }
         }
         alert2.addAction(action)
         present(alert2, animated: true, completion: nil)
+    }
+    @IBAction func updateUser(_ sender: Any) {
+        let alert3 = UIAlertController(title: "Update User", message: "Message", preferredStyle: .alert)
+        alert3.addTextField{(tf) in tf.placeholder = "User ID" }
+        alert3.addTextField{(tf) in tf.placeholder = "Email" }
+        let action = UIAlertAction(title: "Submit", style: .default) { (_) in
+            guard let userIdString = alert3.textFields?.first?.text,
+                let userId = Int(userIdString),
+                let email = alert3.textFields?.last?.text
+                else {return}
+            print(userIdString)
+            print(email)
+            
+            let user = self.usersTable.filter(self.id == userId)
+            let updateUser = user.update(self.email <- email)
+            do {
+                try self.database.run(updateUser)
+            } catch {
+                print(error)
+            }
+            
+        }
+        alert3.addAction(action)
+        present(alert3, animated: true, completion: nil)
+    }
+    @IBAction func listUsers(_ sender: Any) {
+        do {
+            let users = try self.database.prepare(self.usersTable)
+            for user in users {
+                print("userId: \(user[self.id]), name: \(user[self.name]), email: \(user[self.email])")
+            }
+        } catch {
+            print(error)
+        }
     }
     @IBAction func happyPressed(_ sender: Any) {
         display.text = "You chose: happy!"
