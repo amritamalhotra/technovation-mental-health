@@ -3,10 +3,11 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 51;
 	objects = {
 
 /* Begin PBXBuildFile section */
+		4CA180B447A27CE85FDD7CD0 /* Pods_MentalHealthTabBar_MentalHealthTabBarUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E2944E642A14FA2DB4660675 /* Pods_MentalHealthTabBar_MentalHealthTabBarUITests.framework */; };
 		B8120DE023C6327B004A3E42 /* Music.swift in Sources */ = {isa = PBXBuildFile; fileRef = B8120DDF23C6327B004A3E42 /* Music.swift */; };
 		B8120DE223C632D8004A3E42 /* Exercises.swift in Sources */ = {isa = PBXBuildFile; fileRef = B8120DE123C632D8004A3E42 /* Exercises.swift */; };
 		B8120DE423C632F8004A3E42 /* Tips.swift in Sources */ = {isa = PBXBuildFile; fileRef = B8120DE323C632F8004A3E42 /* Tips.swift */; };
@@ -16,14 +17,11 @@
 		B8120DEC23C63395004A3E42 /* GuidedBreathing.swift in Sources */ = {isa = PBXBuildFile; fileRef = B8120DEB23C63395004A3E42 /* GuidedBreathing.swift */; };
 		B8120DEE23C633AF004A3E42 /* Game1.swift in Sources */ = {isa = PBXBuildFile; fileRef = B8120DED23C633AF004A3E42 /* Game1.swift */; };
 		B8120DF023C633C6004A3E42 /* Game2.swift in Sources */ = {isa = PBXBuildFile; fileRef = B8120DEF23C633C6004A3E42 /* Game2.swift */; };
-		B89B439223F7838400F9C452 /* F1.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = B89B439123F7838400F9C452 /* F1.mp3 */; };
-		B89B439423F7838D00F9C452 /* F#1.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = B89B439323F7838D00F9C452 /* F#1.mp3 */; };
-		B89B439623F7839700F9C452 /* G1.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = B89B439523F7839700F9C452 /* G1.mp3 */; };
-		B89B439823F783A000F9C452 /* G#1.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = B89B439723F783A000F9C452 /* G#1.mp3 */; };
-		B89B439A23F783A900F9C452 /* A1.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = B89B439923F783A800F9C452 /* A1.mp3 */; };
-		B89B439C23F783B800F9C452 /* A#1.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = B89B439B23F783B800F9C452 /* A#1.mp3 */; };
-		B89B439E23F783C100F9C452 /* B1.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = B89B439D23F783C100F9C452 /* B1.mp3 */; };
-		B89B43A023F783CA00F9C452 /* C2.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = B89B439F23F783CA00F9C452 /* C2.mp3 */; };
+		B8282CE62420070B0012CF6D /* SignUpViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B8282CE52420070B0012CF6D /* SignUpViewController.swift */; };
+		B8282CEF2420072B0012CF6D /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B8282CEE2420072B0012CF6D /* LoginViewController.swift */; };
+		B8282CF1242009310012CF6D /* InitialViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B8282CF0242009310012CF6D /* InitialViewController.swift */; };
+		B8282CF3242022420012CF6D /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = B8282CF2242022410012CF6D /* GoogleService-Info.plist */; };
+		B8282CF6242037A70012CF6D /* Utilities.swift in Sources */ = {isa = PBXBuildFile; fileRef = B8282CF5242037A70012CF6D /* Utilities.swift */; };
 		B8B3184523D3C72600B14979 /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B8B3184423D3C72600B14979 /* AVFoundation.framework */; };
 		B8B3184723D3C87C00B14979 /* SampleAudio_0.4mb.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = B8B3184623D3C87C00B14979 /* SampleAudio_0.4mb.mp3 */; };
 		B8B3184823D3C87C00B14979 /* SampleAudio_0.4mb.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = B8B3184623D3C87C00B14979 /* SampleAudio_0.4mb.mp3 */; };
@@ -39,11 +37,23 @@
 		B8CD204523C276E50031CC57 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B8CD204323C276E50031CC57 /* LaunchScreen.storyboard */; };
 		B8CD205023C276E50031CC57 /* MentalHealthTabBarTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B8CD204F23C276E50031CC57 /* MentalHealthTabBarTests.swift */; };
 		B8CD205B23C276E50031CC57 /* MentalHealthTabBarUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B8CD205A23C276E50031CC57 /* MentalHealthTabBarUITests.swift */; };
-		B8CFCC1F23F0E7720052477D /* C#1.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = B8CFCC1E23F0E7720052477D /* C#1.mp3 */; };
-		B8CFCC2123F0E8CF0052477D /* D1.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = B8CFCC2023F0E8CE0052477D /* D1.mp3 */; };
-		B8CFCC2523F0EB370052477D /* D#1.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = B8CFCC2423F0EB370052477D /* D#1.mp3 */; };
-		B8CFCC2723F0EE0C0052477D /* E1.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = B8CFCC2623F0EE0C0052477D /* E1.mp3 */; };
-		B8D5F6D323E29C97009FA67A /* C1.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = B8D5F6D223E29C97009FA67A /* C1.mp3 */; };
+		B8DA12A424204F4700183266 /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = B8DA12A324204F4700183266 /* Constants.swift */; };
+		B8DA12BB2420501C00183266 /* C1.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = B8DA12BA2420501C00183266 /* C1.mp3 */; };
+		B8DA12BF2420504D00183266 /* C#1.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = B8DA12BE2420504D00183266 /* C#1.mp3 */; };
+		B8DA12C12420506E00183266 /* D1.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = B8DA12C02420506E00183266 /* D1.mp3 */; };
+		B8DA12C32420507400183266 /* D#1.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = B8DA12C22420507400183266 /* D#1.mp3 */; };
+		B8DA12C52420507B00183266 /* E1.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = B8DA12C42420507B00183266 /* E1.mp3 */; };
+		B8DA12C72420508300183266 /* F1.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = B8DA12C62420508200183266 /* F1.mp3 */; };
+		B8DA12C92420508900183266 /* F#1.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = B8DA12C82420508900183266 /* F#1.mp3 */; };
+		B8DA12CB2420509000183266 /* G1.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = B8DA12CA2420509000183266 /* G1.mp3 */; };
+		B8DA12CD242050B000183266 /* G#1.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = B8DA12CC242050B000183266 /* G#1.mp3 */; };
+		B8DA12CF242050B900183266 /* A1.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = B8DA12CE242050B900183266 /* A1.mp3 */; };
+		B8DA12D1242050C200183266 /* A#1.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = B8DA12D0242050C200183266 /* A#1.mp3 */; };
+		B8DA12D3242050CB00183266 /* B1.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = B8DA12D2242050CB00183266 /* B1.mp3 */; };
+		B8DA12D5242050D300183266 /* C2.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = B8DA12D4242050D300183266 /* C2.mp3 */; };
+		B8DA12D924205A3900183266 /* TransitionToAppViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B8DA12D824205A3900183266 /* TransitionToAppViewController.swift */; };
+		BC06AB801632C5E52037EB25 /* Pods_MentalHealthTabBar.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C931E1C187788192F697F374 /* Pods_MentalHealthTabBar.framework */; };
+		CA24762C525BFAD1B2F6DEC7 /* Pods_MentalHealthTabBarTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B0568F033685AABF7FED4768 /* Pods_MentalHealthTabBarTests.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -127,6 +137,11 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		1C7BD373AB776BA9CF04B415 /* Pods-MentalHealthTabBar-MentalHealthTabBarUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MentalHealthTabBar-MentalHealthTabBarUITests.release.xcconfig"; path = "Target Support Files/Pods-MentalHealthTabBar-MentalHealthTabBarUITests/Pods-MentalHealthTabBar-MentalHealthTabBarUITests.release.xcconfig"; sourceTree = "<group>"; };
+		98DC0B474A66156F4991F046 /* Pods-MentalHealthTabBarTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MentalHealthTabBarTests.release.xcconfig"; path = "Target Support Files/Pods-MentalHealthTabBarTests/Pods-MentalHealthTabBarTests.release.xcconfig"; sourceTree = "<group>"; };
+		A097264CC7556290B8EC812C /* Pods-MentalHealthTabBar.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MentalHealthTabBar.release.xcconfig"; path = "Target Support Files/Pods-MentalHealthTabBar/Pods-MentalHealthTabBar.release.xcconfig"; sourceTree = "<group>"; };
+		A2A00E4288505655E07B1A68 /* Pods-MentalHealthTabBarTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MentalHealthTabBarTests.debug.xcconfig"; path = "Target Support Files/Pods-MentalHealthTabBarTests/Pods-MentalHealthTabBarTests.debug.xcconfig"; sourceTree = "<group>"; };
+		B0568F033685AABF7FED4768 /* Pods_MentalHealthTabBarTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_MentalHealthTabBarTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		B8120DDF23C6327B004A3E42 /* Music.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Music.swift; sourceTree = "<group>"; };
 		B8120DE123C632D8004A3E42 /* Exercises.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Exercises.swift; sourceTree = "<group>"; };
 		B8120DE323C632F8004A3E42 /* Tips.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tips.swift; sourceTree = "<group>"; };
@@ -136,14 +151,11 @@
 		B8120DEB23C63395004A3E42 /* GuidedBreathing.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GuidedBreathing.swift; sourceTree = "<group>"; };
 		B8120DED23C633AF004A3E42 /* Game1.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Game1.swift; sourceTree = "<group>"; };
 		B8120DEF23C633C6004A3E42 /* Game2.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Game2.swift; sourceTree = "<group>"; };
-		B89B439123F7838400F9C452 /* F1.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = F1.mp3; path = ../../../Downloads/F1.mp3; sourceTree = "<group>"; };
-		B89B439323F7838D00F9C452 /* F#1.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = "F#1.mp3"; path = "../../../Downloads/F#1.mp3"; sourceTree = "<group>"; };
-		B89B439523F7839700F9C452 /* G1.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = G1.mp3; path = ../../../Downloads/G1.mp3; sourceTree = "<group>"; };
-		B89B439723F783A000F9C452 /* G#1.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = "G#1.mp3"; path = "../../../Downloads/G#1.mp3"; sourceTree = "<group>"; };
-		B89B439923F783A800F9C452 /* A1.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = A1.mp3; path = ../../../Downloads/A1.mp3; sourceTree = "<group>"; };
-		B89B439B23F783B800F9C452 /* A#1.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = "A#1.mp3"; path = "../../../Downloads/A#1.mp3"; sourceTree = "<group>"; };
-		B89B439D23F783C100F9C452 /* B1.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = B1.mp3; path = ../../../Downloads/B1.mp3; sourceTree = "<group>"; };
-		B89B439F23F783CA00F9C452 /* C2.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = C2.mp3; path = ../../../Downloads/C2.mp3; sourceTree = "<group>"; };
+		B8282CE52420070B0012CF6D /* SignUpViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignUpViewController.swift; sourceTree = "<group>"; };
+		B8282CEE2420072B0012CF6D /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
+		B8282CF0242009310012CF6D /* InitialViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InitialViewController.swift; sourceTree = "<group>"; };
+		B8282CF2242022410012CF6D /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = "GoogleService-Info.plist"; path = "../../../Downloads/GoogleService-Info.plist"; sourceTree = "<group>"; };
+		B8282CF5242037A70012CF6D /* Utilities.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Utilities.swift; sourceTree = "<group>"; };
 		B8B3184423D3C72600B14979 /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
 		B8B3184623D3C87C00B14979 /* SampleAudio_0.4mb.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = SampleAudio_0.4mb.mp3; path = ../../../Downloads/SampleAudio_0.4mb.mp3; sourceTree = "<group>"; };
 		B8B3185A23D3DA2F00B14979 /* MentalHealthTabBar.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = MentalHealthTabBar.entitlements; sourceTree = "<group>"; };
@@ -163,11 +175,25 @@
 		B8CD205623C276E50031CC57 /* MentalHealthTabBarUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MentalHealthTabBarUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		B8CD205A23C276E50031CC57 /* MentalHealthTabBarUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MentalHealthTabBarUITests.swift; sourceTree = "<group>"; };
 		B8CD205C23C276E50031CC57 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		B8CFCC1E23F0E7720052477D /* C#1.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = "C#1.mp3"; path = "../../../Downloads/C#1.mp3"; sourceTree = "<group>"; };
-		B8CFCC2023F0E8CE0052477D /* D1.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = D1.mp3; path = ../../../Downloads/D1.mp3; sourceTree = "<group>"; };
-		B8CFCC2423F0EB370052477D /* D#1.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = "D#1.mp3"; path = "../../../Downloads/D#1.mp3"; sourceTree = "<group>"; };
-		B8CFCC2623F0EE0C0052477D /* E1.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = E1.mp3; path = ../../../Downloads/E1.mp3; sourceTree = "<group>"; };
-		B8D5F6D223E29C97009FA67A /* C1.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = C1.mp3; path = ../../../Downloads/C1.mp3; sourceTree = "<group>"; };
+		B8DA12A324204F4700183266 /* Constants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
+		B8DA12BA2420501C00183266 /* C1.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = C1.mp3; path = ../../../Downloads/C1.mp3; sourceTree = "<group>"; };
+		B8DA12BE2420504D00183266 /* C#1.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = "C#1.mp3"; path = "../../../Downloads/C#1.mp3"; sourceTree = "<group>"; };
+		B8DA12C02420506E00183266 /* D1.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = D1.mp3; path = ../../../Downloads/D1.mp3; sourceTree = "<group>"; };
+		B8DA12C22420507400183266 /* D#1.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = "D#1.mp3"; path = "../../../Downloads/D#1.mp3"; sourceTree = "<group>"; };
+		B8DA12C42420507B00183266 /* E1.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = E1.mp3; path = ../../../Downloads/E1.mp3; sourceTree = "<group>"; };
+		B8DA12C62420508200183266 /* F1.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = F1.mp3; path = ../../../Downloads/F1.mp3; sourceTree = "<group>"; };
+		B8DA12C82420508900183266 /* F#1.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = "F#1.mp3"; path = "../../../Downloads/F#1.mp3"; sourceTree = "<group>"; };
+		B8DA12CA2420509000183266 /* G1.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = G1.mp3; path = ../../../Downloads/G1.mp3; sourceTree = "<group>"; };
+		B8DA12CC242050B000183266 /* G#1.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = "G#1.mp3"; path = "../../../Downloads/G#1.mp3"; sourceTree = "<group>"; };
+		B8DA12CE242050B900183266 /* A1.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = A1.mp3; path = ../../../Downloads/A1.mp3; sourceTree = "<group>"; };
+		B8DA12D0242050C200183266 /* A#1.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = "A#1.mp3"; path = "../../../Downloads/A#1.mp3"; sourceTree = "<group>"; };
+		B8DA12D2242050CB00183266 /* B1.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = B1.mp3; path = ../../../Downloads/B1.mp3; sourceTree = "<group>"; };
+		B8DA12D4242050D300183266 /* C2.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = C2.mp3; path = ../../../Downloads/C2.mp3; sourceTree = "<group>"; };
+		B8DA12D824205A3900183266 /* TransitionToAppViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TransitionToAppViewController.swift; sourceTree = "<group>"; };
+		C931E1C187788192F697F374 /* Pods_MentalHealthTabBar.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_MentalHealthTabBar.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		E2944E642A14FA2DB4660675 /* Pods_MentalHealthTabBar_MentalHealthTabBarUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_MentalHealthTabBar_MentalHealthTabBarUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		F5CD1380CF632FE22283C610 /* Pods-MentalHealthTabBar-MentalHealthTabBarUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MentalHealthTabBar-MentalHealthTabBarUITests.debug.xcconfig"; path = "Target Support Files/Pods-MentalHealthTabBar-MentalHealthTabBarUITests/Pods-MentalHealthTabBar-MentalHealthTabBarUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		F69271FA55EE0001C3C71A22 /* Pods-MentalHealthTabBar.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MentalHealthTabBar.debug.xcconfig"; path = "Target Support Files/Pods-MentalHealthTabBar/Pods-MentalHealthTabBar.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -177,6 +203,7 @@
 			files = (
 				B8B54D43241C5A7600D09810 /* SQLite.framework in Frameworks */,
 				B8B3184523D3C72600B14979 /* AVFoundation.framework in Frameworks */,
+				BC06AB801632C5E52037EB25 /* Pods_MentalHealthTabBar.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -184,6 +211,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				CA24762C525BFAD1B2F6DEC7 /* Pods_MentalHealthTabBarTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -191,16 +219,33 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4CA180B447A27CE85FDD7CD0 /* Pods_MentalHealthTabBar_MentalHealthTabBarUITests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		95B11BEF560472C22EE02C0A /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				F69271FA55EE0001C3C71A22 /* Pods-MentalHealthTabBar.debug.xcconfig */,
+				A097264CC7556290B8EC812C /* Pods-MentalHealthTabBar.release.xcconfig */,
+				F5CD1380CF632FE22283C610 /* Pods-MentalHealthTabBar-MentalHealthTabBarUITests.debug.xcconfig */,
+				1C7BD373AB776BA9CF04B415 /* Pods-MentalHealthTabBar-MentalHealthTabBarUITests.release.xcconfig */,
+				A2A00E4288505655E07B1A68 /* Pods-MentalHealthTabBarTests.debug.xcconfig */,
+				98DC0B474A66156F4991F046 /* Pods-MentalHealthTabBarTests.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
 		B8B3184323D3C72600B14979 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
 				B8B3184423D3C72600B14979 /* AVFoundation.framework */,
+				C931E1C187788192F697F374 /* Pods_MentalHealthTabBar.framework */,
+				E2944E642A14FA2DB4660675 /* Pods_MentalHealthTabBar_MentalHealthTabBarUITests.framework */,
+				B0568F033685AABF7FED4768 /* Pods_MentalHealthTabBarTests.framework */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -227,6 +272,7 @@
 				B8CD205923C276E50031CC57 /* MentalHealthTabBarUITests */,
 				B8CD203423C276E20031CC57 /* Products */,
 				B8B3184323D3C72600B14979 /* Frameworks */,
+				95B11BEF560472C22EE02C0A /* Pods */,
 			);
 			sourceTree = "<group>";
 		};
@@ -257,20 +303,27 @@
 				B8120DEB23C63395004A3E42 /* GuidedBreathing.swift */,
 				B8120DED23C633AF004A3E42 /* Game1.swift */,
 				B8120DEF23C633C6004A3E42 /* Game2.swift */,
+				B8DA12D4242050D300183266 /* C2.mp3 */,
+				B8DA12D2242050CB00183266 /* B1.mp3 */,
+				B8DA12D0242050C200183266 /* A#1.mp3 */,
+				B8DA12CE242050B900183266 /* A1.mp3 */,
+				B8DA12CC242050B000183266 /* G#1.mp3 */,
+				B8DA12CA2420509000183266 /* G1.mp3 */,
+				B8DA12C82420508900183266 /* F#1.mp3 */,
+				B8DA12C62420508200183266 /* F1.mp3 */,
+				B8DA12C42420507B00183266 /* E1.mp3 */,
+				B8DA12C22420507400183266 /* D#1.mp3 */,
+				B8DA12C02420506E00183266 /* D1.mp3 */,
+				B8DA12BE2420504D00183266 /* C#1.mp3 */,
+				B8DA12BA2420501C00183266 /* C1.mp3 */,
+				B8282CF5242037A70012CF6D /* Utilities.swift */,
+				B8DA12A324204F4700183266 /* Constants.swift */,
+				B8282CE52420070B0012CF6D /* SignUpViewController.swift */,
+				B8DA12D824205A3900183266 /* TransitionToAppViewController.swift */,
+				B8282CEE2420072B0012CF6D /* LoginViewController.swift */,
+				B8282CF0242009310012CF6D /* InitialViewController.swift */,
+				B8282CF2242022410012CF6D /* GoogleService-Info.plist */,
 				B8B3184623D3C87C00B14979 /* SampleAudio_0.4mb.mp3 */,
-				B89B439F23F783CA00F9C452 /* C2.mp3 */,
-				B89B439D23F783C100F9C452 /* B1.mp3 */,
-				B89B439B23F783B800F9C452 /* A#1.mp3 */,
-				B89B439923F783A800F9C452 /* A1.mp3 */,
-				B89B439723F783A000F9C452 /* G#1.mp3 */,
-				B89B439523F7839700F9C452 /* G1.mp3 */,
-				B89B439323F7838D00F9C452 /* F#1.mp3 */,
-				B89B439123F7838400F9C452 /* F1.mp3 */,
-				B8CFCC2623F0EE0C0052477D /* E1.mp3 */,
-				B8CFCC2423F0EB370052477D /* D#1.mp3 */,
-				B8CFCC2023F0E8CE0052477D /* D1.mp3 */,
-				B8CFCC1E23F0E7720052477D /* C#1.mp3 */,
-				B8D5F6D223E29C97009FA67A /* C1.mp3 */,
 				B8B54D2B241C5A2E00D09810 /* SQLite.xcodeproj */,
 				B8CD203E23C276E20031CC57 /* Main.storyboard */,
 				B8CD204123C276E50031CC57 /* Assets.xcassets */,
@@ -305,10 +358,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = B8CD205F23C276E50031CC57 /* Build configuration list for PBXNativeTarget "MentalHealthTabBar" */;
 			buildPhases = (
+				693A498C539A069FD405CECA /* [CP] Check Pods Manifest.lock */,
 				B8CD202F23C276E20031CC57 /* Sources */,
 				B8CD203023C276E20031CC57 /* Frameworks */,
 				B8CD203123C276E20031CC57 /* Resources */,
 				B8B54D45241C5A7600D09810 /* Embed Frameworks */,
+				26D2F73576866F46DF4503BD /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -323,6 +378,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = B8CD206223C276E50031CC57 /* Build configuration list for PBXNativeTarget "MentalHealthTabBarTests" */;
 			buildPhases = (
+				0A02035E094EEE97A6EC08E0 /* [CP] Check Pods Manifest.lock */,
 				B8CD204723C276E50031CC57 /* Sources */,
 				B8CD204823C276E50031CC57 /* Frameworks */,
 				B8CD204923C276E50031CC57 /* Resources */,
@@ -341,9 +397,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = B8CD206523C276E50031CC57 /* Build configuration list for PBXNativeTarget "MentalHealthTabBarUITests" */;
 			buildPhases = (
+				8B4FC27C1176EE0BD879AA34 /* [CP] Check Pods Manifest.lock */,
 				B8CD205223C276E50031CC57 /* Sources */,
 				B8CD205323C276E50031CC57 /* Frameworks */,
 				B8CD205423C276E50031CC57 /* Resources */,
+				3905460261CB3221C6A51DA1 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -464,22 +522,23 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				B89B439A23F783A900F9C452 /* A1.mp3 in Resources */,
-				B8CFCC1F23F0E7720052477D /* C#1.mp3 in Resources */,
-				B8D5F6D323E29C97009FA67A /* C1.mp3 in Resources */,
+				B8DA12D3242050CB00183266 /* B1.mp3 in Resources */,
+				B8DA12CB2420509000183266 /* G1.mp3 in Resources */,
+				B8DA12C52420507B00183266 /* E1.mp3 in Resources */,
+				B8DA12D5242050D300183266 /* C2.mp3 in Resources */,
+				B8DA12C32420507400183266 /* D#1.mp3 in Resources */,
 				B8CD204523C276E50031CC57 /* LaunchScreen.storyboard in Resources */,
-				B89B439823F783A000F9C452 /* G#1.mp3 in Resources */,
-				B8CFCC2723F0EE0C0052477D /* E1.mp3 in Resources */,
+				B8DA12C92420508900183266 /* F#1.mp3 in Resources */,
+				B8DA12CF242050B900183266 /* A1.mp3 in Resources */,
+				B8DA12C12420506E00183266 /* D1.mp3 in Resources */,
 				B8CD204223C276E50031CC57 /* Assets.xcassets in Resources */,
-				B89B439E23F783C100F9C452 /* B1.mp3 in Resources */,
-				B89B439223F7838400F9C452 /* F1.mp3 in Resources */,
-				B89B43A023F783CA00F9C452 /* C2.mp3 in Resources */,
-				B89B439423F7838D00F9C452 /* F#1.mp3 in Resources */,
-				B8CFCC2123F0E8CF0052477D /* D1.mp3 in Resources */,
-				B89B439623F7839700F9C452 /* G1.mp3 in Resources */,
-				B8CFCC2523F0EB370052477D /* D#1.mp3 in Resources */,
-				B89B439C23F783B800F9C452 /* A#1.mp3 in Resources */,
+				B8DA12C72420508300183266 /* F1.mp3 in Resources */,
+				B8282CF3242022420012CF6D /* GoogleService-Info.plist in Resources */,
+				B8DA12D1242050C200183266 /* A#1.mp3 in Resources */,
 				B8CD204023C276E20031CC57 /* Main.storyboard in Resources */,
+				B8DA12CD242050B000183266 /* G#1.mp3 in Resources */,
+				B8DA12BF2420504D00183266 /* C#1.mp3 in Resources */,
+				B8DA12BB2420501C00183266 /* C1.mp3 in Resources */,
 				B8B3184723D3C87C00B14979 /* SampleAudio_0.4mb.mp3 in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -502,6 +561,109 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		0A02035E094EEE97A6EC08E0 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-MentalHealthTabBarTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		26D2F73576866F46DF4503BD /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-MentalHealthTabBar/Pods-MentalHealthTabBar-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-MentalHealthTabBar/Pods-MentalHealthTabBar-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-MentalHealthTabBar/Pods-MentalHealthTabBar-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		3905460261CB3221C6A51DA1 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-MentalHealthTabBar-MentalHealthTabBarUITests/Pods-MentalHealthTabBar-MentalHealthTabBarUITests-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-MentalHealthTabBar-MentalHealthTabBarUITests/Pods-MentalHealthTabBar-MentalHealthTabBarUITests-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-MentalHealthTabBar-MentalHealthTabBarUITests/Pods-MentalHealthTabBar-MentalHealthTabBarUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		693A498C539A069FD405CECA /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-MentalHealthTabBar-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		8B4FC27C1176EE0BD879AA34 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-MentalHealthTabBar-MentalHealthTabBarUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		B8CD202F23C276E20031CC57 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
@@ -510,16 +672,22 @@
 				B8CD203D23C276E20031CC57 /* Resources.swift in Sources */,
 				B8120DE223C632D8004A3E42 /* Exercises.swift in Sources */,
 				B8CD203B23C276E20031CC57 /* Home.swift in Sources */,
+				B8282CEF2420072B0012CF6D /* LoginViewController.swift in Sources */,
+				B8DA12D924205A3900183266 /* TransitionToAppViewController.swift in Sources */,
 				B8120DE623C6333C004A3E42 /* Journal.swift in Sources */,
 				B8120DE823C6335B004A3E42 /* MakeMusic.swift in Sources */,
 				B8120DEE23C633AF004A3E42 /* Game1.swift in Sources */,
 				B8120DE023C6327B004A3E42 /* Music.swift in Sources */,
 				B8120DE423C632F8004A3E42 /* Tips.swift in Sources */,
+				B8282CE62420070B0012CF6D /* SignUpViewController.swift in Sources */,
+				B8282CF6242037A70012CF6D /* Utilities.swift in Sources */,
 				B8120DF023C633C6004A3E42 /* Game2.swift in Sources */,
 				B8CD203723C276E20031CC57 /* AppDelegate.swift in Sources */,
 				B8CD203923C276E20031CC57 /* SceneDelegate.swift in Sources */,
 				B8120DEC23C63395004A3E42 /* GuidedBreathing.swift in Sources */,
 				B8120DEA23C6337C004A3E42 /* PositivityReminders.swift in Sources */,
+				B8282CF1242009310012CF6D /* InitialViewController.swift in Sources */,
+				B8DA12A424204F4700183266 /* Constants.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -702,6 +870,7 @@
 		};
 		B8CD206023C276E50031CC57 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = F69271FA55EE0001C3C71A22 /* Pods-MentalHealthTabBar.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_ENTITLEMENTS = MentalHealthTabBar/MentalHealthTabBar.entitlements;
@@ -723,6 +892,7 @@
 		};
 		B8CD206123C276E50031CC57 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = A097264CC7556290B8EC812C /* Pods-MentalHealthTabBar.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_ENTITLEMENTS = MentalHealthTabBar/MentalHealthTabBar.entitlements;
@@ -745,6 +915,7 @@
 		};
 		B8CD206323C276E50031CC57 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = A2A00E4288505655E07B1A68 /* Pods-MentalHealthTabBarTests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -766,6 +937,7 @@
 		};
 		B8CD206423C276E50031CC57 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 98DC0B474A66156F4991F046 /* Pods-MentalHealthTabBarTests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -787,6 +959,7 @@
 		};
 		B8CD206623C276E50031CC57 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = F5CD1380CF632FE22283C610 /* Pods-MentalHealthTabBar-MentalHealthTabBarUITests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
@@ -806,6 +979,7 @@
 		};
 		B8CD206723C276E50031CC57 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1C7BD373AB776BA9CF04B415 /* Pods-MentalHealthTabBar-MentalHealthTabBarUITests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
