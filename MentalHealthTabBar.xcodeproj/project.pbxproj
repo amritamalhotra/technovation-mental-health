@@ -51,7 +51,6 @@
 		B8DA12D1242050C200183266 /* A#1.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = B8DA12D0242050C200183266 /* A#1.mp3 */; };
 		B8DA12D3242050CB00183266 /* B1.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = B8DA12D2242050CB00183266 /* B1.mp3 */; };
 		B8DA12D5242050D300183266 /* C2.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = B8DA12D4242050D300183266 /* C2.mp3 */; };
-		B8DA12D924205A3900183266 /* TransitionToAppViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B8DA12D824205A3900183266 /* TransitionToAppViewController.swift */; };
 		BC06AB801632C5E52037EB25 /* Pods_MentalHealthTabBar.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C931E1C187788192F697F374 /* Pods_MentalHealthTabBar.framework */; };
 		CA24762C525BFAD1B2F6DEC7 /* Pods_MentalHealthTabBarTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B0568F033685AABF7FED4768 /* Pods_MentalHealthTabBarTests.framework */; };
 /* End PBXBuildFile section */
@@ -189,7 +188,6 @@
 		B8DA12D0242050C200183266 /* A#1.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = "A#1.mp3"; path = "../../../Downloads/A#1.mp3"; sourceTree = "<group>"; };
 		B8DA12D2242050CB00183266 /* B1.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = B1.mp3; path = ../../../Downloads/B1.mp3; sourceTree = "<group>"; };
 		B8DA12D4242050D300183266 /* C2.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = C2.mp3; path = ../../../Downloads/C2.mp3; sourceTree = "<group>"; };
-		B8DA12D824205A3900183266 /* TransitionToAppViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TransitionToAppViewController.swift; sourceTree = "<group>"; };
 		C931E1C187788192F697F374 /* Pods_MentalHealthTabBar.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_MentalHealthTabBar.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		E2944E642A14FA2DB4660675 /* Pods_MentalHealthTabBar_MentalHealthTabBarUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_MentalHealthTabBar_MentalHealthTabBarUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		F5CD1380CF632FE22283C610 /* Pods-MentalHealthTabBar-MentalHealthTabBarUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MentalHealthTabBar-MentalHealthTabBarUITests.debug.xcconfig"; path = "Target Support Files/Pods-MentalHealthTabBar-MentalHealthTabBarUITests/Pods-MentalHealthTabBar-MentalHealthTabBarUITests.debug.xcconfig"; sourceTree = "<group>"; };
@@ -319,7 +317,6 @@
 				B8282CF5242037A70012CF6D /* Utilities.swift */,
 				B8DA12A324204F4700183266 /* Constants.swift */,
 				B8282CE52420070B0012CF6D /* SignUpViewController.swift */,
-				B8DA12D824205A3900183266 /* TransitionToAppViewController.swift */,
 				B8282CEE2420072B0012CF6D /* LoginViewController.swift */,
 				B8282CF0242009310012CF6D /* InitialViewController.swift */,
 				B8282CF2242022410012CF6D /* GoogleService-Info.plist */,
@@ -673,7 +670,6 @@
 				B8120DE223C632D8004A3E42 /* Exercises.swift in Sources */,
 				B8CD203B23C276E20031CC57 /* Home.swift in Sources */,
 				B8282CEF2420072B0012CF6D /* LoginViewController.swift in Sources */,
-				B8DA12D924205A3900183266 /* TransitionToAppViewController.swift in Sources */,
 				B8120DE623C6333C004A3E42 /* Journal.swift in Sources */,
 				B8120DE823C6335B004A3E42 /* MakeMusic.swift in Sources */,
 				B8120DEE23C633AF004A3E42 /* Game1.swift in Sources */,

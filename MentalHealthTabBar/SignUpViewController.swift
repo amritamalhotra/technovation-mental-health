@@ -22,13 +22,16 @@ class SignUpViewController: UIViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
-
+        
         // Do any additional setup after loading the view.
         setUpElements()
     }
     
     func setUpElements() {
         errorLabel.alpha = 0
+        createAccountButton.layer.cornerRadius = 15
+        createAccountButton.layer.borderWidth = 2.5
+        createAccountButton.layer.borderColor = UIColor.lightGray.cgColor
     }
     
     // returns nil if everything is correct, error message if incorrect
@@ -94,7 +97,7 @@ class SignUpViewController: UIViewController {
     
     func transitionToHome() {
         
-        let myHomeViewController = storyboard?.instantiateViewController(identifier: Constants.Storyboard.myHomeView) as? TransitionToAppViewController
+        let myHomeViewController = storyboard?.instantiateViewController(identifier: Constants.Storyboard.realHomeView) as? UITabBarController
         
         view.window?.rootViewController = myHomeViewController
         view.window?.makeKeyAndVisible()

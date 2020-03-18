@@ -15,7 +15,12 @@ class InitialViewController: UIViewController {
     
     override func viewDidLoad() {
         super.viewDidLoad()
-
+        
+        createAccountButton.layer.cornerRadius = 15
+        loginButton.layer.cornerRadius = 15
+        createAccountButton.layer.borderWidth = 2.5
+        loginButton.layer.borderWidth = 2.5
+        
         // Do any additional setup after loading the view.
     }
     

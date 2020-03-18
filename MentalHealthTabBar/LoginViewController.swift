@@ -24,6 +24,9 @@ class LoginViewController: UIViewController {
     }
     func setUpElements() {
         errorLabel.alpha = 0
+        loginButton.layer.cornerRadius = 15
+        loginButton.layer.borderWidth = 2.5
+        loginButton.layer.borderColor = UIColor.lightGray.cgColor
     }
     
     @IBAction func loginTapped(_ sender: Any) {
@@ -42,7 +45,7 @@ class LoginViewController: UIViewController {
                 self.errorLabel.alpha = 1
             }
             else {
-                let myHomeViewController = self.storyboard?.instantiateViewController(identifier: Constants.Storyboard.myHomeView) as? TransitionToAppViewController
+                let myHomeViewController = self.storyboard?.instantiateViewController(identifier: Constants.Storyboard.realHomeView) as? UITabBarController
                 
                 self.view.window?.rootViewController = myHomeViewController
                 self.view.window?.makeKeyAndVisible()
