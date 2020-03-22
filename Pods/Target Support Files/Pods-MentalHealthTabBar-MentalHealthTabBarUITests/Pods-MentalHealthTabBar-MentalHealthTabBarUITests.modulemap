@@ -1,0 +1,6 @@
+framework module Pods_MentalHealthTabBar_MentalHealthTabBarUITests {
+  umbrella header "Pods-MentalHealthTabBar-MentalHealthTabBarUITests-umbrella.h"
+
+  export *
+  module * { export * }
+}
