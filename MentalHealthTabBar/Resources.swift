@@ -26,5 +26,10 @@ class SecondViewController: UIViewController {
     @IBAction func toPhoneNumbers( sender: Any) {
         performSegue(withIdentifier: "toPhone", sender: self)
     }
+    @IBAction func makeTestCall(_ sender: Any) {
+        let url:URL = URL(string: "tel://5107342459")!
+        
+        UIApplication.shared.open(url as URL, options: [:], completionHandler: nil)
+    }
     
 }

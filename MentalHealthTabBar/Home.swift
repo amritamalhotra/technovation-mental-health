@@ -17,6 +17,8 @@ class FirstViewController: UIViewController {
     let id = Expression<Int>("id")
     let name = Expression<String>("name")
     let email = Expression<String>("email")
+    
+    var tips:Tips?
 
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -122,7 +124,19 @@ class FirstViewController: UIViewController {
         }
     }
     @IBAction func happyPressed(_ sender: Any) {
+        
+//        tips?.onUserAction(data: "happy")
+        let vc = storyboard?.instantiateViewController(identifier: "Tips") as! Tips
+        vc.completionHandler = { text in
+            self.tips?.updateEmotionHappy()
+        }
+        
+//        vc.myEmotion = "happy"
+        
+//        let emotion = "happy"
         display.text = "You chose: happy!"
+//        let vc = self.storyboard?.instantiateViewController(withIdentifier: "Tips") as! Tips
+//        vc.myEmotion = emotion
     }
     @IBAction func sadPressed(_ sender: Any) {
         display.text = "You chose: sad"
@@ -141,4 +155,3 @@ class FirstViewController: UIViewController {
     }
     
 }
-
