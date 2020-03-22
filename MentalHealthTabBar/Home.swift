@@ -126,10 +126,12 @@ class FirstViewController: UIViewController {
     @IBAction func happyPressed(_ sender: Any) {
         
 //        tips?.onUserAction(data: "happy")
-        let vc = storyboard?.instantiateViewController(identifier: "Tips") as! Tips
-        vc.completionHandler = { text in
-            self.tips?.updateEmotionHappy()
-        }
+//        let vc = storyboard?.instantiateViewController(identifier: "Tips") as! Tips
+//        vc.completionHandler = { text in
+//            self.tips?.updateEmotionHappy()
+//        }
+        tips.self?.updateEmotionHappy()
+//        tips.self?.emotionLabel.text = "yay"
         
 //        vc.myEmotion = "happy"
         

@@ -26,7 +26,7 @@ class Tips: UIViewController {
         selfHelp2.delegate = self
         
         print("my emotion: " + myEmotion)
-        emotionLabel.text = myEmotion
+//        emotionLabel.text = myEmotion
         
         // Do any additional setup after loading the view.
     }
