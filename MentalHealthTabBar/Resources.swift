@@ -26,16 +26,9 @@ class SecondViewController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
         
-        splButton.layer.borderWidth = 2
-        adaaButton.layer.borderWidth = 2
-        aofhButton.layer.borderWidth = 2
         splButton.layer.cornerRadius = 10
         adaaButton.layer.cornerRadius = 10
         aofhButton.layer.cornerRadius = 10
-        NASHbutton.layer.borderWidth = 2
-        NSPHbutton.layer.borderWidth = 2
-        SCCbutton.layer.borderWidth = 2
-        ANYCbutton.layer.borderWidth = 2
         NASHbutton.layer.cornerRadius = 10
         NSPHbutton.layer.cornerRadius = 10
         SCCbutton.layer.cornerRadius = 10

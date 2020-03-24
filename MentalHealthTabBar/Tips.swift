@@ -14,21 +14,23 @@ class Tips: UIViewController {
     @IBOutlet weak var selfHelp2: UITextField!
     @IBOutlet weak var result: UITextView!
     @IBOutlet weak var emotionLabel: UILabel!
+    @IBOutlet weak var emotionTextField: UITextView!
     
     var completionHandler: ((String?) -> Void)?
     
     var myEmotion = ""
+    
+    var home:FirstViewController?
     
     override func viewDidLoad() {
         super.viewDidLoad()
         
         selfHelp1.delegate = self
         selfHelp2.delegate = self
-        
-        print("my emotion: " + myEmotion)
-//        emotionLabel.text = myEmotion
-        
-        // Do any additional setup after loading the view.
+    
+        emotionTextField.text = myEmotion
+        emotionLabel.text = myEmotion
+
     }
     @IBAction func toReminders(sender: UIButton) {
         performSegue(withIdentifier: "NewController", sender: self)
@@ -47,7 +49,6 @@ class Tips: UIViewController {
     }
     
     @IBAction func updateEmotionHappy() {
-        completionHandler!("happy")
         emotionLabel.text = "happy"
     }
 }

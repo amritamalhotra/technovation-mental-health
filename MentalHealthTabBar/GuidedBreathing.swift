@@ -7,6 +7,7 @@
 //
 
 import UIKit
+import AVFoundation
 
 class GuidedBreathing: UIViewController {
 
@@ -23,43 +24,61 @@ class GuidedBreathing: UIViewController {
     var myTimer: Timer!
     var myExTimer: Timer!
     
+    var marimba = AVAudioPlayer()
+    
     override func viewDidLoad() {
         super.viewDidLoad()
+        
+        timeLabel.alpha = 0
+        timeExhaleLabel.alpha = 0
+        
+        let marimbaSound =  Bundle.main.path(forResource: "marimba timer", ofType: "mp3")
+        
+        do {
+            marimba = try AVAudioPlayer(contentsOf: URL(fileURLWithPath: marimbaSound!))
+            }
+        catch {
+            print(error)
+        }
 
         // Do any additional setup after loading the view.
     }
     
     @IBAction func updateSlider(_ sender: Any) {
         let value = Int(timeSlider.value)
-        let exValue = Int(timeSlider.value) * 2
+        var exValue:Int
+        if value <= 6 {
+            exValue = Int(timeSlider.value) * 2
+        } else {
+            exValue = 12
+        }
         sliderValueLabel.text! = "Inhale for " + String(value) + " seconds"
         sliderExhaleLabel.text! = "Exhale for " + String(exValue) + " seconds"
         timeLeft = value
         exTimeLeft = exValue
-        print(timeLeft)
-        print(exTimeLeft)
     }
     
-    
     @objc func updateTimeLabel() {
+        timeLabel.alpha = 1
         timeValue += 1
         timeLeft -= 1
-        self.timeLabel.text! = "Breathe in: " + String(timeValue)
+        self.timeLabel.text! = "Breathe in: " + String(Int(timeValue))
         if timeLeft <= 0 {
             myTimer.invalidate()
             myTimer = nil
-            print("Completed!")
-            myExTimer = Timer.scheduledTimer(timeInterval: 1, target: self, selector: #selector(updateExTimeLabel), userInfo: nil, repeats: true)        }
+            myExTimer = Timer.scheduledTimer(timeInterval: 1, target: self, selector: #selector(updateExTimeLabel), userInfo: nil, repeats: true)
+        }
     }
     
     @objc func updateExTimeLabel() {
+        timeLabel.alpha = 0
+        timeExhaleLabel.alpha = 1
         exTimeValue += 1
         exTimeLeft -= 1
-        self.timeExhaleLabel.text! = "Breathe out: " + String(exTimeValue)
+        self.timeExhaleLabel.text! = "Breathe out: " + String(Int(exTimeValue))
         if exTimeLeft <= 0 {
             myExTimer.invalidate()
             myExTimer = nil
-            print("Exhale done!")
         }
     }
     
@@ -69,9 +88,21 @@ class GuidedBreathing: UIViewController {
     
     @IBAction func beginBreathing(_ sender: Any) {
         myTimer = Timer.scheduledTimer(timeInterval: 1, target: self, selector: #selector(updateTimeLabel), userInfo: nil, repeats: true)
-//        if timeLeft <= 0 {
-//            myTimer = Timer.scheduledTimer(timeInterval: 1, target: self, selector: #selector(updateExTimeLabel), userInfo: nil, repeats: true)
-//        }
+        marimba.play()
+        wipeData()
+    }
+    
+    @IBAction func wipeData() {
+        timeLabel.alpha = 0
+        timeExhaleLabel.alpha = 0
+        timeValue = 0.0
+        exTimeValue = 0.0
+        timeLeft = Int(timeSlider.value)
+        if timeLeft <= 6 {
+            exTimeLeft = Int(timeSlider.value) * 2
+        } else {
+            exTimeLeft = 12
+        }
     }
     /*
     // MARK: - Navigation

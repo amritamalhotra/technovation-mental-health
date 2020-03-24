@@ -18,7 +18,16 @@ class FirstViewController: UIViewController {
     let name = Expression<String>("name")
     let email = Expression<String>("email")
     
+    var chosenEmotion = "happy"
+    
+    let tipsPage = Tips?.self
+    
     var tips:Tips?
+
+    override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
+        var tipsController = segue.destination as! Tips
+        tipsController.myEmotion = "happy"
+    }
 
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -31,6 +40,12 @@ class FirstViewController: UIViewController {
         } catch {
             print(error)
         }
+        
+//        print(tips.self?.emotionLabel.text)
+//        tips.self?.emotionLabel.text = "happpyyyy"
+//        print(tips.self?.emotionLabel.text)
+        
+        
         
     }
     
@@ -124,36 +139,28 @@ class FirstViewController: UIViewController {
         }
     }
     @IBAction func happyPressed(_ sender: Any) {
-        
-//        tips?.onUserAction(data: "happy")
-//        let vc = storyboard?.instantiateViewController(identifier: "Tips") as! Tips
-//        vc.completionHandler = { text in
-//            self.tips?.updateEmotionHappy()
-//        }
-        tips.self?.updateEmotionHappy()
-//        tips.self?.emotionLabel.text = "yay"
-        
-//        vc.myEmotion = "happy"
-        
-//        let emotion = "happy"
         display.text = "You chose: happy!"
-//        let vc = self.storyboard?.instantiateViewController(withIdentifier: "Tips") as! Tips
-//        vc.myEmotion = emotion
+        performSegue(withIdentifier: "happyTips", sender: self)
     }
     @IBAction func sadPressed(_ sender: Any) {
         display.text = "You chose: sad"
+        chosenEmotion = "sad"
     }
     @IBAction func stressedPressed(_ sender: Any) {
         display.text = "You chose: stressed"
+        chosenEmotion = "stressed"
     }
     @IBAction func boredPressed(_ sender: Any) {
         display.text = "You chose: bored"
+        chosenEmotion = "bored"
     }
     @IBAction func anxiousPressed(_ sender: Any) {
         display.text = "You chose: anxious"
+        chosenEmotion = "anxious"
     }
     @IBAction func madPressed(_ sender: Any) {
         display.text = "You chose: mad"
+        chosenEmotion = "mad"
     }
     
 }
