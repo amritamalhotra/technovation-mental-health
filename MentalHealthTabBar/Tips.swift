@@ -15,21 +15,14 @@ class Tips: UIViewController {
     @IBOutlet weak var result: UITextView!
     @IBOutlet weak var emotionLabel: UILabel!
     @IBOutlet weak var emotionTextField: UITextView!
-    
-    var completionHandler: ((String?) -> Void)?
-    
-    var myEmotion = ""
-    
-    var home:FirstViewController?
-    
+            
     override func viewDidLoad() {
         super.viewDidLoad()
         
         selfHelp1.delegate = self
         selfHelp2.delegate = self
     
-        emotionTextField.text = myEmotion
-        emotionLabel.text = myEmotion
+        emotionLabel.text = Emotions.shared.theEmotion
 
     }
     @IBAction func toReminders(sender: UIButton) {
@@ -39,18 +32,14 @@ class Tips: UIViewController {
     @IBAction func enter(_ sender: Any) {
         result.text = "Self Help 1: \(selfHelp1.text!)\nSelf Help 2: \(selfHelp2.text!)"
     }
+    @IBAction func getPersonalTips(_ sender: Any) {
+        emotionLabel.text = Emotions.shared.theEmotion
+    }
     
     override func touchesBegan(_ touches: Set<UITouch>, with event: UIEvent?) {
         selfHelp2.resignFirstResponder()
     }
     
-    func onUserAction(data: String) {
-        print("Data received: \(data)")
-    }
-    
-    @IBAction func updateEmotionHappy() {
-        emotionLabel.text = "happy"
-    }
 }
 extension UIViewController : UITextFieldDelegate {
     public func textFieldShouldReturn(_ textField: UITextField) -> Bool {

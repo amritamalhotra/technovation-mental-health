@@ -24,11 +24,6 @@ class FirstViewController: UIViewController {
     
     var tips:Tips?
 
-    override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
-        var tipsController = segue.destination as! Tips
-        tipsController.myEmotion = "happy"
-    }
-
     override func viewDidLoad() {
         super.viewDidLoad()
         
@@ -40,12 +35,6 @@ class FirstViewController: UIViewController {
         } catch {
             print(error)
         }
-        
-//        print(tips.self?.emotionLabel.text)
-//        tips.self?.emotionLabel.text = "happpyyyy"
-//        print(tips.self?.emotionLabel.text)
-        
-        
         
     }
     
@@ -139,28 +128,28 @@ class FirstViewController: UIViewController {
         }
     }
     @IBAction func happyPressed(_ sender: Any) {
-        display.text = "You chose: happy!"
-        performSegue(withIdentifier: "happyTips", sender: self)
+        Emotions.shared.theEmotion = "happy!"
+        display.text = "You chose: \(Emotions.shared.theEmotion)"
     }
     @IBAction func sadPressed(_ sender: Any) {
         display.text = "You chose: sad"
-        chosenEmotion = "sad"
+        Emotions.shared.theEmotion = "sad"
     }
     @IBAction func stressedPressed(_ sender: Any) {
         display.text = "You chose: stressed"
-        chosenEmotion = "stressed"
+        Emotions.shared.theEmotion = "stressed"
     }
     @IBAction func boredPressed(_ sender: Any) {
         display.text = "You chose: bored"
-        chosenEmotion = "bored"
+        Emotions.shared.theEmotion = "bored"
     }
     @IBAction func anxiousPressed(_ sender: Any) {
         display.text = "You chose: anxious"
-        chosenEmotion = "anxious"
+        Emotions.shared.theEmotion = "anxious"
     }
     @IBAction func madPressed(_ sender: Any) {
         display.text = "You chose: mad"
-        chosenEmotion = "mad"
+        Emotions.shared.theEmotion = "mad"
     }
     
 }

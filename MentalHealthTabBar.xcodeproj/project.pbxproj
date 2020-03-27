@@ -23,6 +23,7 @@
 		B8282CF1242009310012CF6D /* InitialViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B8282CF0242009310012CF6D /* InitialViewController.swift */; };
 		B8282CF3242022420012CF6D /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = B8282CF2242022410012CF6D /* GoogleService-Info.plist */; };
 		B8282CF6242037A70012CF6D /* Utilities.swift in Sources */ = {isa = PBXBuildFile; fileRef = B8282CF5242037A70012CF6D /* Utilities.swift */; };
+		B83FDFAB242EB0D8007CF170 /* Emotions.swift in Sources */ = {isa = PBXBuildFile; fileRef = B83FDFAA242EB0D8007CF170 /* Emotions.swift */; };
 		B8B3184523D3C72600B14979 /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B8B3184423D3C72600B14979 /* AVFoundation.framework */; };
 		B8B3184723D3C87C00B14979 /* SampleAudio_0.4mb.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = B8B3184623D3C87C00B14979 /* SampleAudio_0.4mb.mp3 */; };
 		B8B3184823D3C87C00B14979 /* SampleAudio_0.4mb.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = B8B3184623D3C87C00B14979 /* SampleAudio_0.4mb.mp3 */; };
@@ -157,6 +158,7 @@
 		B8282CF0242009310012CF6D /* InitialViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InitialViewController.swift; sourceTree = "<group>"; };
 		B8282CF2242022410012CF6D /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = "GoogleService-Info.plist"; path = "../../../Downloads/GoogleService-Info.plist"; sourceTree = "<group>"; };
 		B8282CF5242037A70012CF6D /* Utilities.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Utilities.swift; sourceTree = "<group>"; };
+		B83FDFAA242EB0D8007CF170 /* Emotions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Emotions.swift; sourceTree = "<group>"; };
 		B8B3184423D3C72600B14979 /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
 		B8B3184623D3C87C00B14979 /* SampleAudio_0.4mb.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = SampleAudio_0.4mb.mp3; path = ../../../Downloads/SampleAudio_0.4mb.mp3; sourceTree = "<group>"; };
 		B8B3185A23D3DA2F00B14979 /* MentalHealthTabBar.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = MentalHealthTabBar.entitlements; sourceTree = "<group>"; };
@@ -293,6 +295,7 @@
 				B8CD203623C276E20031CC57 /* AppDelegate.swift */,
 				B8CD203823C276E20031CC57 /* SceneDelegate.swift */,
 				B8CD203A23C276E20031CC57 /* Home.swift */,
+				B83FDFAA242EB0D8007CF170 /* Emotions.swift */,
 				B8CD203C23C276E20031CC57 /* Resources.swift */,
 				B8120DDF23C6327B004A3E42 /* Music.swift */,
 				B8120DE123C632D8004A3E42 /* Exercises.swift */,
@@ -673,6 +676,7 @@
 				B8CD203D23C276E20031CC57 /* Resources.swift in Sources */,
 				B8120DE223C632D8004A3E42 /* Exercises.swift in Sources */,
 				B8CD203B23C276E20031CC57 /* Home.swift in Sources */,
+				B83FDFAB242EB0D8007CF170 /* Emotions.swift in Sources */,
 				B8282CEF2420072B0012CF6D /* LoginViewController.swift in Sources */,
 				B8120DE623C6333C004A3E42 /* Journal.swift in Sources */,
 				B8120DE823C6335B004A3E42 /* MakeMusic.swift in Sources */,
