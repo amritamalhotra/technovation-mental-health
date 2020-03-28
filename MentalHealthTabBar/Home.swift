@@ -35,7 +35,6 @@ class FirstViewController: UIViewController {
         } catch {
             print(error)
         }
-        
     }
     
     @IBAction func createTable(_ sender: Any) {

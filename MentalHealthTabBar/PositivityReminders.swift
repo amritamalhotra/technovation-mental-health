@@ -13,35 +13,18 @@ class PositivityReminders: UIViewController {
     
     @IBOutlet weak var inputField: UITextField!
     @IBOutlet weak var messageDisplay: UITextView!
+    @IBOutlet weak var currentTimeDisplay: UILabel!
+    @IBOutlet weak var hourInput: UITextField!
+    @IBOutlet weak var minuteInput: UITextField!
+    @IBOutlet weak var updateNotification: UIButton!
+    
+    var notifHour:Int!
+    var notifMin:Int!
+    var dateComponents:DateComponents!
+
     
     override func viewDidLoad() {
         super.viewDidLoad()
-
-        let center = UNUserNotificationCenter.current()
-               center.requestAuthorization(options: [.alert, .sound])
-               {
-                   (granted, error) in
-               }
-               
-               let content = UNMutableNotificationContent()
-               content.title = "This is a notification!"
-               content.body = "This is the body!"
-               
-               let date = Date().addingTimeInterval(5)
-               
-               
-               _ = Calendar.current.dateComponents([.year, .month, .day, .hour, .minute, .second], from: date)
-               
-               let trigger = UNTimeIntervalNotificationTrigger(timeInterval: 1, repeats: false)
-               
-               let uuidString = UUID().uuidString
-               
-               let request = UNNotificationRequest(identifier: "testIdentifier", content: content, trigger: trigger)
-               
-               center.add(request) { (error) in
-                   
-               }
-        // Do any additional setup after loading the view.
     }
     
     @IBAction func goback(_ sender: Any) {
@@ -52,8 +35,48 @@ class PositivityReminders: UIViewController {
     }
     @IBAction func enterPressed(_ sender: Any) {
         messageDisplay.text = "Current Message:\n\(inputField.text!)"
+//        notificationPicker.addTarget(self, action: #selector(PositivityReminders.datePickerValueChanged), for: UIControl.Event.valueChanged)
     }
     override func touchesBegan(_ touches: Set<UITouch>, with event: UIEvent?) {
         inputField?.resignFirstResponder()
+    }
+    @objc func datePickerValueChanged(sender: UIDatePicker) {
+        let dateFormatter = DateFormatter()
+        dateFormatter.dateStyle = DateFormatter.Style.none
+        dateFormatter.timeStyle = DateFormatter.Style.medium
+        currentTimeDisplay.text = dateFormatter.string(from: sender.date)
+    }
+    
+    @objc func updateNotificationTime(sender: UIDatePicker) {
+        var myDateComponents = DateComponents()
+        myDateComponents.calendar = Calendar.current
+    }
+    @IBAction func updateNotificationPressed(_ sender: Any) {
+        notifHour = Int(hourInput.text!)
+        notifMin = Int(minuteInput.text!)
+        
+        dateComponents.calendar = Calendar.current
+//            dateComponents.weekday = 7 // Tuesday
+            dateComponents.hour = notifHour
+            dateComponents.minute = notifMin
+        
+        let hourString = String(notifHour)
+        let minString = String(notifMin)
+            
+        currentTimeDisplay.text = "\(hourString):\(minString)"
+        
+            let content = UNMutableNotificationContent()
+            content.title = "Positive Reminder!"
+            content.body = "Keep Calm and Carry On!"
+            content.sound = UNNotificationSound.default
+            
+//            let trigger = UNTimeIntervalNotificationTrigger(timeInterval: 7, repeats: false)
+            let trigger2 = UNCalendarNotificationTrigger(dateMatching: dateComponents, repeats: true)
+            
+//            let request = UNNotificationRequest(identifier: "testIdentifier", content: content, trigger: trigger)
+            let request2 = UNNotificationRequest(identifier: "testCalender", content: content, trigger: trigger2)
+            
+//            UNUserNotificationCenter.current().add(request, withCompletionHandler: nil)
+            UNUserNotificationCenter.current().add(request2, withCompletionHandler: nil)
     }
 }
