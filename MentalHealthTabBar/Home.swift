@@ -18,12 +18,6 @@ class FirstViewController: UIViewController {
     let name = Expression<String>("name")
     let email = Expression<String>("email")
     
-    var chosenEmotion = "happy"
-    
-    let tipsPage = Tips?.self
-    
-    var tips:Tips?
-
     override func viewDidLoad() {
         super.viewDidLoad()
         

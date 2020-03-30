@@ -23,9 +23,20 @@ class MakeMusic: UIViewController {
     var aSharpPlayer = AVAudioPlayer()
     var bPlayer = AVAudioPlayer()
     var cTwoPlayer = AVAudioPlayer()
-    
-    let sounds = ["C1", "C#1", "D1", "D#1", "E1", "F1", "F#1", "G1", "G#1", "A1", "A#1", "B1", "C2"]
-    
+ 
+    @IBOutlet weak var cb: UIButton!
+    @IBOutlet weak var csb: UIButton!
+    @IBOutlet weak var db: UIButton!
+    @IBOutlet weak var dsb: UIButton!
+    @IBOutlet weak var eb: UIButton!
+    @IBOutlet weak var fb: UIButton!
+    @IBOutlet weak var fsb: UIButton!
+    @IBOutlet weak var gb: UIButton!
+    @IBOutlet weak var gsb: UIButton!
+    @IBOutlet weak var ab: UIButton!
+    @IBOutlet weak var asb: UIButton!
+    @IBOutlet weak var bb: UIButton!
+    @IBOutlet weak var cb2: UIButton!
 
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -183,15 +194,38 @@ class MakeMusic: UIViewController {
         cPlayer.stop()
     }
     
+    
+    @IBAction func showNoteNames(_ sender: Any) {
+        cb.alpha = 1
+        csb.alpha = 1
+        db.alpha = 1
+        dsb.alpha = 1
+        eb.alpha = 1
+        fb.alpha = 1
+        fsb.alpha = 1
+        gb.alpha = 1
+        gsb.alpha = 1
+        ab.alpha = 1
+        asb.alpha = 1
+        bb.alpha = 1
+        cb2.alpha = 1
+    }
+    @IBAction func hideNoteNames(_ sender: Any) {
+        cb.alpha = 0
+        csb.alpha = 0
+        db.alpha = 0
+        dsb.alpha = 0
+        eb.alpha = 0
+        fb.alpha = 0
+        fsb.alpha = 0
+        gb.alpha = 0
+        gsb.alpha = 0
+        ab.alpha = 0
+        asb.alpha = 0
+        bb.alpha = 0
+        cb2.alpha = 0
     }
     
-    /*
-    // MARK: - Navigation
-
-    // In a storyboard-based application, you will often want to do a little preparation before navigation
-    override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
-        // Get the new view controller using segue.destination.
-        // Pass the selected object to the new view controller.
     }
-    */
+   
 

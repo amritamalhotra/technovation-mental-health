@@ -7,11 +7,20 @@
 //
 
 import UIKit
+import SQLite
 
 class SecondViewController: UIViewController {
     
+    var database: Connection!
+    let contactTable = Table("contacts")
+    let id = Expression<Int>("id")
+    let name = Expression<String>("name")
+    let number = Expression<Int>("number")
+    
     @IBOutlet weak var nameInfo: UITextField!
     @IBOutlet weak var numberInfo: UITextField!
+    @IBOutlet weak var enter: UIButton!
+    @IBOutlet weak var enterEdit: UIButton!
     @IBOutlet weak var contactDisplay: UITextView!
     @IBOutlet weak var splButton: UIButton!
     @IBOutlet weak var adaaButton: UIButton!
@@ -25,6 +34,27 @@ class SecondViewController: UIViewController {
     
     override func viewDidLoad() {
         super.viewDidLoad()
+        
+        do {
+            let documentDirectory = try FileManager.default.url(for: .documentDirectory, in: .userDomainMask, appropriateFor: nil, create: true)
+            let fileUrl = documentDirectory.appendingPathComponent("contacts").appendingPathExtension("sqlite3")
+            let database = try Connection(fileUrl.path)
+            self.database = database
+        } catch {
+            print(error)
+        }
+        
+        let createContact = self.contactTable.create {(table) in
+            table.column(self.id, primaryKey: true)
+            table.column(self.name)
+            table.column(self.number, unique: true)
+        }
+        do {
+            try self.database.run(createContact)
+            print("Created contact")
+        } catch {
+            print(error)
+        }
         
         splButton.layer.cornerRadius = 10
         adaaButton.layer.cornerRadius = 10
@@ -43,13 +73,69 @@ class SecondViewController: UIViewController {
         SCCbutton.layer.borderColor = UIColor.black.cgColor
         ANYCbutton.layer.borderColor = UIColor.black.cgColor
         
-        let name = nameInfo.text!
-        let number = numberInfo.text!
-        contactDisplay.text = "current contact info: \nName: \(name)\nNumber: \(number)"
-
+        do {
+        let contacts = try self.database.prepare(self.contactTable)
+        for contact in contacts {
+            contactDisplay.text = "current contact info: \nName: \(contact[self.name])\nPhone Number: \(contact[self.number])"
+            }
+        } catch {
+            print(error)
+        }
+        nameInfo.alpha = 0
+        numberInfo.alpha = 0
+        enter.alpha = 0
+        enterEdit.alpha = 0
     }
+    
+    @IBAction func addEmergencyContact(_ sender: Any) {
+        nameInfo.alpha = 1
+        numberInfo.alpha = 1
+        enter.alpha = 1
+    }
+    
+    @IBAction func editContact(_ sender: Any) {
+        nameInfo.alpha = 1
+        numberInfo.alpha = 1
+        enterEdit.alpha = 1
+        enter.alpha = 0
+    }
+    
+    @IBAction func editUser(_ sender: Any) {
+        let contactID = 1
+        let name = nameInfo.text!
+        let number = Int(numberInfo.text!)!
+        
+        let contact = self.contactTable.filter(self.id == contactID)
+        let updateContact = contact.update(self.name <- name, self.number <- number)
+        do {
+            try self.database.run(updateContact)
+        } catch {
+            print(error)
+        }
+        do {
+        let contacts = try self.database.prepare(self.contactTable)
+        for contact in contacts {
+            contactDisplay.text = "current contact info: \nName: \(contact[self.name])\nPhone Number: \(contact[self.number])"
+            }
+        } catch {
+            print(error)
+        }
+    }
+    
     @IBAction func enter(_ sender: Any) {
-        contactDisplay.text = "current contact info:\nName: \(nameInfo.text!)\nNumber: \(numberInfo.text!)"
+        let name = nameInfo.text!
+        let number = Int(numberInfo.text!)
+        print(name)
+        print(number!)
+        
+        let insertContact = self.contactTable.insert(self.name <- name, self.number <- number!)
+        do {
+            try self.database.run(insertContact)
+            print("inserted contact!")
+        } catch {
+            print(error)
+        }
+        contactDisplay.text = "current contact info:\nName: \(name)\nNumber: \(number!)"
     }
     override func touchesBegan(_ touches: Set<UITouch>, with event: UIEvent?) {
         numberInfo.resignFirstResponder()

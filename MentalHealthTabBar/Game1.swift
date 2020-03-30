@@ -63,41 +63,61 @@ class Game1: UIViewController {
     @IBAction func button1Hit(_ sender: Any) {
         button2.alpha = 1
         button1.alpha = 0
+        let image : UIImage = UIImage(named:"happyemoji1-1")!
+        displayedImage.image = image
     }
     @IBAction func button2Hit(_ sender: Any) {
         button3.alpha = 1
         button2.alpha = 0
+        let image : UIImage = UIImage(named:"sademoji1-1")!
+        displayedImage.image = image
     }
     @IBAction func button3Hit(_ sender: Any) {
         button4.alpha = 1
         button3.alpha = 0
+        let image : UIImage = UIImage(named:"nervousemoji1-1")!
+        displayedImage.image = image
     }
     @IBAction func button4Hit(_ sender: Any) {
         button5.alpha = 1
         button4.alpha = 0
+        let image : UIImage = UIImage(named:"angryemoji1-1")!
+        displayedImage.image = image
     }
     @IBAction func button5Hit(_ sender: Any) {
         button6.alpha = 1
         button5.alpha = 0
+        let image : UIImage = UIImage(named:"mehemoji1-1")!
+        displayedImage.image = image
     }
     @IBAction func button6Hit(_ sender: Any) {
         button7.alpha = 1
         button6.alpha = 0
+        let image : UIImage = UIImage(named:"happyemoji1-1")!
+        displayedImage.image = image
     }
     @IBAction func button7Hit(_ sender: Any) {
         button8.alpha = 1
         button7.alpha = 0
+        let image : UIImage = UIImage(named:"sademoji1-1")!
+        displayedImage.image = image
     }
     @IBAction func button8Hit(_ sender: Any) {
         button9.alpha = 1
         button8.alpha = 0
+        let image : UIImage = UIImage(named:"nervousemoji1-1")!
+        displayedImage.image = image
     }
     @IBAction func button9Hit(_ sender: Any) {
         button10.alpha = 1
         button9.alpha = 0
+        let image : UIImage = UIImage(named:"angryemoji1-1")!
+        displayedImage.image = image
     }
     @IBAction func button10Hit(_ sender: Any) {
         print("Completed")
+        let image : UIImage = UIImage(named:"mehemoji1-1")!
+        displayedImage.image = image
     }
     
 }
