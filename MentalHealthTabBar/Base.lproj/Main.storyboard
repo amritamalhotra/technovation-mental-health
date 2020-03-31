@@ -15,11 +15,9 @@
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" fixedFrame="YES" image="mentalhealthlogo1" translatesAutoresizingMaskIntoConstraints="NO" id="u1v-ks-l3o">
-                                <rect key="frame" x="-38" y="40" width="450" height="414"/>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="mentalhealthlogo1" translatesAutoresizingMaskIntoConstraints="NO" id="j1B-Fn-8S3">
+                                <rect key="frame" x="-131" y="43" width="636" height="408"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <color key="tintColor" cocoaTouchSystemColor="darkTextColor"/>
-                                <preferredSymbolConfiguration key="preferredSymbolConfiguration" weight="ultraLight"/>
                             </imageView>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="today?" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="3" baselineAdjustment="alignBaselines" adjustsFontForContentSizeCategory="YES" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="d6f-sY-RQe">
                                 <rect key="frame" x="273" y="243" width="73" height="34"/>
@@ -350,25 +348,34 @@
                                 <nil key="highlightedColor"/>
                             </label>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="mEW-mE-to0">
-                                <rect key="frame" x="24" y="398" width="167" height="30"/>
+                                <rect key="frame" x="20" y="398" width="177" height="33"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <state key="normal" title="Add Emergency Contact"/>
+                                <fontDescription key="fontDescription" name="Optima-Regular" family="Optima" pointSize="17"/>
+                                <state key="normal" title="Add Emergency Contact">
+                                    <color key="titleColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                </state>
                                 <connections>
                                     <action selector="addEmergencyContact:" destination="pkP-wy-E0G" eventType="touchUpInside" id="gGT-3i-b0M"/>
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="x4D-EB-IGb">
-                                <rect key="frame" x="266" y="398" width="85" height="30"/>
+                                <rect key="frame" x="264" y="398" width="89" height="33"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <state key="normal" title="Edit Contact"/>
+                                <fontDescription key="fontDescription" name="Optima-Regular" family="Optima" pointSize="17"/>
+                                <state key="normal" title="Edit Contact">
+                                    <color key="titleColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                </state>
                                 <connections>
                                     <action selector="editContact:" destination="pkP-wy-E0G" eventType="touchUpInside" id="331-6C-6vH"/>
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="O1O-h8-nW7">
-                                <rect key="frame" x="236" y="514" width="48" height="30"/>
+                                <rect key="frame" x="170" y="513" width="37" height="33"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <state key="normal" title="(Enter)"/>
+                                <fontDescription key="fontDescription" name="Optima-Regular" family="Optima" pointSize="17"/>
+                                <state key="normal" title="Enter">
+                                    <color key="titleColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                </state>
                                 <connections>
                                     <action selector="editUser:" destination="pkP-wy-E0G" eventType="touchUpInside" id="QyZ-QY-ya0"/>
                                 </connections>
@@ -384,6 +391,7 @@
                         <outlet property="NSPHbutton" destination="Sgc-IT-fZ7" id="ndY-2k-7pA"/>
                         <outlet property="SCCbutton" destination="0Wq-Fb-s0M" id="wqZ-G5-Bmr"/>
                         <outlet property="adaaButton" destination="Bjx-jh-D9O" id="3XR-eu-2kf"/>
+                        <outlet property="addContactButton" destination="mEW-mE-to0" id="Wb9-an-YZy"/>
                         <outlet property="aofhButton" destination="rba-8Y-Pis" id="TAr-eW-Ofg"/>
                         <outlet property="callContactButton" destination="h1m-SX-kIv" id="Q0z-SU-BdX"/>
                         <outlet property="contactDisplay" destination="SUu-8b-M1m" id="6r0-Ui-uSF"/>
@@ -688,7 +696,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="BkY-F1-ydI" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="1076" y="1049"/>
+            <point key="canvasLocation" x="750" y="1060"/>
         </scene>
         <!--Tips-->
         <scene sceneID="y8X-DQ-9N5">
@@ -763,16 +771,6 @@
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="FNH-eA-loS">
-                                <rect key="frame" x="269" y="464" width="35" height="47"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="26"/>
-                                <state key="normal" title="😁"/>
-                                <connections>
-                                    <action selector="transition:" destination="E2L-iy-djv" eventType="touchUpInside" id="XSg-YD-W4n"/>
-                                    <segue destination="McO-a6-a0n" kind="presentation" identifier="NewController" id="AvD-HQ-IAR"/>
-                                </connections>
-                            </button>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="tips" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="9cZ-Ab-hAZ">
                                 <rect key="frame" x="172" y="15" width="30" height="43"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
@@ -803,7 +801,7 @@
                                 <state key="normal" title="back"/>
                             </button>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="(click if you have changed your original chosen emotion from the home page)" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="GNs-em-p0w">
-                                <rect key="frame" x="27" y="571" width="316" height="47"/>
+                                <rect key="frame" x="27" y="569" width="316" height="47"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <fontDescription key="fontDescription" name="Optima-Regular" family="Optima" pointSize="17"/>
                                 <nil key="textColor"/>
@@ -816,6 +814,15 @@
                                 <state key="normal" title="Get Personalized Tips!"/>
                                 <connections>
                                     <action selector="getPersonalTips:" destination="i5j-W9-Vat" eventType="touchUpInside" id="7R4-H4-K3i"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="FNH-eA-loS">
+                                <rect key="frame" x="264" y="473" width="36" height="34"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" image="happyemoji1-1"/>
+                                <connections>
+                                    <action selector="transition:" destination="E2L-iy-djv" eventType="touchUpInside" id="XSg-YD-W4n"/>
+                                    <segue destination="McO-a6-a0n" kind="presentation" identifier="NewController" id="AvD-HQ-IAR"/>
                                 </connections>
                             </button>
                         </subviews>
@@ -881,7 +888,7 @@
                                 <rect key="frame" x="26" y="99" width="89" height="89"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             </imageView>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="this is a description of said recommended music. when you click on it it should play said music and show alert." textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="4" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="eoA-dz-wYM">
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="This music is specific to the emotion you chose on the home page. Click &quot;get my music&quot; and choose a song!" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="4" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="eoA-dz-wYM">
                                 <rect key="frame" x="122" y="94" width="229" height="98"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <fontDescription key="fontDescription" name="Optima-Regular" family="Optima" pointSize="17"/>
@@ -891,7 +898,6 @@
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="8E6-9G-2Da">
                                 <rect key="frame" x="122" y="94" width="229" height="94"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <state key="normal" title="Button"/>
                                 <connections>
                                     <action selector="music1Play:" destination="8C5-Vb-kR4" eventType="touchUpInside" id="2VH-RS-eOn"/>
                                 </connections>
@@ -909,7 +915,7 @@
                                 <rect key="frame" x="26" y="221" width="89" height="89"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             </imageView>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="this is a description of said recommended music. when you click on it it should play said music and show alert." textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="4" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="IGt-er-dhV">
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="This music is specific to the emotion you chose on the home page. Click &quot;get my music&quot; and choose a song!" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="4" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="IGt-er-dhV">
                                 <rect key="frame" x="122" y="216" width="229" height="98"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <fontDescription key="fontDescription" name="Optima-Regular" family="Optima" pointSize="17"/>
@@ -919,7 +925,6 @@
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="a4R-Tb-eSf">
                                 <rect key="frame" x="122" y="216" width="229" height="94"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <state key="normal" title="Button"/>
                                 <connections>
                                     <action selector="music2Play:" destination="8C5-Vb-kR4" eventType="touchUpInside" id="0HJ-U6-pdl"/>
                                 </connections>
@@ -955,11 +960,26 @@
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Yj5-Dt-wWi">
+                                <rect key="frame" x="257" y="48" width="108" height="33"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" name="Optima-Regular" family="Optima" pointSize="17"/>
+                                <state key="normal" title="Get my music!">
+                                    <color key="titleColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                </state>
+                                <connections>
+                                    <action selector="getMyMusic:" destination="8C5-Vb-kR4" eventType="touchUpInside" id="lg5-TP-XZC"/>
+                                </connections>
+                            </button>
                         </subviews>
                         <color key="backgroundColor" red="0.76862745098039209" green="0.8666666666666667" blue="1" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                         <viewLayoutGuide key="safeArea" id="1Kd-HY-444"/>
                     </view>
                     <tabBarItem key="tabBarItem" title="Music" image="music.note" catalog="system" selectedImage="music.note" id="qdt-Ke-Q3q"/>
+                    <connections>
+                        <outlet property="description1" destination="eoA-dz-wYM" id="ON4-xy-bJd"/>
+                        <outlet property="description2" destination="IGt-er-dhV" id="Y1s-Ly-x50"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="60p-eO-bdk" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
@@ -1309,7 +1329,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="d21-Jd-Ueq" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="1741.5999999999999" y="1340.7796101949027"/>
+            <point key="canvasLocation" x="1457" y="1059"/>
         </scene>
         <!--Journal-->
         <scene sceneID="pp8-EV-3zJ">
@@ -1509,8 +1529,8 @@
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="mentalhealthlogo1" translatesAutoresizingMaskIntoConstraints="NO" id="g31-1H-CrE">
-                                <rect key="frame" x="40" y="376" width="295" height="187"/>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="mellowmind" translatesAutoresizingMaskIntoConstraints="NO" id="OGl-gd-AoM">
+                                <rect key="frame" x="28" y="386" width="319" height="224"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             </imageView>
                         </subviews>
@@ -1712,7 +1732,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="hYu-g3-pxp" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="349.60000000000002" y="1049.3253373313344"/>
+            <point key="canvasLocation" x="-100" y="806"/>
         </scene>
         <!--Positivity Reminders-->
         <scene sceneID="mfl-DL-vbR">
@@ -1966,14 +1986,14 @@
                                 <nil key="highlightedColor"/>
                             </label>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="note: we will not send anything to your email or use it in any way" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="6" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Iui-3S-7sF">
-                                <rect key="frame" x="41" y="560" width="295" height="40.5"/>
+                                <rect key="frame" x="41" y="583" width="295" height="40.5"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <fontDescription key="fontDescription" name="Optima-Regular" family="Optima" pointSize="17"/>
                                 <color key="textColor" systemColor="systemRedColor" red="1" green="0.23137254900000001" blue="0.18823529410000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="mentalhealthlogo1" translatesAutoresizingMaskIntoConstraints="NO" id="AAy-eZ-91z">
-                                <rect key="frame" x="41" y="365" width="295" height="187"/>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="mellowmind" translatesAutoresizingMaskIntoConstraints="NO" id="lI0-Dc-M0z">
+                                <rect key="frame" x="28" y="361" width="319" height="224"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             </imageView>
                         </subviews>
@@ -2046,7 +2066,7 @@
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="create a free account to access personalized:" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="5" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="fdN-KX-FbY">
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Create a free account to access personalized:" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="5" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="fdN-KX-FbY">
                                 <rect key="frame" x="24" y="299" width="158" height="66"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <fontDescription key="fontDescription" name="Optima-Regular" family="Optima" pointSize="17"/>
@@ -2060,22 +2080,15 @@
                                 <color key="textColor" systemColor="systemIndigoColor" red="0.34509803919999998" green="0.33725490200000002" blue="0.83921568629999999" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="write in a daily journal and receive positive reminders to keep you happy and stress-free in your life!" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="6" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="22n-YN-vfj">
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Write in a daily journal and receive positive reminders to keep you happy and stress-free in your life!" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="6" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="22n-YN-vfj">
                                 <rect key="frame" x="196" y="299" width="151" height="153"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <fontDescription key="fontDescription" name="Optima-Regular" family="Optima" pointSize="17"/>
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="mellow mind" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Mhx-ra-COh">
-                                <rect key="frame" x="116" y="26" width="144" height="33"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <fontDescription key="fontDescription" name="SnellRoundhand" family="Snell Roundhand" pointSize="29"/>
-                                <nil key="textColor"/>
-                                <nil key="highlightedColor"/>
-                            </label>
-                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="mentalhealthlogo1" translatesAutoresizingMaskIntoConstraints="NO" id="06t-eC-KiH">
-                                <rect key="frame" x="27" y="55" width="321" height="249"/>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="mellowmind" translatesAutoresizingMaskIntoConstraints="NO" id="06t-eC-KiH">
+                                <rect key="frame" x="27" y="22" width="320" height="272"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             </imageView>
                         </subviews>
@@ -2112,6 +2125,7 @@
         <image name="keyboard" width="960" height="275"/>
         <image name="lightbulb.fill" catalog="system" width="56" height="64"/>
         <image name="mehemoji1-1" width="699" height="624"/>
+        <image name="mellowmind" width="987" height="849"/>
         <image name="mentalhealthlogo1" width="816" height="739"/>
         <image name="music.mic" catalog="system" width="64" height="58"/>
         <image name="music.note" catalog="system" width="48" height="64"/>
@@ -2120,6 +2134,6 @@
         <image name="sademoji1-1" width="663" height="614"/>
     </resources>
     <inferredMetricsTieBreakers>
-        <segue reference="NfW-Sp-Xjk"/>
+        <segue reference="Pf4-kr-C8Y"/>
     </inferredMetricsTieBreakers>
 </document>

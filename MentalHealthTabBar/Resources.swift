@@ -22,6 +22,7 @@ class SecondViewController: UIViewController {
     @IBOutlet weak var enter: UIButton!
     @IBOutlet weak var enterEdit: UIButton!
     @IBOutlet weak var contactDisplay: UITextView!
+    @IBOutlet weak var addContactButton: UIButton!
     @IBOutlet weak var splButton: UIButton!
     @IBOutlet weak var adaaButton: UIButton!
     @IBOutlet weak var aofhButton: UIButton!
@@ -30,7 +31,6 @@ class SecondViewController: UIViewController {
     @IBOutlet weak var SCCbutton: UIButton!
     @IBOutlet weak var ANYCbutton: UIButton!
     @IBOutlet weak var callContactButton: UIButton!
-        
     
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -86,20 +86,17 @@ class SecondViewController: UIViewController {
         enter.alpha = 0
         enterEdit.alpha = 0
     }
-    
     @IBAction func addEmergencyContact(_ sender: Any) {
         nameInfo.alpha = 1
         numberInfo.alpha = 1
         enter.alpha = 1
     }
-    
     @IBAction func editContact(_ sender: Any) {
         nameInfo.alpha = 1
         numberInfo.alpha = 1
         enterEdit.alpha = 1
         enter.alpha = 0
     }
-    
     @IBAction func editUser(_ sender: Any) {
         let contactID = 1
         let name = nameInfo.text!
@@ -120,8 +117,10 @@ class SecondViewController: UIViewController {
         } catch {
             print(error)
         }
+        nameInfo.alpha = 0
+        numberInfo.alpha = 0
+        enterEdit.alpha = 0
     }
-    
     @IBAction func enter(_ sender: Any) {
         let name = nameInfo.text!
         let number = Int(numberInfo.text!)
@@ -136,6 +135,7 @@ class SecondViewController: UIViewController {
             print(error)
         }
         contactDisplay.text = "current contact info:\nName: \(name)\nNumber: \(number!)"
+        addContactButton.alpha = 0
     }
     override func touchesBegan(_ touches: Set<UITouch>, with event: UIEvent?) {
         numberInfo.resignFirstResponder()
@@ -146,7 +146,6 @@ class SecondViewController: UIViewController {
     @IBAction func openTestWebsite(_ sender: Any) {
     UIApplication.shared.open(URL(string:"https://suicidepreventionlifeline.org/")! as URL, options: [:], completionHandler: nil)
     }
-    
     @IBAction func openADAAsite(_ sender: Any) {
         UIApplication.shared.open(URL(string:"https://adaa.org/")! as URL, options: [:], completionHandler: nil)
     }
@@ -165,9 +164,8 @@ class SecondViewController: UIViewController {
     @IBAction func callANYC(_ sender: Any) {
         UIApplication.shared.open(URL(string:"tel://18002334357")! as URL, options: [:], completionHandler: nil)
     }
-    
     @IBAction func callContact(_ sender: Any) {
-        UIApplication.shared.open(URL(string:"tel://\(numberInfo.text!)")! as URL, options: [:], completionHandler: nil)
+        let contact = self.contactTable.filter(self.id == 1)
+        UIApplication.shared.open(URL(string:"tel://\(contact[self.number])")! as URL, options: [:], completionHandler: nil)
     }
-    
 }

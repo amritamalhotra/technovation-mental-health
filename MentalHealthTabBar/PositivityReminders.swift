@@ -35,7 +35,6 @@ class PositivityReminders: UIViewController {
     }
     @IBAction func enterPressed(_ sender: Any) {
         messageDisplay.text = "Current Message:\n\(inputField.text!)"
-//        notificationPicker.addTarget(self, action: #selector(PositivityReminders.datePickerValueChanged), for: UIControl.Event.valueChanged)
     }
     override func touchesBegan(_ touches: Set<UITouch>, with event: UIEvent?) {
         inputField?.resignFirstResponder()

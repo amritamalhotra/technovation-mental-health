@@ -10,6 +10,7 @@ import UIKit
 import AVFoundation
 
 class Music: UIViewController {
+    
     var h1Player = AVAudioPlayer()
     var h2Player = AVAudioPlayer()
     var sad1Player = AVAudioPlayer()
@@ -22,7 +23,10 @@ class Music: UIViewController {
     var mad2Player = AVAudioPlayer()
     var anx1Player = AVAudioPlayer()
     var anx2Player = AVAudioPlayer()
-
+    
+    @IBOutlet weak var description1: UILabel!
+    @IBOutlet weak var description2: UILabel!
+    
     override func viewDidLoad() {
         super.viewDidLoad()
         
@@ -168,6 +172,34 @@ class Music: UIViewController {
             anx2Player.play()
         }
     }
+    
+    @IBAction func getMyMusic(_ sender: Any) {
+        if (Emotions.shared.theEmotion == "happy!") {
+            description1.text = "happyhappyhappyhappyhappyhappyhappyhappyhappyhappyhappyhappyhappyhappyhappy"
+            description2.text = "happy2happy2happy2happy2happy2happy2happy2happy2happy2happy2happy2happy2"
+        }
+        if (Emotions.shared.theEmotion == "sad") {
+            description1.text = "sadsadsadsadsadsadsadsadsadsadsadsadsadsadsadsadsadsadsadsadsadsadsadsadsad"
+            description2.text = "sadsadsadsadsadsadsadsadsadsadsadsadsadsadsadsadsadsadsadsadsadsadsadsadsad"
+        }
+        if (Emotions.shared.theEmotion == "mad") {
+            description1.text = "madmadmadmadmadmadmadmadmadmadmadmadmadmadmadmadmadmadmadmadmadmadmadmadmad"
+            description2.text = "madmadmadmadmadmadmadmadmadmadmadmadmadmadmadmadmadmadmadmadmadmadmadmadmad"
+        }
+        if (Emotions.shared.theEmotion == "anxious") {
+            description1.text = "anxiousanxiousanxiousanxiousanxiousanxiousanxiousanxiousanxiousanxiousanxious"
+            description2.text = "anxiousanxiousanxiousanxiousanxiousanxiousanxiousanxiousanxiousanxiousanxious"
+        }
+        if (Emotions.shared.theEmotion == "stressed") {
+            description1.text = "stressedstressedstressedstressedstressedstressedstressedstressedstressedstressed"
+            description2.text = "stressedstressedstressedstressedstressedstressedstressedstressedstressedstressed"
+        }
+        if (Emotions.shared.theEmotion == "bored") {
+            description1.text = "boredboredboredboredboredboredboredboredboredboredboredboredboredboredbored"
+            description2.text = "boredboredboredboredboredboredboredboredboredboredboredboredboredboredbored"
+        }
+    }
+    
     
     @IBAction func toMusicMaker(_ sender: UIButton) {
         performSegue(withIdentifier: "toMakeMusic", sender: self)
