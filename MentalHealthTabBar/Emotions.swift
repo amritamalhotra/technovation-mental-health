@@ -12,6 +12,7 @@ class Emotions {
     static let shared = Emotions()
     
     var theEmotion = "default"
+    var theTip = "Choose an emotion on the home page! Or, try taking a few deep breaths. This will clear your mind."
     func printMyEmotion() {
     }
 }
