@@ -10,7 +10,7 @@
         <!--Home-->
         <scene sceneID="hNz-n2-bh7">
             <objects>
-                <viewController modalPresentationStyle="fullScreen" id="9pv-A4-QxB" customClass="FirstViewController" customModule="MentalHealthTabBar" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController modalPresentationStyle="fullScreen" id="9pv-A4-QxB" customClass="FirstViewController" customModule="Mellow_Mind" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="tsR-hK-woN">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -155,7 +155,9 @@
                         <color key="backgroundColor" red="0.76812982380163941" green="0.86753259910984959" blue="1" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                         <viewLayoutGuide key="safeArea" id="PQr-Ze-W5v"/>
                     </view>
-                    <tabBarItem key="tabBarItem" title="Home" image="house.fill" catalog="system" id="acW-dT-cKf"/>
+                    <tabBarItem key="tabBarItem" title="Home" image="house.fill" catalog="system" id="acW-dT-cKf">
+                        <color key="badgeColor" red="1" green="0.72549812739999997" blue="0.68946066019999996" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                    </tabBarItem>
                     <connections>
                         <outlet property="display" destination="KhD-7u-6Q7" id="OqI-hH-8aR"/>
                     </connections>
@@ -167,7 +169,7 @@
         <!--Resources-->
         <scene sceneID="hrx-4f-3Fe">
             <objects>
-                <viewController title="Resources" id="pkP-wy-E0G" customClass="SecondViewController" customModule="MentalHealthTabBar" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController title="Resources" id="pkP-wy-E0G" customClass="SecondViewController" customModule="Mellow_Mind" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="8mM-ZZ-HvB">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -411,7 +413,7 @@
         <!--Exercises-->
         <scene sceneID="Fd5-Dh-tiP">
             <objects>
-                <viewController modalPresentationStyle="fullScreen" id="zVY-bl-AFX" customClass="Exercises" customModule="MentalHealthTabBar" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController modalPresentationStyle="fullScreen" id="zVY-bl-AFX" customClass="Exercises" customModule="Mellow_Mind" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="we2-Ke-WkO">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -441,7 +443,7 @@
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="ke9-Dq-yxx">
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="breathe" translatesAutoresizingMaskIntoConstraints="NO" id="ke9-Dq-yxx">
                                 <rect key="frame" x="25" y="89" width="89" height="89"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             </imageView>
@@ -474,7 +476,7 @@
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="J3G-PJ-29B">
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="smashicon" translatesAutoresizingMaskIntoConstraints="NO" id="J3G-PJ-29B">
                                 <rect key="frame" x="25" y="376" width="89" height="89"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             </imageView>
@@ -494,7 +496,7 @@
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="0Dd-pQ-mpW">
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="treeicon" translatesAutoresizingMaskIntoConstraints="NO" id="0Dd-pQ-mpW">
                                 <rect key="frame" x="25" y="499" width="89" height="89"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             </imageView>
@@ -554,7 +556,7 @@
                                     <segue destination="Umf-pV-0Ob" kind="presentation" identifier="toJournal" id="dCM-KA-Cw2"/>
                                 </connections>
                             </button>
-                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="jOG-BB-Gtt">
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="journalpen" translatesAutoresizingMaskIntoConstraints="NO" id="jOG-BB-Gtt">
                                 <rect key="frame" x="25" y="232" width="89" height="89"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             </imageView>
@@ -571,7 +573,7 @@
         <!--Game2-->
         <scene sceneID="QVp-uN-kQg">
             <objects>
-                <viewController modalPresentationStyle="fullScreen" id="bc2-Nc-84X" customClass="Game2" customModule="MentalHealthTabBar" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController modalPresentationStyle="fullScreen" id="bc2-Nc-84X" customClass="Game2" customModule="Mellow_Mind" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="ETl-Lb-57N">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -703,7 +705,7 @@
         <!--Tips-->
         <scene sceneID="y8X-DQ-9N5">
             <objects>
-                <viewController storyboardIdentifier="Tips" providesPresentationContextTransitionStyle="YES" modalPresentationStyle="fullScreen" id="i5j-W9-Vat" customClass="Tips" customModule="MentalHealthTabBar" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController storyboardIdentifier="Tips" providesPresentationContextTransitionStyle="YES" modalPresentationStyle="fullScreen" id="i5j-W9-Vat" customClass="Tips" customModule="Mellow_Mind" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="cHh-sH-WYD">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -862,7 +864,7 @@
         <!--Music-->
         <scene sceneID="qhy-pK-1zE">
             <objects>
-                <viewController modalPresentationStyle="fullScreen" id="8C5-Vb-kR4" customClass="Music" customModule="MentalHealthTabBar" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController modalPresentationStyle="fullScreen" id="8C5-Vb-kR4" customClass="Music" customModule="Mellow_Mind" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="uA5-DV-XmG">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -996,6 +998,8 @@
                     <connections>
                         <outlet property="description1" destination="eoA-dz-wYM" id="ON4-xy-bJd"/>
                         <outlet property="description2" destination="IGt-er-dhV" id="Y1s-Ly-x50"/>
+                        <outlet property="image1" destination="yOF-YY-7EU" id="saV-Ky-Tir"/>
+                        <outlet property="image2" destination="Alz-SX-Qrq" id="sJ6-dF-uv4"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="60p-eO-bdk" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
@@ -1009,7 +1013,9 @@
                     <tabBar key="tabBar" contentMode="scaleToFill" id="W28-zg-YXA">
                         <rect key="frame" x="0.0" y="975" width="768" height="49"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMinY="YES"/>
-                        <color key="backgroundColor" red="0.612268251879861" green="0.70332896131833733" blue="0.79503319300518138" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                        <color key="backgroundColor" red="1" green="0.72549812739999997" blue="0.68946066019999996" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                        <color key="tintColor" red="0.76812982379999994" green="0.86753259910000002" blue="1" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                        <color key="selectedImageTintColor" red="0.41176470590000003" green="0.6588235294" blue="1" alpha="1" colorSpace="calibratedRGB"/>
                     </tabBar>
                     <connections>
                         <segue destination="9pv-A4-QxB" kind="relationship" relationship="viewControllers" id="rsX-S9-4vv"/>
@@ -1026,7 +1032,7 @@
         <!--Make Music-->
         <scene sceneID="At1-in-KQK">
             <objects>
-                <viewController modalPresentationStyle="fullScreen" id="pKw-yA-T2n" customClass="MakeMusic" customModule="MentalHealthTabBar" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController modalPresentationStyle="fullScreen" id="pKw-yA-T2n" customClass="MakeMusic" customModule="Mellow_Mind" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="mro-YE-04u">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -1247,7 +1253,7 @@
         <!--Guided Breathing-->
         <scene sceneID="lAk-Rq-PJ2">
             <objects>
-                <viewController modalPresentationStyle="fullScreen" id="a3j-KE-iq5" customClass="GuidedBreathing" customModule="MentalHealthTabBar" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController modalPresentationStyle="fullScreen" id="a3j-KE-iq5" customClass="GuidedBreathing" customModule="Mellow_Mind" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="Svg-f7-B55">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -1351,7 +1357,7 @@
         <!--Journal-->
         <scene sceneID="pp8-EV-3zJ">
             <objects>
-                <viewController modalPresentationStyle="fullScreen" id="Umf-pV-0Ob" customClass="Journal" customModule="MentalHealthTabBar" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController modalPresentationStyle="fullScreen" id="Umf-pV-0Ob" customClass="Journal" customModule="Mellow_Mind" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="We5-f5-mjU">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -1478,7 +1484,7 @@
         <!--Login View Controller-->
         <scene sceneID="Y5J-4t-W79">
             <objects>
-                <viewController modalPresentationStyle="fullScreen" id="PWa-fZ-nii" customClass="LoginViewController" customModule="MentalHealthTabBar" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController modalPresentationStyle="fullScreen" id="PWa-fZ-nii" customClass="LoginViewController" customModule="Mellow_Mind" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="4OC-Pj-upF">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -1573,16 +1579,11 @@
         <!--Game1-->
         <scene sceneID="Mku-Sm-d8v">
             <objects>
-                <viewController modalPresentationStyle="fullScreen" id="exh-o9-Wap" customClass="Game1" customModule="MentalHealthTabBar" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController modalPresentationStyle="fullScreen" id="exh-o9-Wap" customClass="Game1" customModule="Mellow_Mind" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="ofc-8o-m3L">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="play.fill" catalog="system" translatesAutoresizingMaskIntoConstraints="NO" id="oaj-Xn-FI9">
-                                <rect key="frame" x="38" y="150" width="298" height="244"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <color key="tintColor" red="0.22486289200000001" green="0.66677902919999998" blue="0.6104299272" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
-                            </imageView>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="huR-3P-lhK">
                                 <rect key="frame" x="20" y="612" width="20" height="22"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
@@ -1728,6 +1729,21 @@
                                     <action selector="button10Hit:" destination="exh-o9-Wap" eventType="touchUpInside" id="2CJ-vv-3ws"/>
                                 </connections>
                             </button>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="play.fill" catalog="system" translatesAutoresizingMaskIntoConstraints="NO" id="oaj-Xn-FI9">
+                                <rect key="frame" x="12" y="127.5" width="350" height="300"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="tintColor" red="0.22486289200000001" green="0.66677902919999998" blue="0.6104299272" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                            </imageView>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="aXp-jp-rbP">
+                                <rect key="frame" x="294" y="604" width="65" height="30"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" name="Optima-Regular" family="Optima" pointSize="15"/>
+                                <color key="tintColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <state key="normal" title="Start Over"/>
+                                <connections>
+                                    <action selector="startOver:" destination="exh-o9-Wap" eventType="touchUpInside" id="BIZ-cT-VTV"/>
+                                </connections>
+                            </button>
                         </subviews>
                         <color key="backgroundColor" red="1" green="0.72549812739999997" blue="0.68946066019999996" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                         <gestureRecognizers/>
@@ -1749,12 +1765,12 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="hYu-g3-pxp" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="-100" y="806"/>
+            <point key="canvasLocation" x="-100" y="805.54722638680664"/>
         </scene>
         <!--Positivity Reminders-->
         <scene sceneID="mfl-DL-vbR">
             <objects>
-                <viewController modalPresentationStyle="fullScreen" id="McO-a6-a0n" customClass="PositivityReminders" customModule="MentalHealthTabBar" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController modalPresentationStyle="fullScreen" id="McO-a6-a0n" customClass="PositivityReminders" customModule="Mellow_Mind" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="53H-pl-LQv">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -1914,6 +1930,14 @@
                                     <action selector="updateNotificationPressed:" destination="McO-a6-a0n" eventType="touchUpInside" id="qvY-JF-zLH"/>
                                 </connections>
                             </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Kk8-yc-t1Y">
+                                <rect key="frame" x="84" y="277" width="233" height="30"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" title="View Current Notification Settings"/>
+                                <connections>
+                                    <action selector="loadData:" destination="McO-a6-a0n" eventType="touchUpInside" id="SFg-ZJ-WdV"/>
+                                </connections>
+                            </button>
                         </subviews>
                         <color key="backgroundColor" red="1" green="0.72549812739999997" blue="0.68946066019999996" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                         <viewLayoutGuide key="safeArea" id="bse-Ho-1fM"/>
@@ -1934,7 +1958,7 @@
         <!--Sign Up View Controller-->
         <scene sceneID="m77-38-MEZ">
             <objects>
-                <viewController modalPresentationStyle="fullScreen" id="Zz3-We-eYY" customClass="SignUpViewController" customModule="MentalHealthTabBar" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController modalPresentationStyle="fullScreen" id="Zz3-We-eYY" customClass="SignUpViewController" customModule="Mellow_Mind" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="k1O-7A-myS">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -2041,7 +2065,7 @@
         <!--Item-->
         <scene sceneID="N88-Q1-1M1">
             <objects>
-                <viewController modalPresentationStyle="fullScreen" id="N7I-c5-icf" customClass="InitialViewController" customModule="MentalHealthTabBar" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController modalPresentationStyle="fullScreen" id="N7I-c5-icf" customClass="InitialViewController" customModule="Mellow_Mind" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="43i-5T-ITM">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -2141,9 +2165,11 @@
         <image name="angryemoji1-1" width="676" height="824"/>
         <image name="arrow.left" catalog="system" width="64" height="48"/>
         <image name="book.fill" catalog="system" width="64" height="50"/>
+        <image name="breathe" width="365" height="301"/>
         <image name="gamecontroller.fill" catalog="system" width="64" height="40"/>
         <image name="happyemoji1-1" width="661" height="668"/>
         <image name="house.fill" catalog="system" width="64" height="52"/>
+        <image name="journalpen" width="439" height="460"/>
         <image name="keyboard" width="960" height="275"/>
         <image name="lightbulb.fill" catalog="system" width="56" height="64"/>
         <image name="mehemoji1-1" width="699" height="624"/>
@@ -2154,6 +2180,8 @@
         <image name="nervousemoji1-1" width="728" height="702"/>
         <image name="play.fill" catalog="system" width="58" height="64"/>
         <image name="sademoji1-1" width="663" height="614"/>
+        <image name="smashicon" width="568" height="545"/>
+        <image name="treeicon" width="272" height="299"/>
     </resources>
     <inferredMetricsTieBreakers>
         <segue reference="Pf4-kr-C8Y"/>

@@ -26,6 +26,8 @@ class Music: UIViewController {
     
     @IBOutlet weak var description1: UILabel!
     @IBOutlet weak var description2: UILabel!
+    @IBOutlet weak var image1: UIImageView!
+    @IBOutlet weak var image2: UIImageView!
     
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -175,31 +177,54 @@ class Music: UIViewController {
     
     @IBAction func getMyMusic(_ sender: Any) {
         if (Emotions.shared.theEmotion == "happy!") {
-            description1.text = "happyhappyhappyhappyhappyhappyhappyhappyhappyhappyhappyhappyhappyhappyhappy"
+            description1.text = "happyhappyhappyhappyhappyhappyhappyhappyhappyhappyhappyhappyhappyhappy"
             description2.text = "happy2happy2happy2happy2happy2happy2happy2happy2happy2happy2happy2happy2"
+            let image : UIImage = UIImage(named:"note1yellow")!
+            image1.image = image
+            let imagetwo : UIImage = UIImage(named:"note2yellow")!
+            image2.image = imagetwo
         }
         if (Emotions.shared.theEmotion == "sad") {
-            description1.text = "sadsadsadsadsadsadsadsadsadsadsadsadsadsadsadsadsadsadsadsadsadsadsadsadsad"
-            description2.text = "sadsadsadsadsadsadsadsadsadsadsadsadsadsadsadsadsadsadsadsadsadsadsadsadsad"
+            description1.text = "sadsadsadsadsadsadsadsadsadsadsadsadsadsadsadsadsadsadsadsadsadsadsadsad"
+            description2.text = "sadsadsadsadsadsadsadsadsadsadsadsadsadsadsadsadsadsadsadsadsadsadsadsad"
+            let image : UIImage = UIImage(named:"note1blue")!
+            image1.image = image
+            let imagetwo : UIImage = UIImage(named:"note2blue")!
+            image2.image = imagetwo
         }
         if (Emotions.shared.theEmotion == "mad") {
-            description1.text = "madmadmadmadmadmadmadmadmadmadmadmadmadmadmadmadmadmadmadmadmadmadmadmadmad"
-            description2.text = "madmadmadmadmadmadmadmadmadmadmadmadmadmadmadmadmadmadmadmadmadmadmadmadmad"
+            description1.text = "madmadmadmadmadmadmadmadmadmadmadmadmadmadmadmadmadmadmadmadmadmadmadmad"
+            description2.text = "madmadmadmadmadmadmadmadmadmadmadmadmadmadmadmadmadmadmadmadmadmadmadmad"
+            let image : UIImage = UIImage(named:"note1red")!
+            image1.image = image
+            let imagetwo : UIImage = UIImage(named:"note2red")!
+            image2.image = imagetwo
         }
         if (Emotions.shared.theEmotion == "anxious") {
-            description1.text = "anxiousanxiousanxiousanxiousanxiousanxiousanxiousanxiousanxiousanxiousanxious"
-            description2.text = "anxiousanxiousanxiousanxiousanxiousanxiousanxiousanxiousanxiousanxiousanxious"
+            description1.text = "anxiousanxiousanxiousanxiousanxiousanxiousanxiousanxiousanxiousanxious"
+            description2.text = "anxiousanxiousanxiousanxiousanxiousanxiousanxiousanxiousanxiousanxious"
+            let image : UIImage = UIImage(named:"note1yorange")!
+            image1.image = image
+            let imagetwo : UIImage = UIImage(named:"note2orange")!
+            image2.image = imagetwo
         }
         if (Emotions.shared.theEmotion == "stressed") {
-            description1.text = "stressedstressedstressedstressedstressedstressedstressedstressedstressedstressed"
-            description2.text = "stressedstressedstressedstressedstressedstressedstressedstressedstressedstressed"
+            description1.text = "stressedstressedstressedstressedstressedstressedstressedstressedstressed"
+            description2.text = "stressedstressedstressedstressedstressedstressedstressedstressedstressed"
+            let image : UIImage = UIImage(named:"note1purple")!
+            image1.image = image
+            let imagetwo : UIImage = UIImage(named:"note2purple")!
+            image2.image = imagetwo
         }
         if (Emotions.shared.theEmotion == "bored") {
-            description1.text = "boredboredboredboredboredboredboredboredboredboredboredboredboredboredbored"
-            description2.text = "boredboredboredboredboredboredboredboredboredboredboredboredboredboredbored"
+            description1.text = "boredboredboredboredboredboredboredboredboredboredboredboredboredbored"
+            description2.text = "boredboredboredboredboredboredboredboredboredboredboredboredboredbored"
+            let image : UIImage = UIImage(named:"note1ygray")!
+            image1.image = image
+            let imagetwo : UIImage = UIImage(named:"note2gray")!
+            image2.image = imagetwo
         }
     }
-    
     
     @IBAction func toMusicMaker(_ sender: UIButton) {
         performSegue(withIdentifier: "toMakeMusic", sender: self)

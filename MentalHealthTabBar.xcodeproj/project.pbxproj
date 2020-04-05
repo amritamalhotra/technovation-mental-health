@@ -8,18 +8,6 @@
 
 /* Begin PBXBuildFile section */
 		4CA180B447A27CE85FDD7CD0 /* Pods_MentalHealthTabBar_MentalHealthTabBarUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E2944E642A14FA2DB4660675 /* Pods_MentalHealthTabBar_MentalHealthTabBarUITests.framework */; };
-		B8083DD12431276C0001DAF1 /* AnxiousOne.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = B8083DC02431276A0001DAF1 /* AnxiousOne.mp3 */; };
-		B8083DD22431276C0001DAF1 /* StressedTwo.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = B8083DC82431276B0001DAF1 /* StressedTwo.mp3 */; };
-		B8083DD32431276C0001DAF1 /* SadOne.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = B8083DC92431276B0001DAF1 /* SadOne.mp3 */; };
-		B8083DD42431276C0001DAF1 /* HappyOne.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = B8083DCA2431276B0001DAF1 /* HappyOne.mp3 */; };
-		B8083DD52431276C0001DAF1 /* AnxiousTwo.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = B8083DCB2431276B0001DAF1 /* AnxiousTwo.mp3 */; };
-		B8083DD62431276C0001DAF1 /* SadTwo.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = B8083DCC2431276B0001DAF1 /* SadTwo.mp3 */; };
-		B8083DD72431276C0001DAF1 /* StressedOne.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = B8083DCD2431276B0001DAF1 /* StressedOne.mp3 */; };
-		B8083DD82431276C0001DAF1 /* BoredTwo.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = B8083DCE2431276B0001DAF1 /* BoredTwo.mp3 */; };
-		B8083DD92431276C0001DAF1 /* HappyTwo.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = B8083DCF2431276B0001DAF1 /* HappyTwo.mp3 */; };
-		B8083DDA2431276C0001DAF1 /* BoredOne.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = B8083DD02431276B0001DAF1 /* BoredOne.mp3 */; };
-		B8083DDD243129BE0001DAF1 /* MadTwo.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = B8083DDB243129BE0001DAF1 /* MadTwo.mp3 */; };
-		B8083DDE243129BE0001DAF1 /* MadOne.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = B8083DDC243129BE0001DAF1 /* MadOne.mp3 */; };
 		B8120DE023C6327B004A3E42 /* Music.swift in Sources */ = {isa = PBXBuildFile; fileRef = B8120DDF23C6327B004A3E42 /* Music.swift */; };
 		B8120DE223C632D8004A3E42 /* Exercises.swift in Sources */ = {isa = PBXBuildFile; fileRef = B8120DE123C632D8004A3E42 /* Exercises.swift */; };
 		B8120DE423C632F8004A3E42 /* Tips.swift in Sources */ = {isa = PBXBuildFile; fileRef = B8120DE323C632F8004A3E42 /* Tips.swift */; };
@@ -35,8 +23,21 @@
 		B8282CF1242009310012CF6D /* InitialViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B8282CF0242009310012CF6D /* InitialViewController.swift */; };
 		B8282CF3242022420012CF6D /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = B8282CF2242022410012CF6D /* GoogleService-Info.plist */; };
 		B8282CF6242037A70012CF6D /* Utilities.swift in Sources */ = {isa = PBXBuildFile; fileRef = B8282CF5242037A70012CF6D /* Utilities.swift */; };
+		B82AC3C324391503000CDCAB /* Pods_MentalHealthTabBar.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C931E1C187788192F697F374 /* Pods_MentalHealthTabBar.framework */; };
+		B82AC3CC24391505000CDCAB /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B8B3184423D3C72600B14979 /* AVFoundation.framework */; };
+		B82AC3F224391B39000CDCAB /* HappyTwo.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = B82AC3E624391B39000CDCAB /* HappyTwo.mp3 */; };
+		B82AC3F324391B39000CDCAB /* StressedTwo.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = B82AC3E724391B39000CDCAB /* StressedTwo.mp3 */; };
+		B82AC3F424391B39000CDCAB /* StressedOne.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = B82AC3E824391B39000CDCAB /* StressedOne.mp3 */; };
+		B82AC3F524391B39000CDCAB /* AnxiousTwo.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = B82AC3E924391B39000CDCAB /* AnxiousTwo.mp3 */; };
+		B82AC3F624391B39000CDCAB /* AnxiousOne.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = B82AC3EA24391B39000CDCAB /* AnxiousOne.mp3 */; };
+		B82AC3F724391B39000CDCAB /* BoredOne.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = B82AC3EB24391B39000CDCAB /* BoredOne.mp3 */; };
+		B82AC3F824391B39000CDCAB /* MadTwo.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = B82AC3EC24391B39000CDCAB /* MadTwo.mp3 */; };
+		B82AC3F924391B39000CDCAB /* SadTwo.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = B82AC3ED24391B39000CDCAB /* SadTwo.mp3 */; };
+		B82AC3FA24391B39000CDCAB /* HappyOne.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = B82AC3EE24391B39000CDCAB /* HappyOne.mp3 */; };
+		B82AC3FB24391B39000CDCAB /* BoredTwo.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = B82AC3EF24391B39000CDCAB /* BoredTwo.mp3 */; };
+		B82AC3FC24391B39000CDCAB /* SadOne.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = B82AC3F024391B39000CDCAB /* SadOne.mp3 */; };
+		B82AC3FD24391B39000CDCAB /* MadOne.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = B82AC3F124391B39000CDCAB /* MadOne.mp3 */; };
 		B83FDFAB242EB0D8007CF170 /* Emotions.swift in Sources */ = {isa = PBXBuildFile; fileRef = B83FDFAA242EB0D8007CF170 /* Emotions.swift */; };
-		B8B3184523D3C72600B14979 /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B8B3184423D3C72600B14979 /* AVFoundation.framework */; };
 		B8B3184723D3C87C00B14979 /* SampleAudio_0.4mb.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = B8B3184623D3C87C00B14979 /* SampleAudio_0.4mb.mp3 */; };
 		B8B3184823D3C87C00B14979 /* SampleAudio_0.4mb.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = B8B3184623D3C87C00B14979 /* SampleAudio_0.4mb.mp3 */; };
 		B8B3184923D3C87C00B14979 /* SampleAudio_0.4mb.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = B8B3184623D3C87C00B14979 /* SampleAudio_0.4mb.mp3 */; };
@@ -65,7 +66,6 @@
 		B8DA12D1242050C200183266 /* A#1.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = B8DA12D0242050C200183266 /* A#1.mp3 */; };
 		B8DA12D3242050CB00183266 /* B1.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = B8DA12D2242050CB00183266 /* B1.mp3 */; };
 		B8DA12D5242050D300183266 /* C2.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = B8DA12D4242050D300183266 /* C2.mp3 */; };
-		BC06AB801632C5E52037EB25 /* Pods_MentalHealthTabBar.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C931E1C187788192F697F374 /* Pods_MentalHealthTabBar.framework */; };
 		CA24762C525BFAD1B2F6DEC7 /* Pods_MentalHealthTabBarTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B0568F033685AABF7FED4768 /* Pods_MentalHealthTabBarTests.framework */; };
 /* End PBXBuildFile section */
 
@@ -155,18 +155,6 @@
 		A097264CC7556290B8EC812C /* Pods-MentalHealthTabBar.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MentalHealthTabBar.release.xcconfig"; path = "Target Support Files/Pods-MentalHealthTabBar/Pods-MentalHealthTabBar.release.xcconfig"; sourceTree = "<group>"; };
 		A2A00E4288505655E07B1A68 /* Pods-MentalHealthTabBarTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MentalHealthTabBarTests.debug.xcconfig"; path = "Target Support Files/Pods-MentalHealthTabBarTests/Pods-MentalHealthTabBarTests.debug.xcconfig"; sourceTree = "<group>"; };
 		B0568F033685AABF7FED4768 /* Pods_MentalHealthTabBarTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_MentalHealthTabBarTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		B8083DC02431276A0001DAF1 /* AnxiousOne.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = AnxiousOne.mp3; path = "../../Recommended Music Files/AnxiousOne.mp3"; sourceTree = "<group>"; };
-		B8083DC82431276B0001DAF1 /* StressedTwo.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = StressedTwo.mp3; path = "../../Recommended Music Files/StressedTwo.mp3"; sourceTree = "<group>"; };
-		B8083DC92431276B0001DAF1 /* SadOne.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = SadOne.mp3; path = "../../Recommended Music Files/SadOne.mp3"; sourceTree = "<group>"; };
-		B8083DCA2431276B0001DAF1 /* HappyOne.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = HappyOne.mp3; path = "../../Recommended Music Files/HappyOne.mp3"; sourceTree = "<group>"; };
-		B8083DCB2431276B0001DAF1 /* AnxiousTwo.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = AnxiousTwo.mp3; path = "../../Recommended Music Files/AnxiousTwo.mp3"; sourceTree = "<group>"; };
-		B8083DCC2431276B0001DAF1 /* SadTwo.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = SadTwo.mp3; path = "../../Recommended Music Files/SadTwo.mp3"; sourceTree = "<group>"; };
-		B8083DCD2431276B0001DAF1 /* StressedOne.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = StressedOne.mp3; path = "../../Recommended Music Files/StressedOne.mp3"; sourceTree = "<group>"; };
-		B8083DCE2431276B0001DAF1 /* BoredTwo.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = BoredTwo.mp3; path = "../../Recommended Music Files/BoredTwo.mp3"; sourceTree = "<group>"; };
-		B8083DCF2431276B0001DAF1 /* HappyTwo.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = HappyTwo.mp3; path = "../../Recommended Music Files/HappyTwo.mp3"; sourceTree = "<group>"; };
-		B8083DD02431276B0001DAF1 /* BoredOne.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = BoredOne.mp3; path = "../../Recommended Music Files/BoredOne.mp3"; sourceTree = "<group>"; };
-		B8083DDB243129BE0001DAF1 /* MadTwo.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = MadTwo.mp3; path = "../../Recommended Music Files/MadTwo.mp3"; sourceTree = "<group>"; };
-		B8083DDC243129BE0001DAF1 /* MadOne.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = MadOne.mp3; path = "../../Recommended Music Files/MadOne.mp3"; sourceTree = "<group>"; };
 		B8120DDF23C6327B004A3E42 /* Music.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Music.swift; sourceTree = "<group>"; };
 		B8120DE123C632D8004A3E42 /* Exercises.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Exercises.swift; sourceTree = "<group>"; };
 		B8120DE323C632F8004A3E42 /* Tips.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tips.swift; sourceTree = "<group>"; };
@@ -182,12 +170,24 @@
 		B8282CF0242009310012CF6D /* InitialViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InitialViewController.swift; sourceTree = "<group>"; };
 		B8282CF2242022410012CF6D /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = "GoogleService-Info.plist"; path = "../../../Downloads/GoogleService-Info.plist"; sourceTree = "<group>"; };
 		B8282CF5242037A70012CF6D /* Utilities.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Utilities.swift; sourceTree = "<group>"; };
+		B82AC3E624391B39000CDCAB /* HappyTwo.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = HappyTwo.mp3; path = "../../MELLOW MIND IMAGES/Recommended Music Files/HappyTwo.mp3"; sourceTree = "<group>"; };
+		B82AC3E724391B39000CDCAB /* StressedTwo.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = StressedTwo.mp3; path = "../../MELLOW MIND IMAGES/Recommended Music Files/StressedTwo.mp3"; sourceTree = "<group>"; };
+		B82AC3E824391B39000CDCAB /* StressedOne.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = StressedOne.mp3; path = "../../MELLOW MIND IMAGES/Recommended Music Files/StressedOne.mp3"; sourceTree = "<group>"; };
+		B82AC3E924391B39000CDCAB /* AnxiousTwo.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = AnxiousTwo.mp3; path = "../../MELLOW MIND IMAGES/Recommended Music Files/AnxiousTwo.mp3"; sourceTree = "<group>"; };
+		B82AC3EA24391B39000CDCAB /* AnxiousOne.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = AnxiousOne.mp3; path = "../../MELLOW MIND IMAGES/Recommended Music Files/AnxiousOne.mp3"; sourceTree = "<group>"; };
+		B82AC3EB24391B39000CDCAB /* BoredOne.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = BoredOne.mp3; path = "../../MELLOW MIND IMAGES/Recommended Music Files/BoredOne.mp3"; sourceTree = "<group>"; };
+		B82AC3EC24391B39000CDCAB /* MadTwo.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = MadTwo.mp3; path = "../../MELLOW MIND IMAGES/Recommended Music Files/MadTwo.mp3"; sourceTree = "<group>"; };
+		B82AC3ED24391B39000CDCAB /* SadTwo.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = SadTwo.mp3; path = "../../MELLOW MIND IMAGES/Recommended Music Files/SadTwo.mp3"; sourceTree = "<group>"; };
+		B82AC3EE24391B39000CDCAB /* HappyOne.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = HappyOne.mp3; path = "../../MELLOW MIND IMAGES/Recommended Music Files/HappyOne.mp3"; sourceTree = "<group>"; };
+		B82AC3EF24391B39000CDCAB /* BoredTwo.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = BoredTwo.mp3; path = "../../MELLOW MIND IMAGES/Recommended Music Files/BoredTwo.mp3"; sourceTree = "<group>"; };
+		B82AC3F024391B39000CDCAB /* SadOne.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = SadOne.mp3; path = "../../MELLOW MIND IMAGES/Recommended Music Files/SadOne.mp3"; sourceTree = "<group>"; };
+		B82AC3F124391B39000CDCAB /* MadOne.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = MadOne.mp3; path = "../../MELLOW MIND IMAGES/Recommended Music Files/MadOne.mp3"; sourceTree = "<group>"; };
 		B83FDFAA242EB0D8007CF170 /* Emotions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Emotions.swift; sourceTree = "<group>"; };
 		B8B3184423D3C72600B14979 /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
 		B8B3184623D3C87C00B14979 /* SampleAudio_0.4mb.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = SampleAudio_0.4mb.mp3; path = ../../../Downloads/SampleAudio_0.4mb.mp3; sourceTree = "<group>"; };
 		B8B3185A23D3DA2F00B14979 /* MentalHealthTabBar.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = MentalHealthTabBar.entitlements; sourceTree = "<group>"; };
 		B8B54D2B241C5A2E00D09810 /* SQLite.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = SQLite.xcodeproj; path = "../../../Downloads/SQLite.swift-master/SQLite.xcodeproj"; sourceTree = "<group>"; };
-		B8CD203323C276E20031CC57 /* MentalHealthTabBar.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MentalHealthTabBar.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		B8CD203323C276E20031CC57 /* Mellow Mind.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Mellow Mind.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		B8CD203623C276E20031CC57 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		B8CD203823C276E20031CC57 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
 		B8CD203A23C276E20031CC57 /* Home.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Home.swift; sourceTree = "<group>"; };
@@ -227,9 +227,9 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B82AC3C324391503000CDCAB /* Pods_MentalHealthTabBar.framework in Frameworks */,
 				B8B54D43241C5A7600D09810 /* SQLite.framework in Frameworks */,
-				B8B3184523D3C72600B14979 /* AVFoundation.framework in Frameworks */,
-				BC06AB801632C5E52037EB25 /* Pods_MentalHealthTabBar.framework in Frameworks */,
+				B82AC3CC24391505000CDCAB /* AVFoundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -305,7 +305,7 @@
 		B8CD203423C276E20031CC57 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				B8CD203323C276E20031CC57 /* MentalHealthTabBar.app */,
+				B8CD203323C276E20031CC57 /* Mellow Mind.app */,
 				B8CD204B23C276E50031CC57 /* MentalHealthTabBarTests.xctest */,
 				B8CD205623C276E50031CC57 /* MentalHealthTabBarUITests.xctest */,
 			);
@@ -352,18 +352,18 @@
 				B8282CF2242022410012CF6D /* GoogleService-Info.plist */,
 				B8B3184623D3C87C00B14979 /* SampleAudio_0.4mb.mp3 */,
 				B81C847A2429B19B002E3E17 /* marimba timer.mp3 */,
-				B8083DC02431276A0001DAF1 /* AnxiousOne.mp3 */,
-				B8083DCB2431276B0001DAF1 /* AnxiousTwo.mp3 */,
-				B8083DD02431276B0001DAF1 /* BoredOne.mp3 */,
-				B8083DCE2431276B0001DAF1 /* BoredTwo.mp3 */,
-				B8083DCA2431276B0001DAF1 /* HappyOne.mp3 */,
-				B8083DCF2431276B0001DAF1 /* HappyTwo.mp3 */,
-				B8083DDC243129BE0001DAF1 /* MadOne.mp3 */,
-				B8083DDB243129BE0001DAF1 /* MadTwo.mp3 */,
-				B8083DC92431276B0001DAF1 /* SadOne.mp3 */,
-				B8083DCC2431276B0001DAF1 /* SadTwo.mp3 */,
-				B8083DCD2431276B0001DAF1 /* StressedOne.mp3 */,
-				B8083DC82431276B0001DAF1 /* StressedTwo.mp3 */,
+				B82AC3EA24391B39000CDCAB /* AnxiousOne.mp3 */,
+				B82AC3E924391B39000CDCAB /* AnxiousTwo.mp3 */,
+				B82AC3EB24391B39000CDCAB /* BoredOne.mp3 */,
+				B82AC3EF24391B39000CDCAB /* BoredTwo.mp3 */,
+				B82AC3EE24391B39000CDCAB /* HappyOne.mp3 */,
+				B82AC3E624391B39000CDCAB /* HappyTwo.mp3 */,
+				B82AC3F124391B39000CDCAB /* MadOne.mp3 */,
+				B82AC3EC24391B39000CDCAB /* MadTwo.mp3 */,
+				B82AC3F024391B39000CDCAB /* SadOne.mp3 */,
+				B82AC3ED24391B39000CDCAB /* SadTwo.mp3 */,
+				B82AC3E824391B39000CDCAB /* StressedOne.mp3 */,
+				B82AC3E724391B39000CDCAB /* StressedTwo.mp3 */,
 				B8B54D2B241C5A2E00D09810 /* SQLite.xcodeproj */,
 				B8CD204123C276E50031CC57 /* Assets.xcassets */,
 				B8CD204323C276E50031CC57 /* LaunchScreen.storyboard */,
@@ -410,7 +410,7 @@
 			);
 			name = MentalHealthTabBar;
 			productName = MentalHealthTabBar;
-			productReference = B8CD203323C276E20031CC57 /* MentalHealthTabBar.app */;
+			productReference = B8CD203323C276E20031CC57 /* Mellow Mind.app */;
 			productType = "com.apple.product-type.application";
 		};
 		B8CD204A23C276E50031CC57 /* MentalHealthTabBarTests */ = {
@@ -561,37 +561,37 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				B8083DDD243129BE0001DAF1 /* MadTwo.mp3 in Resources */,
-				B8083DD32431276C0001DAF1 /* SadOne.mp3 in Resources */,
+				B82AC3F524391B39000CDCAB /* AnxiousTwo.mp3 in Resources */,
+				B82AC3F924391B39000CDCAB /* SadTwo.mp3 in Resources */,
 				B8DA12D3242050CB00183266 /* B1.mp3 in Resources */,
-				B8083DD12431276C0001DAF1 /* AnxiousOne.mp3 in Resources */,
 				B8DA12CB2420509000183266 /* G1.mp3 in Resources */,
+				B82AC3FB24391B39000CDCAB /* BoredTwo.mp3 in Resources */,
 				B8DA12C52420507B00183266 /* E1.mp3 in Resources */,
 				B8DA12D5242050D300183266 /* C2.mp3 in Resources */,
-				B8083DD42431276C0001DAF1 /* HappyOne.mp3 in Resources */,
 				B8DA12C32420507400183266 /* D#1.mp3 in Resources */,
-				B8083DDE243129BE0001DAF1 /* MadOne.mp3 in Resources */,
-				B8083DD62431276C0001DAF1 /* SadTwo.mp3 in Resources */,
+				B82AC3FC24391B39000CDCAB /* SadOne.mp3 in Resources */,
+				B82AC3FD24391B39000CDCAB /* MadOne.mp3 in Resources */,
 				B8CD204523C276E50031CC57 /* LaunchScreen.storyboard in Resources */,
 				B8DA12C92420508900183266 /* F#1.mp3 in Resources */,
-				B8083DD22431276C0001DAF1 /* StressedTwo.mp3 in Resources */,
 				B8DA12CF242050B900183266 /* A1.mp3 in Resources */,
-				B8083DD82431276C0001DAF1 /* BoredTwo.mp3 in Resources */,
+				B82AC3FA24391B39000CDCAB /* HappyOne.mp3 in Resources */,
+				B82AC3F324391B39000CDCAB /* StressedTwo.mp3 in Resources */,
 				B8DA12C12420506E00183266 /* D1.mp3 in Resources */,
-				B8083DD72431276C0001DAF1 /* StressedOne.mp3 in Resources */,
+				B82AC3F424391B39000CDCAB /* StressedOne.mp3 in Resources */,
 				B8CD204223C276E50031CC57 /* Assets.xcassets in Resources */,
+				B82AC3F624391B39000CDCAB /* AnxiousOne.mp3 in Resources */,
+				B82AC3F224391B39000CDCAB /* HappyTwo.mp3 in Resources */,
 				B81C84822429B19B002E3E17 /* marimba timer.mp3 in Resources */,
-				B8083DD92431276C0001DAF1 /* HappyTwo.mp3 in Resources */,
 				B8DA12C72420508300183266 /* F1.mp3 in Resources */,
 				B8282CF3242022420012CF6D /* GoogleService-Info.plist in Resources */,
 				B8DA12D1242050C200183266 /* A#1.mp3 in Resources */,
 				B8CD204023C276E20031CC57 /* Main.storyboard in Resources */,
 				B8DA12CD242050B000183266 /* G#1.mp3 in Resources */,
 				B8DA12BF2420504D00183266 /* C#1.mp3 in Resources */,
-				B8083DD52431276C0001DAF1 /* AnxiousTwo.mp3 in Resources */,
+				B82AC3F824391B39000CDCAB /* MadTwo.mp3 in Resources */,
 				B8DA12BB2420501C00183266 /* C1.mp3 in Resources */,
 				B8B3184723D3C87C00B14979 /* SampleAudio_0.4mb.mp3 in Resources */,
-				B8083DDA2431276C0001DAF1 /* BoredOne.mp3 in Resources */,
+				B82AC3F724391B39000CDCAB /* BoredOne.mp3 in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -934,8 +934,8 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.amritamalhotra2;
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_BUNDLE_IDENTIFIER = com.amritamalhotra4;
+				PRODUCT_NAME = "Mellow Mind";
 				PROVISIONING_PROFILE_SPECIFIER = "";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -957,8 +957,8 @@
 					"@executable_path/Frameworks",
 				);
 				ONLY_ACTIVE_ARCH = YES;
-				PRODUCT_BUNDLE_IDENTIFIER = com.amritamalhotra2;
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_BUNDLE_IDENTIFIER = com.amritamalhotra4;
+				PRODUCT_NAME = "Mellow Mind";
 				PROVISIONING_PROFILE_SPECIFIER = "";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";

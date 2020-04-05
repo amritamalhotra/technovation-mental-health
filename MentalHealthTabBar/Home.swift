@@ -123,30 +123,30 @@ class FirstViewController: UIViewController {
     @IBAction func happyPressed(_ sender: Any) {
         Emotions.shared.theEmotion = "happy!"
         Emotions.shared.theTip = "This is a happy tip. It will state how to stay happy, how to improve your life, and how to help others become happy."
-        display.text = "You chose: \(Emotions.shared.theEmotion)"
+        display.text = "Your current emotion: \(Emotions.shared.theEmotion)"
     }
     @IBAction func sadPressed(_ sender: Any) {
-        display.text = "You chose: sad"
+        display.text = "Your current emotion: sad"
         Emotions.shared.theEmotion = "sad"
         Emotions.shared.theTip = "This is a sad tip. It will state how to become happier and how it's ok to be sad sometimes and you can still be happy."
     }
     @IBAction func stressedPressed(_ sender: Any) {
-        display.text = "You chose: stressed"
+        display.text = "Your current emotion: stressed"
         Emotions.shared.theEmotion = "stressed"
         Emotions.shared.theTip = "This is a stressed tip. It will state how to keep calm and get rid of stress-inducers in your life to be happy!"
     }
     @IBAction func boredPressed(_ sender: Any) {
-        display.text = "You chose: bored"
+        display.text = "Your current emotion: bored"
         Emotions.shared.theEmotion = "bored"
         Emotions.shared.theTip = "This is a bored tip. It will state different ideas of how to occupy yourself and how you can be happy."
     }
     @IBAction func anxiousPressed(_ sender: Any) {
-        display.text = "You chose: anxious"
+        display.text = "Your current emotion: anxious"
         Emotions.shared.theEmotion = "anxious"
         Emotions.shared.theTip = "This is an anxious tip. It will state how to keep calm even in the most sketchy of situations and how anxiety can be controlled."
     }
     @IBAction func madPressed(_ sender: Any) {
-        display.text = "You chose: mad"
+        display.text = "Your current emotion: mad"
         Emotions.shared.theEmotion = "mad"
         Emotions.shared.theTip = "This is a mad tip. It will state how to stay calm and not injure anybody or yourself when things aren't going your way."
     }
