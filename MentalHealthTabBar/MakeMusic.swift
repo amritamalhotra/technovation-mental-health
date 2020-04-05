@@ -23,6 +23,13 @@ class MakeMusic: UIViewController {
     var aSharpPlayer = AVAudioPlayer()
     var bPlayer = AVAudioPlayer()
     var cTwoPlayer = AVAudioPlayer()
+    
+    var cMajorPlayer = AVAudioPlayer()
+    var cPentaPlayer = AVAudioPlayer()
+    var cChordPlayer = AVAudioPlayer()
+    var dChordPlayer = AVAudioPlayer()
+    var eChordPlayer = AVAudioPlayer()
+    var fChordPlayer = AVAudioPlayer()
  
     @IBOutlet weak var cb: UIButton!
     @IBOutlet weak var csb: UIButton!
@@ -144,7 +151,54 @@ class MakeMusic: UIViewController {
         catch {
             print(error)
         }
-        // Do any additional setup after loading the view.
+        
+        let cScaleSound = Bundle.main.path(forResource: "C-Major-Scale", ofType: "mp3")
+        
+        do {
+            cMajorPlayer = try AVAudioPlayer(contentsOf: URL(fileURLWithPath: cScaleSound!))
+        } catch {
+            print(error)
+        }
+        
+        let cPentaSound = Bundle.main.path(forResource: "C Pentatonic Scale", ofType: "mp3")
+        
+        do {
+            cPentaPlayer = try AVAudioPlayer(contentsOf: URL(fileURLWithPath: cPentaSound!))
+        } catch {
+            print(error)
+        }
+        
+        let cChordSound = Bundle.main.path(forResource: "C Triad", ofType: "mp3")
+        
+        do {
+            cChordPlayer = try AVAudioPlayer(contentsOf: URL(fileURLWithPath: cChordSound!))
+        } catch {
+            print(error)
+        }
+        
+        let dChordSound = Bundle.main.path(forResource: "D Triad", ofType: "mp3")
+        
+        do {
+            dChordPlayer = try AVAudioPlayer(contentsOf: URL(fileURLWithPath: dChordSound!))
+        } catch {
+            print(error)
+        }
+        
+        let eChordSound = Bundle.main.path(forResource: "E-Triad", ofType: "mp3")
+        
+        do {
+            eChordPlayer = try AVAudioPlayer(contentsOf: URL(fileURLWithPath: eChordSound!))
+        } catch {
+            print(error)
+        }
+        
+        let fChordSound = Bundle.main.path(forResource: "F-Triad", ofType: "mp3")
+        
+        do {
+            fChordPlayer = try AVAudioPlayer(contentsOf: URL(fileURLWithPath: fChordSound!))
+        } catch {
+            print(error)
+        }
     }
     
     @IBAction func backToMusic(_ sender: Any) {
@@ -194,6 +248,24 @@ class MakeMusic: UIViewController {
         cPlayer.stop()
     }
     
+    @IBAction func cMajorPlay(_ sender: Any) {
+        cMajorPlayer.play()
+    }
+    @IBAction func cPentatonicPlay(_ sender: Any) {
+        cPentaPlayer.play()
+    }
+    @IBAction func cChordPlay(_ sender: Any) {
+        cChordPlayer.play()
+    }
+    @IBAction func dChordPlay(_ sender: Any) {
+        dChordPlayer.play()
+    }
+    @IBAction func eChordPlay(_ sender: Any) {
+        eChordPlayer.play()
+    }
+    @IBAction func fChordPlay(_ sender: Any) {
+        fChordPlayer.play()
+    }
     
     @IBAction func showNoteNames(_ sender: Any) {
         cb.alpha = 1

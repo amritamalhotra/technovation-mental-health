@@ -2,7 +2,7 @@
 <Workspace
    version = "1.0">
    <FileRef
-      location = "group:MentalHealthTabBar.xcodeproj">
+      location = "group:/Users/amritamalhotra/Documents/technovation-mental-health2/Mellow Mind.xcodeproj">
    </FileRef>
    <FileRef
       location = "group:Pods/Pods.xcodeproj">
