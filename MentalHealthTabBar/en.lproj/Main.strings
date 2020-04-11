@@ -1,0 +1,555 @@
+
+/* Class = "UITextField"; placeholder = "Enter Name Here"; ObjectID = "06e-t9-N8r"; */
+"06e-t9-N8r.placeholder" = "Enter Name Here";
+
+/* Class = "UIButton"; normalTitle = "Suicide Crisis"; ObjectID = "0Wq-Fb-s0M"; */
+"0Wq-Fb-s0M.normalTitle" = "Suicide Crisis";
+
+/* Class = "UIButton"; normalTitle = "Update"; ObjectID = "0eQ-D7-ReW"; */
+"0eQ-D7-ReW.normalTitle" = "Update";
+
+/* Class = "UILabel"; text = "C Pentatonic: C-D-E-G-A-C"; ObjectID = "1Fk-P5-Pl8"; */
+"1Fk-P5-Pl8.text" = "C Pentatonic: C-D-E-G-A-C";
+
+/* Class = "UILabel"; text = "Current Notification Setting"; ObjectID = "1hO-al-S1i"; */
+"1hO-al-S1i.text" = "Current Notification Setting";
+
+/* Class = "UILabel"; text = "this is a nice light background"; ObjectID = "1qB-2W-ivV"; */
+"1qB-2W-ivV.text" = "this is a nice light background";
+
+/* Class = "UILabel"; text = "Write in a daily journal and receive positive reminders to keep you happy and stress-free!"; ObjectID = "22n-YN-vfj"; */
+"22n-YN-vfj.text" = "Write in a daily journal and receive positive reminders to keep you happy and stress-free!";
+
+/* Class = "UITabBarItem"; title = "Exercises"; ObjectID = "2E7-qL-ueH"; */
+"2E7-qL-ueH.title" = "Exercises";
+
+/* Class = "UIButton"; normalTitle = "delete user"; ObjectID = "2K6-iz-8W0"; */
+"2K6-iz-8W0.normalTitle" = "delete user";
+
+/* Class = "UIButton"; normalTitle = "Button3"; ObjectID = "2Mr-vM-0cS"; */
+"2Mr-vM-0cS.normalTitle" = "Button3";
+
+/* Class = "UILabel"; text = "make music"; ObjectID = "2if-Hc-eRk"; */
+"2if-Hc-eRk.text" = "make music";
+
+/* Class = "UIButton"; normalTitle = "Any Crisis"; ObjectID = "3Ah-F2-t1O"; */
+"3Ah-F2-t1O.normalTitle" = "Any Crisis";
+
+/* Class = "UILabel"; text = "SET ALERT:"; ObjectID = "4Vq-HW-gdV"; */
+"4Vq-HW-gdV.text" = "SET ALERT:";
+
+/* Class = "UILabel"; text = "REPEATED HITTING GAME"; ObjectID = "4d1-nD-wGX"; */
+"4d1-nD-wGX.text" = "REPEATED HITTING GAME";
+
+/* Class = "UIButton"; normalTitle = "G#"; ObjectID = "57M-pR-EIR"; */
+"57M-pR-EIR.normalTitle" = "G#";
+
+/* Class = "UIButton"; normalTitle = "View Entire Journal"; ObjectID = "5Dq-Gm-7XW"; */
+"5Dq-Gm-7XW.normalTitle" = "View Entire Journal";
+
+/* Class = "UILabel"; text = "sound effects"; ObjectID = "5PK-HO-PtC"; */
+"5PK-HO-PtC.text" = "sound effects";
+
+/* Class = "UILabel"; text = "WEBSITES: click below to view"; ObjectID = "5Tj-lf-78r"; */
+"5Tj-lf-78r.text" = "WEBSITES: click below to view";
+
+/* Class = "UILabel"; text = "-resources -exercises -music "; ObjectID = "5s2-uc-XcY"; */
+"5s2-uc-XcY.text" = "-resources -exercises -music ";
+
+/* Class = "UIButton"; normalTitle = "nervous"; ObjectID = "64j-Wa-wPc"; */
+"64j-Wa-wPc.normalTitle" = "nervous";
+
+/* Class = "UIButton"; normalTitle = "test call"; ObjectID = "6FK-nD-kzt"; */
+"6FK-nD-kzt.normalTitle" = "test call";
+
+/* Class = "UILabel"; text = "lake"; ObjectID = "6MO-Sb-194"; */
+"6MO-Sb-194.text" = "lake";
+
+/* Class = "UIButton"; normalTitle = "Enter"; ObjectID = "84w-C9-fPu"; */
+"84w-C9-fPu.normalTitle" = "Enter";
+
+/* Class = "UIButton"; normalTitle = "Edit Entry"; ObjectID = "86M-QN-bdK"; */
+"86M-QN-bdK.normalTitle" = "Edit Entry";
+
+/* Class = "UILabel"; text = "INTERACTIVE NATURE SCENE "; ObjectID = "88J-PG-c4w"; */
+"88J-PG-c4w.text" = "INTERACTIVE NATURE SCENE ";
+
+/* Class = "UILabel"; text = "trees"; ObjectID = "8KR-dJ-Mfe"; */
+"8KR-dJ-Mfe.text" = "trees";
+
+/* Class = "UILabel"; text = "Controlled breathing and meditation can help relieve stress on the body. Take some time to check on your feelings."; ObjectID = "8di-5r-iRj"; */
+"8di-5r-iRj.text" = "Controlled breathing and meditation can help relieve stress on the body. Take some time to check on your feelings.";
+
+/* Class = "UILabel"; text = "click here to play your own music:"; ObjectID = "8v8-rg-YUw"; */
+"8v8-rg-YUw.text" = "click here to play your own music:";
+
+/* Class = "UIButton"; normalTitle = "Button7"; ObjectID = "96g-VG-ojh"; */
+"96g-VG-ojh.normalTitle" = "Button7";
+
+/* Class = "UILabel"; text = "tips"; ObjectID = "9cZ-Ab-hAZ"; */
+"9cZ-Ab-hAZ.text" = "tips";
+
+/* Class = "UITextView"; text = "ENTRY:"; ObjectID = "9q3-5V-zQG"; */
+"9q3-5V-zQG.text" = "ENTRY:";
+
+/* Class = "UILabel"; text = "E Major: E-G#-B"; ObjectID = "B4j-PE-ft4"; */
+"B4j-PE-ft4.text" = "E Major: E-G#-B";
+
+/* Class = "UIButton"; normalTitle = "New Entry"; ObjectID = "BbL-h8-8Ln"; */
+"BbL-h8-8Ln.normalTitle" = "New Entry";
+
+/* Class = "UILabel"; text = " journal:"; ObjectID = "Bf3-VI-PYC"; */
+"Bf3-VI-PYC.text" = " journal:";
+
+/* Class = "UIButton"; normalTitle = "https://adaa.org"; ObjectID = "Bjx-jh-D9O"; */
+"Bjx-jh-D9O.normalTitle" = "https://adaa.org";
+
+/* Class = "UILabel"; text = "Major Chords:"; ObjectID = "BmD-HE-cmD"; */
+"BmD-HE-cmD.text" = "Major Chords:";
+
+/* Class = "UILabel"; text = ":"; ObjectID = "Bq0-VS-Kb4"; */
+"Bq0-VS-Kb4.text" = ":";
+
+/* Class = "UITextField"; placeholder = "Enter Number Here"; ObjectID = "C5f-ZJ-GtK"; */
+"C5f-ZJ-GtK.placeholder" = "Enter Number Here";
+
+/* Class = "UIButton"; normalTitle = "C"; ObjectID = "Ch2-60-WQ5"; */
+"Ch2-60-WQ5.normalTitle" = "C";
+
+/* Class = "UIButton"; normalTitle = "Button4"; ObjectID = "D5p-nN-36d"; */
+"D5p-nN-36d.normalTitle" = "Button4";
+
+/* Class = "UILabel"; text = "back to music"; ObjectID = "DUl-f7-8V2"; */
+"DUl-f7-8V2.text" = "back to music";
+
+/* Class = "UILabel"; text = "guided breathing: "; ObjectID = "E30-ha-CpH"; */
+"E30-ha-CpH.text" = "guided breathing: ";
+
+/* Class = "UILabel"; text = "flowers"; ObjectID = "EH5-Fy-5tI"; */
+"EH5-Fy-5tI.text" = "flowers";
+
+/* Class = "UITextField"; placeholder = "Password"; ObjectID = "ERM-Jt-RNb"; */
+"ERM-Jt-RNb.placeholder" = "Password";
+
+/* Class = "UILabel"; text = "back to games"; ObjectID = "Eur-4K-aj9"; */
+"Eur-4K-aj9.text" = "back to games";
+
+/* Class = "UILabel"; text = " positivity reminders"; ObjectID = "FT8-U1-yOF"; */
+"FT8-U1-yOF.text" = " positivity reminders";
+
+/* Class = "UILabel"; text = "(click if you have changed your original chosen emotion from the home page)"; ObjectID = "GNs-em-p0w"; */
+"GNs-em-p0w.text" = "(click if you have changed your original chosen emotion from the home page)";
+
+/* Class = "UIButton"; normalTitle = "F#"; ObjectID = "GOd-cV-AIv"; */
+"GOd-cV-AIv.normalTitle" = "F#";
+
+/* Class = "UIButton"; normalTitle = "back"; ObjectID = "GOh-FK-eqd"; */
+"GOh-FK-eqd.normalTitle" = "back";
+
+/* Class = "UIButton"; normalTitle = "C"; ObjectID = "GcW-yV-MfU"; */
+"GcW-yV-MfU.normalTitle" = "C";
+
+/* Class = "UILabel"; text = "why it helps:"; ObjectID = "GdT-h1-TtI"; */
+"GdT-h1-TtI.text" = "why it helps:";
+
+/* Class = "UIButton"; normalTitle = "Edit Tip"; ObjectID = "GnO-R2-XX0"; */
+"GnO-R2-XX0.normalTitle" = "Edit Tip";
+
+/* Class = "UIButton"; normalTitle = "This button can be hit!!!"; ObjectID = "H5v-ij-rek"; */
+"H5v-ij-rek.normalTitle" = "This button can be hit!!!";
+
+/* Class = "UILabel"; text = "This music is specific to the emotion you chose on the home page. Click \"get my music\" and choose a song!"; ObjectID = "IGt-er-dhV"; */
+"IGt-er-dhV.text" = "This music is specific to the emotion you chose on the home page. Click \"get my music\" and choose a song!";
+
+/* Class = "UILabel"; text = "Login"; ObjectID = "IHL-fc-tks"; */
+"IHL-fc-tks.text" = "Login";
+
+/* Class = "UILabel"; text = "guided breathing"; ObjectID = "IMs-rS-Hxq"; */
+"IMs-rS-Hxq.text" = "guided breathing";
+
+/* Class = "UILabel"; text = "National Suicide Prevention Helpline"; ObjectID = "Ioq-ae-ess"; */
+"Ioq-ae-ess.text" = "National Suicide Prevention Helpline";
+
+/* Class = "UILabel"; text = "note: we will not send anything to your email or use it in any way"; ObjectID = "Iui-3S-7sF"; */
+"Iui-3S-7sF.text" = "note: we will not send anything to your email or use it in any way";
+
+/* Class = "UILabel"; text = "rain sounds"; ObjectID = "JpR-yK-boI"; */
+"JpR-yK-boI.text" = "rain sounds";
+
+/* Class = "UILabel"; text = "birds"; ObjectID = "KGb-a8-rl8"; */
+"KGb-a8-rl8.text" = "birds";
+
+/* Class = "UILabel"; text = "FREQUENCY (every ___ hours):"; ObjectID = "KI1-lC-vxG"; */
+"KI1-lC-vxG.text" = "FREQUENCY (every ___ hours):";
+
+/* Class = "UIButton"; normalTitle = "View Specific Entry"; ObjectID = "KeE-JJ-0RG"; */
+"KeE-JJ-0RG.normalTitle" = "View Specific Entry";
+
+/* Class = "UIButton"; normalTitle = "View Current Notification Settings"; ObjectID = "Kk8-yc-t1Y"; */
+"Kk8-yc-t1Y.normalTitle" = "View Current Notification Settings";
+
+/* Class = "UIButton"; normalTitle = "Add New Tip"; ObjectID = "KyQ-tX-LUq"; */
+"KyQ-tX-LUq.normalTitle" = "Add New Tip";
+
+/* Class = "UILabel"; text = "mood"; ObjectID = "LS3-J9-1xk"; */
+"LS3-J9-1xk.text" = "mood";
+
+/* Class = "UIButton"; normalTitle = "create table"; ObjectID = "LqC-rX-sce"; */
+"LqC-rX-sce.normalTitle" = "create table";
+
+/* Class = "UIButton"; normalTitle = "C#"; ObjectID = "M1O-x1-Bsn"; */
+"M1O-x1-Bsn.normalTitle" = "C#";
+
+/* Class = "UILabel"; text = "no winning"; ObjectID = "M3O-bv-qGM"; */
+"M3O-bv-qGM.text" = "no winning";
+
+/* Class = "UILabel"; text = "back to games"; ObjectID = "NDy-n4-wGV"; */
+"NDy-n4-wGV.text" = "back to games";
+
+/* Class = "UILabel"; text = "this is another nice light background"; ObjectID = "NHY-tH-ghe"; */
+"NHY-tH-ghe.text" = "this is another nice light background";
+
+/* Class = "UIButton"; normalTitle = "Create Account"; ObjectID = "NaN-vg-ZBO"; */
+"NaN-vg-ZBO.normalTitle" = "Create Account";
+
+/* Class = "UILabel"; text = "different objects to choose from"; ObjectID = "Nf2-qh-2w7"; */
+"Nf2-qh-2w7.text" = "different objects to choose from";
+
+/* Class = "UIButton"; normalTitle = "Enter"; ObjectID = "O1O-h8-nW7"; */
+"O1O-h8-nW7.normalTitle" = "Enter";
+
+/* Class = "UIButton"; normalTitle = "Button10"; ObjectID = "OKc-fR-lEK"; */
+"OKc-fR-lEK.normalTitle" = "Button10";
+
+/* Class = "UIButton"; normalTitle = "Login"; ObjectID = "OOH-iq-6sX"; */
+"OOH-iq-6sX.normalTitle" = "Login";
+
+/* Class = "UILabel"; text = "game numero uno"; ObjectID = "OP6-cP-R7i"; */
+"OP6-cP-R7i.text" = "game numero uno";
+
+/* Class = "UILabel"; text = "A way to let out your anger without creating stress. Just hit, without the pressure of winning or losing. Click here."; ObjectID = "OYc-62-hEg"; */
+"OYc-62-hEg.text" = "A way to let out your anger without creating stress. Just hit, without the pressure of winning or losing. Click here.";
+
+/* Class = "UILabel"; text = "MESSAGE:"; ObjectID = "OjG-DK-nto"; */
+"OjG-DK-nto.text" = "MESSAGE:";
+
+/* Class = "UIButton"; normalTitle = "meh"; ObjectID = "P6g-zO-aQO"; */
+"P6g-zO-aQO.normalTitle" = "meh";
+
+/* Class = "UILabel"; text = "C Major: C-D-E-F-G-A-B-C"; ObjectID = "PLx-RG-9L4"; */
+"PLx-RG-9L4.text" = "C Major: C-D-E-F-G-A-B-C";
+
+/* Class = "UIButton"; normalTitle = "🤯"; ObjectID = "QdS-y1-jyZ"; */
+"QdS-y1-jyZ.normalTitle" = "🤯";
+
+/* Class = "UIButton"; normalTitle = "update user"; ObjectID = "QtO-zJ-cuh"; */
+"QtO-zJ-cuh.normalTitle" = "update user";
+
+/* Class = "UIButton"; normalTitle = "one of ours"; ObjectID = "R36-13-q46"; */
+"R36-13-q46.normalTitle" = "one of ours";
+
+/* Class = "UIButton"; normalTitle = "B"; ObjectID = "RqJ-3Q-K8G"; */
+"RqJ-3Q-K8G.normalTitle" = "B";
+
+/* Class = "UIButton"; normalTitle = "Login"; ObjectID = "SD6-uq-ife"; */
+"SD6-uq-ife.normalTitle" = "Login";
+
+/* Class = "UILabel"; text = "C Major: C-E-G"; ObjectID = "SSL-SC-ddd"; */
+"SSL-SC-ddd.text" = "C Major: C-E-G";
+
+/* Class = "UITextView"; text = "current contact info:"; ObjectID = "SUu-8b-M1m"; */
+"SUu-8b-M1m.text" = "current contact info:";
+
+/* Class = "UITextField"; placeholder = "Email"; ObjectID = "TcH-nO-GiA"; */
+"TcH-nO-GiA.placeholder" = "Email";
+
+/* Class = "UIButton"; normalTitle = "Button8"; ObjectID = "TeE-v9-6Wv"; */
+"TeE-v9-6Wv.normalTitle" = "Button8";
+
+/* Class = "UILabel"; text = "game numero dos"; ObjectID = "Tua-1O-jQp"; */
+"Tua-1O-jQp.text" = "game numero dos";
+
+/* Class = "UIButton"; normalTitle = "G"; ObjectID = "U7L-02-ko9"; */
+"U7L-02-ko9.normalTitle" = "G";
+
+/* Class = "UIButton"; normalTitle = "insert user"; ObjectID = "UHR-R8-S8H"; */
+"UHR-R8-S8H.normalTitle" = "insert user";
+
+/* Class = "UIButton"; normalTitle = "Submit"; ObjectID = "Uof-7t-6vp"; */
+"Uof-7t-6vp.normalTitle" = "Submit";
+
+/* Class = "UIButton"; normalTitle = "E"; ObjectID = "Uqd-pc-X9c"; */
+"Uqd-pc-X9c.normalTitle" = "E";
+
+/* Class = "UIButton"; normalTitle = "Delete Tip"; ObjectID = "VBF-gB-DNm"; */
+"VBF-gB-DNm.normalTitle" = "Delete Tip";
+
+/* Class = "UITextField"; placeholder = "Password"; ObjectID = "VID-4b-4NH"; */
+"VID-4b-4NH.placeholder" = "Password";
+
+/* Class = "UILabel"; text = "this is a nice light background"; ObjectID = "Vif-rc-cRy"; */
+"Vif-rc-cRy.text" = "this is a nice light background";
+
+/* Class = "UILabel"; text = "feeling"; ObjectID = "W5h-bN-fjg"; */
+"W5h-bN-fjg.text" = "feeling";
+
+/* Class = "UIButton"; normalTitle = "Hide Note Names"; ObjectID = "WHx-WA-2Dn"; */
+"WHx-WA-2Dn.normalTitle" = "Hide Note Names";
+
+/* Class = "UILabel"; text = "National Adolescent Suicide Helpline"; ObjectID = "WV0-t0-6ew"; */
+"WV0-t0-6ew.text" = "National Adolescent Suicide Helpline";
+
+/* Class = "UILabel"; text = "mellow mind"; ObjectID = "XQh-8L-tAX"; */
+"XQh-8L-tAX.text" = "mellow mind";
+
+/* Class = "UIButton"; normalTitle = "Button9"; ObjectID = "XYQ-CH-jU6"; */
+"XYQ-CH-jU6.normalTitle" = "Button9";
+
+/* Class = "UILabel"; text = "recommended music:"; ObjectID = "XmA-uM-1oq"; */
+"XmA-uM-1oq.text" = "recommended music:";
+
+/* Class = "UIButton"; normalTitle = "D"; ObjectID = "YSG-uJ-l86"; */
+"YSG-uJ-l86.normalTitle" = "D";
+
+/* Class = "UIButton"; normalTitle = "Get my music!"; ObjectID = "Yj5-Dt-wWi"; */
+"Yj5-Dt-wWi.normalTitle" = "Get my music!";
+
+/* Class = "UILabel"; text = "Create Account"; ObjectID = "YqS-Rl-XEO"; */
+"YqS-Rl-XEO.text" = "Create Account";
+
+/* Class = "UIButton"; normalTitle = "Button1"; ObjectID = "Yr5-5W-dWv"; */
+"Yr5-5W-dWv.normalTitle" = "Button1";
+
+/* Class = "UIButton"; normalTitle = "Button5"; ObjectID = "Ysk-xF-v8e"; */
+"Ysk-xF-v8e.normalTitle" = "Button5";
+
+/* Class = "UILabel"; text = "Error"; ObjectID = "Z5J-Yo-b2h"; */
+"Z5J-Yo-b2h.text" = "Error";
+
+/* Class = "UIButton"; normalTitle = "Delete Entry"; ObjectID = "ZXf-wc-90K"; */
+"ZXf-wc-90K.normalTitle" = "Delete Entry";
+
+/* Class = "UIButton"; normalTitle = "Start Over"; ObjectID = "aXp-jp-rbP"; */
+"aXp-jp-rbP.normalTitle" = "Start Over";
+
+/* Class = "UILabel"; text = "A way to listen to the world around you. Relieve stress by exploring this interactive nature scene. Click here."; ObjectID = "aXz-e9-91q"; */
+"aXz-e9-91q.text" = "A way to listen to the world around you. Relieve stress by exploring this interactive nature scene. Click here.";
+
+/* Class = "UITabBarItem"; title = "Item"; ObjectID = "aav-Lg-Duh"; */
+"aav-Lg-Duh.title" = "Item";
+
+/* Class = "UITabBarItem"; title = "Home"; ObjectID = "acW-dT-cKf"; */
+"acW-dT-cKf.title" = "Home";
+
+/* Class = "UILabel"; text = "hour"; ObjectID = "b85-JK-MHl"; */
+"b85-JK-MHl.text" = "hour";
+
+/* Class = "UIButton"; normalTitle = "BEGIN BREATHING"; ObjectID = "bZO-nG-0f3"; */
+"bZO-nG-0f3.normalTitle" = "BEGIN BREATHING";
+
+/* Class = "UILabel"; text = "Exhale for __ seconds"; ObjectID = "bo6-fE-N5F"; */
+"bo6-fE-N5F.text" = "Exhale for __ seconds";
+
+/* Class = "UILabel"; text = "chirping bird sounds"; ObjectID = "cih-AK-cCC"; */
+"cih-AK-cCC.text" = "chirping bird sounds";
+
+/* Class = "UILabel"; text = "Music is proven to help relieve anger and stress. Learning an instrument can be a good pastime and keep you calm during tough times. Listening to music can distract you from your worries."; ObjectID = "ckO-qO-im6"; */
+"ckO-qO-im6.text" = "Music is proven to help relieve anger and stress. Learning an instrument can be a good pastime and keep you calm during tough times. Listening to music can distract you from your worries.";
+
+/* Class = "UILabel"; text = " journal entries"; ObjectID = "cqv-gh-4gV"; */
+"cqv-gh-4gV.text" = " journal entries";
+
+/* Class = "UILabel"; text = "today?"; ObjectID = "d6f-sY-RQe"; */
+"d6f-sY-RQe.text" = "today?";
+
+/* Class = "UILabel"; text = "F Major: F-A-C"; ObjectID = "dWC-2E-Lbe"; */
+"dWC-2E-Lbe.text" = "F Major: F-A-C";
+
+/* Class = "UILabel"; text = "this is a nice light background"; ObjectID = "ePe-zz-M8u"; */
+"ePe-zz-M8u.text" = "this is a nice light background";
+
+/* Class = "UIButton"; normalTitle = "A#"; ObjectID = "ejL-Fq-CTd"; */
+"ejL-Fq-CTd.normalTitle" = "A#";
+
+/* Class = "UILabel"; text = "This music is specific to the emotion you chose on the home page. Click \"get my music\" and choose a song!"; ObjectID = "eoA-dz-wYM"; */
+"eoA-dz-wYM.text" = "This music is specific to the emotion you chose on the home page. Click \"get my music\" and choose a song!";
+
+/* Class = "UIButton"; normalTitle = "View All Tips"; ObjectID = "fHi-hc-N19"; */
+"fHi-hc-N19.normalTitle" = "View All Tips";
+
+/* Class = "UILabel"; text = "Error"; ObjectID = "fJ1-DV-hTP"; */
+"fJ1-DV-hTP.text" = "Error";
+
+/* Class = "UILabel"; text = "resources"; ObjectID = "fMy-fF-ybm"; */
+"fMy-fF-ybm.text" = "resources";
+
+/* Class = "UILabel"; text = "exercises"; ObjectID = "fUH-km-Beb"; */
+"fUH-km-Beb.text" = "exercises";
+
+/* Class = "UILabel"; text = "Create a free account to access personalized:"; ObjectID = "fdN-KX-FbY"; */
+"fdN-KX-FbY.text" = "Create a free account to access personalized:";
+
+/* Class = "UITextView"; text = "DATE: "; ObjectID = "frF-ac-3Ki"; */
+"frF-ac-3Ki.text" = "DATE: ";
+
+/* Class = "UILabel"; text = "non violent"; ObjectID = "fvx-At-uIF"; */
+"fvx-At-uIF.text" = "non violent";
+
+/* Class = "UIButton"; normalTitle = "Create Account"; ObjectID = "gCK-Iz-VuU"; */
+"gCK-Iz-VuU.normalTitle" = "Create Account";
+
+/* Class = "UILabel"; text = "back"; ObjectID = "gFe-bJ-95z"; */
+"gFe-bJ-95z.text" = "back";
+
+/* Class = "UILabel"; text = "minute"; ObjectID = "gO7-oW-NDJ"; */
+"gO7-oW-NDJ.text" = "minute";
+
+/* Class = "UILabel"; text = "type your own:"; ObjectID = "gUa-NU-avf"; */
+"gUa-NU-avf.text" = "type your own:";
+
+/* Class = "UILabel"; text = "this is a nice light background"; ObjectID = "gVK-YV-Wqv"; */
+"gVK-YV-Wqv.text" = "this is a nice light background";
+
+/* Class = "UITextField"; placeholder = "Email"; ObjectID = "gur-2K-ytr"; */
+"gur-2K-ytr.placeholder" = "Email";
+
+/* Class = "UIButton"; normalTitle = "CALL EMERGENCY CONTACT"; ObjectID = "h1m-SX-kIv"; */
+"h1m-SX-kIv.normalTitle" = "CALL EMERGENCY CONTACT";
+
+/* Class = "UIButton"; normalTitle = "D#"; ObjectID = "h5b-bm-Eda"; */
+"h5b-bm-Eda.normalTitle" = "D#";
+
+/* Class = "UILabel"; text = "D Major: D-F#-A"; ObjectID = "hGO-TQ-q1D"; */
+"hGO-TQ-q1D.text" = "D Major: D-F#-A";
+
+/* Class = "UILabel"; text = "games:"; ObjectID = "hJa-sR-DGn"; */
+"hJa-sR-DGn.text" = "games:";
+
+/* Class = "UIButton"; normalTitle = "Create Journal"; ObjectID = "iXG-pV-xgw"; */
+"iXG-pV-xgw.normalTitle" = "Create Journal";
+
+/* Class = "UILabel"; text = "back"; ObjectID = "iaY-Hz-73o"; */
+"iaY-Hz-73o.text" = "back";
+
+/* Class = "UIButton"; normalTitle = "Show Note Names"; ObjectID = "itj-0y-7xk"; */
+"itj-0y-7xk.normalTitle" = "Show Note Names";
+
+/* Class = "UILabel"; text = "back to exercises"; ObjectID = "joz-3H-CkW"; */
+"joz-3H-CkW.text" = "back to exercises";
+
+/* Class = "UILabel"; text = "default emotion"; ObjectID = "kyV-RB-3ug"; */
+"kyV-RB-3ug.text" = "default emotion";
+
+/* Class = "UILabel"; text = "back to tips"; ObjectID = "lLF-f8-nlP"; */
+"lLF-f8-nlP.text" = "back to tips";
+
+/* Class = "UILabel"; text = "Breathe out: "; ObjectID = "m6z-3p-g01"; */
+"m6z-3p-g01.text" = "Breathe out: ";
+
+/* Class = "UIButton"; normalTitle = "list users"; ObjectID = "m9B-Ej-EfI"; */
+"m9B-Ej-EfI.normalTitle" = "list users";
+
+/* Class = "UIButton"; normalTitle = "Add Emergency Contact"; ObjectID = "mEW-mE-to0"; */
+"mEW-mE-to0.normalTitle" = "Add Emergency Contact";
+
+/* Class = "UILabel"; text = "Inhale for __ seconds"; ObjectID = "mop-hv-SUR"; */
+"mop-hv-SUR.text" = "Inhale for __ seconds";
+
+/* Class = "UILabel"; text = "OUR TIP FOR WHEN YOU'RE FEELING:"; ObjectID = "muZ-du-nJr"; */
+"muZ-du-nJr.text" = "OUR TIP FOR WHEN YOU'RE FEELING:";
+
+/* Class = "UILabel"; text = "music"; ObjectID = "myW-9A-OWm"; */
+"myW-9A-OWm.text" = "music";
+
+/* Class = "UIButton"; normalTitle = "A"; ObjectID = "oGy-4e-tKv"; */
+"oGy-4e-tKv.normalTitle" = "A";
+
+/* Class = "UIButton"; normalTitle = "Enter"; ObjectID = "obv-3v-Zm8"; */
+"obv-3v-Zm8.normalTitle" = "Enter";
+
+/* Class = "UILabel"; text = "Breathe in: "; ObjectID = "pGb-QC-ERC"; */
+"pGb-QC-ERC.text" = "Breathe in: ";
+
+/* Class = "UIButton"; normalTitle = "sad"; ObjectID = "pQd-nn-vvr"; */
+"pQd-nn-vvr.normalTitle" = "sad";
+
+/* Class = "UITabBarItem"; title = "Resources"; ObjectID = "pkH-hq-Ds5"; */
+"pkH-hq-Ds5.title" = "Resources";
+
+/* Class = "UIViewController"; title = "Resources"; ObjectID = "pkP-wy-E0G"; */
+"pkP-wy-E0G.title" = "Resources";
+
+/* Class = "UITabBarItem"; title = "Music"; ObjectID = "qdt-Ke-Q3q"; */
+"qdt-Ke-Q3q.title" = "Music";
+
+/* Class = "UILabel"; text = "How are you"; ObjectID = "qir-ar-pKx"; */
+"qir-ar-pKx.text" = "How are you";
+
+/* Class = "UIButton"; normalTitle = "Button6"; ObjectID = "rZw-on-AWe"; */
+"rZw-on-AWe.normalTitle" = "Button6";
+
+/* Class = "UIButton"; normalTitle = "https://allianceofhope.org"; ObjectID = "rba-8Y-Pis"; */
+"rba-8Y-Pis.normalTitle" = "https://allianceofhope.org";
+
+/* Class = "UILabel"; text = "this is another nice light background"; ObjectID = "sVF-wz-CFI"; */
+"sVF-wz-CFI.text" = "this is another nice light background";
+
+/* Class = "UILabel"; text = "back to games"; ObjectID = "sef-X5-CAJ"; */
+"sef-X5-CAJ.text" = "back to games";
+
+/* Class = "UILabel"; text = "Personal Tips:"; ObjectID = "stP-6W-s8v"; */
+"stP-6W-s8v.text" = "Personal Tips:";
+
+/* Class = "UIButton"; normalTitle = "happy"; ObjectID = "tSw-ul-DnQ"; */
+"tSw-ul-DnQ.normalTitle" = "happy";
+
+/* Class = "UILabel"; text = "set positivity reminders here:"; ObjectID = "tnc-zX-ip2"; */
+"tnc-zX-ip2.text" = "set positivity reminders here:";
+
+/* Class = "UIButton"; normalTitle = "https://suicidepreventionlifeline.org/"; ObjectID = "twb-6d-sPl"; */
+"twb-6d-sPl.normalTitle" = "https://suicidepreventionlifeline.org/";
+
+/* Class = "UILabel"; text = "Writing in a journal can help you organize your thoughts. Click here to write an entry and view previous entries. "; ObjectID = "txh-gW-Bgf"; */
+"txh-gW-Bgf.text" = "Writing in a journal can help you organize your thoughts. Click here to write an entry and view previous entries. ";
+
+/* Class = "UILabel"; text = "HELPLINES: click below to call"; ObjectID = "uuq-wv-6ny"; */
+"uuq-wv-6ny.text" = "HELPLINES: click below to call";
+
+/* Class = "UILabel"; text = "Choose an emotion on the home page! Then, try taking a few deep breaths. This will clear your mind."; ObjectID = "uwC-J3-gcS"; */
+"uwC-J3-gcS.text" = "Choose an emotion on the home page! Then, try taking a few deep breaths. This will clear your mind.";
+
+/* Class = "UILabel"; text = "this is a nice light background"; ObjectID = "vKs-fS-L5A"; */
+"vKs-fS-L5A.text" = "this is a nice light background";
+
+/* Class = "UILabel"; text = "this is a nice light background"; ObjectID = "viH-RA-v9W"; */
+"viH-RA-v9W.text" = "this is a nice light background";
+
+/* Class = "UITabBarItem"; title = "Tips"; ObjectID = "voh-y5-9oQ"; */
+"voh-y5-9oQ.title" = "Tips";
+
+/* Class = "UIButton"; normalTitle = "Button2"; ObjectID = "w1q-iZ-oY2"; */
+"w1q-iZ-oY2.normalTitle" = "Button2";
+
+/* Class = "UIButton"; normalTitle = "angry"; ObjectID = "wLd-S3-S6T"; */
+"wLd-S3-S6T.normalTitle" = "angry";
+
+/* Class = "UIButton"; normalTitle = "F"; ObjectID = "wPu-Rp-m6p"; */
+"wPu-Rp-m6p.normalTitle" = "F";
+
+/* Class = "UIButton"; normalTitle = "Edit Contact"; ObjectID = "x4D-EB-IGb"; */
+"x4D-EB-IGb.normalTitle" = "Edit Contact";
+
+/* Class = "UILabel"; text = "start over button"; ObjectID = "xLi-ng-NHj"; */
+"xLi-ng-NHj.text" = "start over button";
+
+/* Class = "UILabel"; text = "Major Scales:"; ObjectID = "xza-aA-PfO"; */
+"xza-aA-PfO.text" = "Major Scales:";
+
+/* Class = "UILabel"; text = "(24 hour clock)"; ObjectID = "yVD-bV-u9C"; */
+"yVD-bV-u9C.text" = "(24 hour clock)";
+
+/* Class = "UIButton"; normalTitle = "Get Personalized Tips!"; ObjectID = "yhN-dC-3wa"; */
+"yhN-dC-3wa.normalTitle" = "Get Personalized Tips!";
+
+/* Class = "UITextView"; text = "Current Message:"; ObjectID = "zom-3y-yMI"; */
+"zom-3y-yMI.text" = "Current Message:";

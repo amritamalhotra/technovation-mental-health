@@ -29,8 +29,6 @@
 		B8282CF1242009310012CF6D /* InitialViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B8282CF0242009310012CF6D /* InitialViewController.swift */; };
 		B8282CF3242022420012CF6D /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = B8282CF2242022410012CF6D /* GoogleService-Info.plist */; };
 		B8282CF6242037A70012CF6D /* Utilities.swift in Sources */ = {isa = PBXBuildFile; fileRef = B8282CF5242037A70012CF6D /* Utilities.swift */; };
-		B82AC3C324391503000CDCAB /* Pods_MentalHealthTabBar.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C931E1C187788192F697F374 /* Pods_MentalHealthTabBar.framework */; };
-		B82AC3CC24391505000CDCAB /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B8B3184423D3C72600B14979 /* AVFoundation.framework */; };
 		B82AC3F224391B39000CDCAB /* HappyTwo.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = B82AC3E624391B39000CDCAB /* HappyTwo.mp3 */; };
 		B82AC3F324391B39000CDCAB /* StressedTwo.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = B82AC3E724391B39000CDCAB /* StressedTwo.mp3 */; };
 		B82AC3F424391B39000CDCAB /* StressedOne.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = B82AC3E824391B39000CDCAB /* StressedOne.mp3 */; };
@@ -58,6 +56,9 @@
 		B8CD204523C276E50031CC57 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B8CD204323C276E50031CC57 /* LaunchScreen.storyboard */; };
 		B8CD205023C276E50031CC57 /* MentalHealthTabBarTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B8CD204F23C276E50031CC57 /* MentalHealthTabBarTests.swift */; };
 		B8CD205B23C276E50031CC57 /* MentalHealthTabBarUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B8CD205A23C276E50031CC57 /* MentalHealthTabBarUITests.swift */; };
+		B8D8B1DA244255E500716622 /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B8B3184423D3C72600B14979 /* AVFoundation.framework */; };
+		B8D8B1DC244255E600716622 /* Pods_MentalHealthTabBar.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C931E1C187788192F697F374 /* Pods_MentalHealthTabBar.framework */; };
+		B8D8B1DD244255E600716622 /* Pods_MentalHealthTabBar.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = C931E1C187788192F697F374 /* Pods_MentalHealthTabBar.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 		B8DA12A424204F4700183266 /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = B8DA12A324204F4700183266 /* Constants.swift */; };
 		B8DA12BB2420501C00183266 /* C1.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = B8DA12BA2420501C00183266 /* C1.mp3 */; };
 		B8DA12BF2420504D00183266 /* C#1.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = B8DA12BE2420504D00183266 /* C#1.mp3 */; };
@@ -148,6 +149,7 @@
 			dstPath = "";
 			dstSubfolderSpec = 10;
 			files = (
+				B8D8B1DD244255E600716622 /* Pods_MentalHealthTabBar.framework in Embed Frameworks */,
 				B8B54D44241C5A7600D09810 /* SQLite.framework in Embed Frameworks */,
 			);
 			name = "Embed Frameworks";
@@ -199,7 +201,7 @@
 		B8B3184623D3C87C00B14979 /* SampleAudio_0.4mb.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = SampleAudio_0.4mb.mp3; path = ../../../Downloads/SampleAudio_0.4mb.mp3; sourceTree = "<group>"; };
 		B8B3185A23D3DA2F00B14979 /* MentalHealthTabBar.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = MentalHealthTabBar.entitlements; sourceTree = "<group>"; };
 		B8B54D2B241C5A2E00D09810 /* SQLite.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = SQLite.xcodeproj; path = "../../../Downloads/SQLite.swift-master/SQLite.xcodeproj"; sourceTree = "<group>"; };
-		B8CD203323C276E20031CC57 /* Mellow Mind.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Mellow Mind.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		B8CD203323C276E20031CC57 /* MellowMind.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MellowMind.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		B8CD203623C276E20031CC57 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		B8CD203823C276E20031CC57 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
 		B8CD203A23C276E20031CC57 /* Home.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Home.swift; sourceTree = "<group>"; };
@@ -214,6 +216,8 @@
 		B8CD205623C276E50031CC57 /* MentalHealthTabBarUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MentalHealthTabBarUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		B8CD205A23C276E50031CC57 /* MentalHealthTabBarUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MentalHealthTabBarUITests.swift; sourceTree = "<group>"; };
 		B8CD205C23C276E50031CC57 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B8D8B1D22442415600716622 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/Main.strings; sourceTree = "<group>"; };
+		B8D8B1D72442445000716622 /* Pods_MentalHealthTabBarTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = Pods_MentalHealthTabBarTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		B8DA12A324204F4700183266 /* Constants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
 		B8DA12BA2420501C00183266 /* C1.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = C1.mp3; path = ../../../Downloads/C1.mp3; sourceTree = "<group>"; };
 		B8DA12BE2420504D00183266 /* C#1.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = "C#1.mp3"; path = "../../../Downloads/C#1.mp3"; sourceTree = "<group>"; };
@@ -239,9 +243,9 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				B82AC3C324391503000CDCAB /* Pods_MentalHealthTabBar.framework in Frameworks */,
+				B8D8B1DC244255E600716622 /* Pods_MentalHealthTabBar.framework in Frameworks */,
 				B8B54D43241C5A7600D09810 /* SQLite.framework in Frameworks */,
-				B82AC3CC24391505000CDCAB /* AVFoundation.framework in Frameworks */,
+				B8D8B1DA244255E500716622 /* AVFoundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -280,6 +284,7 @@
 		B8B3184323D3C72600B14979 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				B8D8B1D72442445000716622 /* Pods_MentalHealthTabBarTests.framework */,
 				B8B3184423D3C72600B14979 /* AVFoundation.framework */,
 				C931E1C187788192F697F374 /* Pods_MentalHealthTabBar.framework */,
 				E2944E642A14FA2DB4660675 /* Pods_MentalHealthTabBar_MentalHealthTabBarUITests.framework */,
@@ -317,7 +322,7 @@
 		B8CD203423C276E20031CC57 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				B8CD203323C276E20031CC57 /* Mellow Mind.app */,
+				B8CD203323C276E20031CC57 /* MellowMind.app */,
 				B8CD204B23C276E50031CC57 /* MentalHealthTabBarTests.xctest */,
 				B8CD205623C276E50031CC57 /* MentalHealthTabBarUITests.xctest */,
 			);
@@ -428,7 +433,7 @@
 			);
 			name = MentalHealthTabBar;
 			productName = MentalHealthTabBar;
-			productReference = B8CD203323C276E20031CC57 /* Mellow Mind.app */;
+			productReference = B8CD203323C276E20031CC57 /* MellowMind.app */;
 			productType = "com.apple.product-type.application";
 		};
 		B8CD204A23C276E50031CC57 /* MentalHealthTabBarTests */ = {
@@ -496,7 +501,7 @@
 					};
 				};
 			};
-			buildConfigurationList = B8CD202E23C276E20031CC57 /* Build configuration list for PBXProject "Mellow Mind" */;
+			buildConfigurationList = B8CD202E23C276E20031CC57 /* Build configuration list for PBXProject "MellowMind" */;
 			compatibilityVersion = "Xcode 9.3";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -803,6 +808,7 @@
 			isa = PBXVariantGroup;
 			children = (
 				B8CD203F23C276E20031CC57 /* Base */,
+				B8D8B1D22442415600716622 /* en */,
 			);
 			name = Main.storyboard;
 			sourceTree = "<group>";
@@ -948,6 +954,7 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = F69271FA55EE0001C3C71A22 /* Pods-MentalHealthTabBar.debug.xcconfig */;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_ENTITLEMENTS = MentalHealthTabBar/MentalHealthTabBar.entitlements;
 				CODE_SIGN_IDENTITY = "Apple Development";
@@ -958,8 +965,8 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.amritamalhotra3;
-				PRODUCT_NAME = "Mellow Mind";
+				PRODUCT_BUNDLE_IDENTIFIER = com.amritamalhotra2;
+				PRODUCT_NAME = MellowMind;
 				PROVISIONING_PROFILE_SPECIFIER = "";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -970,6 +977,7 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = A097264CC7556290B8EC812C /* Pods-MentalHealthTabBar.release.xcconfig */;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_ENTITLEMENTS = MentalHealthTabBar/MentalHealthTabBar.entitlements;
 				CODE_SIGN_IDENTITY = "Apple Development";
@@ -980,9 +988,10 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
+				MTL_ENABLE_DEBUG_INFO = NO;
 				ONLY_ACTIVE_ARCH = YES;
-				PRODUCT_BUNDLE_IDENTIFIER = com.amritamalhotra3;
-				PRODUCT_NAME = "Mellow Mind";
+				PRODUCT_BUNDLE_IDENTIFIER = com.amritamalhotra2;
+				PRODUCT_NAME = MellowMind;
 				PROVISIONING_PROFILE_SPECIFIER = "";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -1076,7 +1085,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		B8CD202E23C276E20031CC57 /* Build configuration list for PBXProject "Mellow Mind" */ = {
+		B8CD202E23C276E20031CC57 /* Build configuration list for PBXProject "MellowMind" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				B8CD205D23C276E50031CC57 /* Debug */,
