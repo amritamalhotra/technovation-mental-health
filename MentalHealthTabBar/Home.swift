@@ -34,17 +34,17 @@ class FirstViewController: UIViewController {
         Emotions.shared.theTip = "This is a stressed tip. It will state how to keep calm and get rid of stress-inducers in your life to be happy!"
     }
     @IBAction func boredPressed(_ sender: Any) {
-        display.text = "Bored: Recommended Exercises:\n"
+        display.text = "Bored: Recommended Exercises:\nTry the clicking game on the Exercises page!\n\nExplore the nature scene on the Exercises page!\n\nWrite in your journal on the Exercises page!"
         Emotions.shared.theEmotion = "bored"
         Emotions.shared.theTip = "This is a bored tip. It will state different ideas of how to occupy yourself and how you can be happy."
     }
     @IBAction func anxiousPressed(_ sender: Any) {
-        display.text = "Your current emotion: anxious"
+        display.text = "Anxious: Recommended Exercises:\nTry guided breathing on the Exercises page!\n\nListen to some music on the Music page!\n\nPlay the clicking game on the Exercises page!"
         Emotions.shared.theEmotion = "anxious"
         Emotions.shared.theTip = "This is an anxious tip. It will state how to keep calm even in the most sketchy of situations and how anxiety can be controlled."
     }
     @IBAction func madPressed(_ sender: Any) {
-        display.text = "Your current emotion: mad"
+        display.text = "Mad: Recommended Exercises:\nPlay the clicking game on the Exercises page!\n\nPlay on the keyboard on the Music page!\n\nTry guided breathing on the Exercises page!"
         Emotions.shared.theEmotion = "mad"
         Emotions.shared.theTip = "This is a mad tip. It will state how to stay calm and not injure anybody or yourself when things aren't going your way."
     }
