@@ -268,34 +268,34 @@ class MakeMusic: UIViewController {
     }
     
     @IBAction func showNoteNames(_ sender: Any) {
-        cb.alpha = 1
-        csb.alpha = 1
-        db.alpha = 1
-        dsb.alpha = 1
-        eb.alpha = 1
-        fb.alpha = 1
-        fsb.alpha = 1
-        gb.alpha = 1
-        gsb.alpha = 1
-        ab.alpha = 1
-        asb.alpha = 1
-        bb.alpha = 1
-        cb2.alpha = 1
+        cb.setTitleColor(UIColor.black, for: .normal)
+        csb.setTitleColor(UIColor.white, for: .normal)
+        db.setTitleColor(UIColor.black, for: .normal)
+        dsb.setTitleColor(UIColor.white, for: .normal)
+        eb.setTitleColor(UIColor.black, for: .normal)
+        fb.setTitleColor(UIColor.black, for: .normal)
+        fsb.setTitleColor(UIColor.white, for: .normal)
+        gb.setTitleColor(UIColor.black, for: .normal)
+        gsb.setTitleColor(UIColor.white, for: .normal)
+        ab.setTitleColor(UIColor.black, for: .normal)
+        asb.setTitleColor(UIColor.white, for: .normal)
+        bb.setTitleColor(UIColor.black, for: .normal)
+        cb2.setTitleColor(UIColor.black, for: .normal)
     }
     @IBAction func hideNoteNames(_ sender: Any) {
-        cb.alpha = 0
-        csb.alpha = 0
-        db.alpha = 0
-        dsb.alpha = 0
-        eb.alpha = 0
-        fb.alpha = 0
-        fsb.alpha = 0
-        gb.alpha = 0
-        gsb.alpha = 0
-        ab.alpha = 0
-        asb.alpha = 0
-        bb.alpha = 0
-        cb2.alpha = 0
+        cb.setTitleColor(UIColor.white, for: .normal)
+        csb.setTitleColor(UIColor.black, for: .normal)
+        db.setTitleColor(UIColor.white, for: .normal)
+        dsb.setTitleColor(UIColor.black, for: .normal)
+        eb.setTitleColor(UIColor.white, for: .normal)
+        fb.setTitleColor(UIColor.white, for: .normal)
+        fsb.setTitleColor(UIColor.black, for: .normal)
+        gb.setTitleColor(UIColor.white, for: .normal)
+        gsb.setTitleColor(UIColor.black, for: .normal)
+        ab.setTitleColor(UIColor.white, for: .normal)
+        asb.setTitleColor(UIColor.black, for: .normal)
+        bb.setTitleColor(UIColor.white, for: .normal)
+        cb2.setTitleColor(UIColor.white, for: .normal)
     }
     
     }

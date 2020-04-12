@@ -177,48 +177,48 @@ class Music: UIViewController {
     
     @IBAction func getMyMusic(_ sender: Any) {
         if (Emotions.shared.theEmotion == "happy!") {
-            description1.text = "happyhappyhappyhappyhappyhappyhappyhappyhappyhappyhappyhappyhappyhappy"
-            description2.text = "happy2happy2happy2happy2happy2happy2happy2happy2happy2happy2happy2happy2"
+            description1.text = "You Are My Sunshine/Isn’t She Lovely is a fun, lighthearted medley arranged for marimba and kalimba"
+            description2.text = "Sonata No. 3 Opening by Clementi - This famous sonata begins with a jumpy, brisk tune on piano"
             let image : UIImage = UIImage(named:"note1yellow")!
             image1.image = image
             let imagetwo : UIImage = UIImage(named:"note2yellow")!
             image2.image = imagetwo
         }
         if (Emotions.shared.theEmotion == "sad") {
-            description1.text = "sadsadsadsadsadsadsadsadsadsadsadsadsadsadsadsadsadsadsadsadsadsadsadsad"
-            description2.text = "sadsadsadsadsadsadsadsadsadsadsadsadsadsadsadsadsadsadsadsadsadsadsadsad"
+            description1.text = "Here’s That Rainy Day by 21 Trombones is a gentle jazz piece arranged for 21 of the best trombonists of its time"
+            description2.text = "Pavane of the Sleeping Beauty by Ravel - This tranquil piece is known for its haunting yet beautiful melody on piano"
             let image : UIImage = UIImage(named:"note1blue")!
             image1.image = image
             let imagetwo : UIImage = UIImage(named:"note2blue")!
             image2.image = imagetwo
         }
         if (Emotions.shared.theEmotion == "mad") {
-            description1.text = "madmadmadmadmadmadmadmadmadmadmadmadmadmadmadmadmadmadmadmadmadmadmadmad"
-            description2.text = "madmadmadmadmadmadmadmadmadmadmadmadmadmadmadmadmadmadmadmadmadmadmadmad"
+            description1.text = "The ‘Revolutionary’ Etude Op. 10 No. 12 in C Minor by Chopin is a short yet dynamic piece for solo piano"
+            description2.text = "The Cat and The Mouse by Aaron Copland is a highly energetic, sporadic piece for piano"
             let image : UIImage = UIImage(named:"note1red")!
             image1.image = image
             let imagetwo : UIImage = UIImage(named:"note2red")!
             image2.image = imagetwo
         }
         if (Emotions.shared.theEmotion == "anxious") {
-            description1.text = "anxiousanxiousanxiousanxiousanxiousanxiousanxiousanxiousanxiousanxious"
-            description2.text = "anxiousanxiousanxiousanxiousanxiousanxiousanxiousanxiousanxiousanxious"
+            description1.text = "Capricho Catalán by Isaac Albéniz is a moving yet calming piece arranged for solo classical guitar"
+            description2.text = "Memory by Andrew Lloyd Webber from “Cats” - This famous melody is known for its relaxing chords"
             let image : UIImage = UIImage(named:"note1yorange")!
             image1.image = image
             let imagetwo : UIImage = UIImage(named:"note2orange")!
             image2.image = imagetwo
         }
         if (Emotions.shared.theEmotion == "stressed") {
-            description1.text = "stressedstressedstressedstressedstressedstressedstressedstressedstressed"
-            description2.text = "stressedstressedstressedstressedstressedstressedstressedstressedstressed"
+            description1.text = "Prelude No. 1 in C Major from the Well-Tempered Clavier by Bach is a relaxing melody with beautifully moving chords"
+            description2.text = "Mozart's Sonata No. 8 D major mov. III - This calming piece is both engaging and refreshing on piano"
             let image : UIImage = UIImage(named:"note1purple")!
             image1.image = image
             let imagetwo : UIImage = UIImage(named:"note2purple")!
             image2.image = imagetwo
         }
         if (Emotions.shared.theEmotion == "bored") {
-            description1.text = "boredboredboredboredboredboredboredboredboredboredboredboredboredbored"
-            description2.text = "boredboredboredboredboredboredboredboredboredboredboredboredboredbored"
+            description1.text = "Children’s Corner Doctor Gradus ad Parnassum by Debussy is an entertaining and quick tune for solo piano"
+            description2.text = "Waltz in A minor by Chopin - This famous waltz is a soft but engaging piece written for piano"
             let image : UIImage = UIImage(named:"note1ygray")!
             image1.image = image
             let imagetwo : UIImage = UIImage(named:"note2gray")!

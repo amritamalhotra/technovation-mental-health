@@ -110,13 +110,14 @@ class Game1: UIViewController {
     @IBAction func button9Hit(_ sender: Any) {
         button10.alpha = 1
         button9.alpha = 0
-        let image : UIImage = UIImage(named:"angryemoji1-1")!
+        let image : UIImage = UIImage(named:"smashgame9")!
         displayedImage.image = image
     }
     @IBAction func button10Hit(_ sender: Any) {
         print("Completed")
-        let image : UIImage = UIImage(named:"mehemoji1-1")!
+        let image : UIImage = UIImage(named:"smashgame10")!
         displayedImage.image = image
+        button10.alpha = 0
     }
     
     @IBAction func startOver(_ sender: Any) {
