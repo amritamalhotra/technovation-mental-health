@@ -17,30 +17,30 @@
 		B8120DEC23C63395004A3E42 /* GuidedBreathing.swift in Sources */ = {isa = PBXBuildFile; fileRef = B8120DEB23C63395004A3E42 /* GuidedBreathing.swift */; };
 		B8120DEE23C633AF004A3E42 /* Game1.swift in Sources */ = {isa = PBXBuildFile; fileRef = B8120DED23C633AF004A3E42 /* Game1.swift */; };
 		B8120DF023C633C6004A3E42 /* Game2.swift in Sources */ = {isa = PBXBuildFile; fileRef = B8120DEF23C633C6004A3E42 /* Game2.swift */; };
-		B81514E3243A812F005DE264 /* E-Triad.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = B81514DD243A812F005DE264 /* E-Triad.mp3 */; };
-		B81514E4243A812F005DE264 /* C-Major-Scale.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = B81514DE243A812F005DE264 /* C-Major-Scale.mp3 */; };
-		B81514E5243A812F005DE264 /* D Triad.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = B81514DF243A812F005DE264 /* D Triad.mp3 */; };
-		B81514E6243A812F005DE264 /* C Pentatonic Scale.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = B81514E0243A812F005DE264 /* C Pentatonic Scale.mp3 */; };
-		B81514E7243A812F005DE264 /* F-Triad.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = B81514E1243A812F005DE264 /* F-Triad.mp3 */; };
-		B81514E8243A812F005DE264 /* C Triad.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = B81514E2243A812F005DE264 /* C Triad.mp3 */; };
+		B814F5A12446B79B00F5C70E /* Bored1.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = B814F5952446B79B00F5C70E /* Bored1.mp3 */; };
+		B814F5A22446B79B00F5C70E /* Happy1.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = B814F5962446B79B00F5C70E /* Happy1.mp3 */; };
+		B814F5A32446B79B00F5C70E /* Bored2.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = B814F5972446B79B00F5C70E /* Bored2.mp3 */; };
+		B814F5A42446B79B00F5C70E /* Mad1.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = B814F5982446B79B00F5C70E /* Mad1.mp3 */; };
+		B814F5A52446B79B00F5C70E /* Happy2.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = B814F5992446B79B00F5C70E /* Happy2.mp3 */; };
+		B814F5A62446B79B00F5C70E /* Mad2.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = B814F59A2446B79B00F5C70E /* Mad2.mp3 */; };
+		B814F5A72446B79B00F5C70E /* Sad1.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = B814F59B2446B79B00F5C70E /* Sad1.mp3 */; };
+		B814F5A82446B79B00F5C70E /* Sad2.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = B814F59C2446B79B00F5C70E /* Sad2.mp3 */; };
+		B814F5A92446B79B00F5C70E /* Stressed2.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = B814F59D2446B79B00F5C70E /* Stressed2.mp3 */; };
+		B814F5AA2446B79B00F5C70E /* Stressed1.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = B814F59E2446B79B00F5C70E /* Stressed1.mp3 */; };
+		B814F5AB2446B79B00F5C70E /* Anxious2.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = B814F59F2446B79B00F5C70E /* Anxious2.mp3 */; };
+		B814F5AC2446B79B00F5C70E /* Anxious1.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = B814F5A02446B79B00F5C70E /* Anxious1.mp3 */; };
+		B814F5AE2446B7F500F5C70E /* F-Triad.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = B814F5AD2446B7F500F5C70E /* F-Triad.mp3 */; };
+		B814F5B42446B82100F5C70E /* C Triad.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = B814F5AF2446B82100F5C70E /* C Triad.mp3 */; };
+		B814F5B52446B82100F5C70E /* C-Major-Scale.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = B814F5B02446B82100F5C70E /* C-Major-Scale.mp3 */; };
+		B814F5B62446B82100F5C70E /* C Pentatonic Scale.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = B814F5B12446B82100F5C70E /* C Pentatonic Scale.mp3 */; };
+		B814F5B72446B82100F5C70E /* D Triad.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = B814F5B22446B82100F5C70E /* D Triad.mp3 */; };
+		B814F5B82446B82100F5C70E /* E-Triad.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = B814F5B32446B82100F5C70E /* E-Triad.mp3 */; };
 		B81C84822429B19B002E3E17 /* marimba timer.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = B81C847A2429B19B002E3E17 /* marimba timer.mp3 */; };
 		B8282CE62420070B0012CF6D /* SignUpViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B8282CE52420070B0012CF6D /* SignUpViewController.swift */; };
 		B8282CEF2420072B0012CF6D /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B8282CEE2420072B0012CF6D /* LoginViewController.swift */; };
 		B8282CF1242009310012CF6D /* InitialViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B8282CF0242009310012CF6D /* InitialViewController.swift */; };
 		B8282CF3242022420012CF6D /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = B8282CF2242022410012CF6D /* GoogleService-Info.plist */; };
 		B8282CF6242037A70012CF6D /* Utilities.swift in Sources */ = {isa = PBXBuildFile; fileRef = B8282CF5242037A70012CF6D /* Utilities.swift */; };
-		B82AC3F224391B39000CDCAB /* HappyTwo.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = B82AC3E624391B39000CDCAB /* HappyTwo.mp3 */; };
-		B82AC3F324391B39000CDCAB /* StressedTwo.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = B82AC3E724391B39000CDCAB /* StressedTwo.mp3 */; };
-		B82AC3F424391B39000CDCAB /* StressedOne.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = B82AC3E824391B39000CDCAB /* StressedOne.mp3 */; };
-		B82AC3F524391B39000CDCAB /* AnxiousTwo.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = B82AC3E924391B39000CDCAB /* AnxiousTwo.mp3 */; };
-		B82AC3F624391B39000CDCAB /* AnxiousOne.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = B82AC3EA24391B39000CDCAB /* AnxiousOne.mp3 */; };
-		B82AC3F724391B39000CDCAB /* BoredOne.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = B82AC3EB24391B39000CDCAB /* BoredOne.mp3 */; };
-		B82AC3F824391B39000CDCAB /* MadTwo.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = B82AC3EC24391B39000CDCAB /* MadTwo.mp3 */; };
-		B82AC3F924391B39000CDCAB /* SadTwo.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = B82AC3ED24391B39000CDCAB /* SadTwo.mp3 */; };
-		B82AC3FA24391B39000CDCAB /* HappyOne.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = B82AC3EE24391B39000CDCAB /* HappyOne.mp3 */; };
-		B82AC3FB24391B39000CDCAB /* BoredTwo.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = B82AC3EF24391B39000CDCAB /* BoredTwo.mp3 */; };
-		B82AC3FC24391B39000CDCAB /* SadOne.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = B82AC3F024391B39000CDCAB /* SadOne.mp3 */; };
-		B82AC3FD24391B39000CDCAB /* MadOne.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = B82AC3F124391B39000CDCAB /* MadOne.mp3 */; };
 		B83FDFAB242EB0D8007CF170 /* Emotions.swift in Sources */ = {isa = PBXBuildFile; fileRef = B83FDFAA242EB0D8007CF170 /* Emotions.swift */; };
 		B8B3184723D3C87C00B14979 /* SampleAudio_0.4mb.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = B8B3184623D3C87C00B14979 /* SampleAudio_0.4mb.mp3 */; };
 		B8B3184823D3C87C00B14979 /* SampleAudio_0.4mb.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = B8B3184623D3C87C00B14979 /* SampleAudio_0.4mb.mp3 */; };
@@ -172,30 +172,30 @@
 		B8120DEB23C63395004A3E42 /* GuidedBreathing.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GuidedBreathing.swift; sourceTree = "<group>"; };
 		B8120DED23C633AF004A3E42 /* Game1.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Game1.swift; sourceTree = "<group>"; };
 		B8120DEF23C633C6004A3E42 /* Game2.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Game2.swift; sourceTree = "<group>"; };
-		B81514DD243A812F005DE264 /* E-Triad.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = "E-Triad.mp3"; path = "../../MELLOW MIND IMAGES/Make Music Sounds/E-Triad.mp3"; sourceTree = "<group>"; };
-		B81514DE243A812F005DE264 /* C-Major-Scale.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = "C-Major-Scale.mp3"; path = "../../MELLOW MIND IMAGES/Make Music Sounds/C-Major-Scale.mp3"; sourceTree = "<group>"; };
-		B81514DF243A812F005DE264 /* D Triad.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = "D Triad.mp3"; path = "../../MELLOW MIND IMAGES/Make Music Sounds/D Triad.mp3"; sourceTree = "<group>"; };
-		B81514E0243A812F005DE264 /* C Pentatonic Scale.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = "C Pentatonic Scale.mp3"; path = "../../MELLOW MIND IMAGES/Make Music Sounds/C Pentatonic Scale.mp3"; sourceTree = "<group>"; };
-		B81514E1243A812F005DE264 /* F-Triad.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = "F-Triad.mp3"; path = "../../MELLOW MIND IMAGES/Make Music Sounds/F-Triad.mp3"; sourceTree = "<group>"; };
-		B81514E2243A812F005DE264 /* C Triad.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = "C Triad.mp3"; path = "../../MELLOW MIND IMAGES/Make Music Sounds/C Triad.mp3"; sourceTree = "<group>"; };
+		B814F5952446B79B00F5C70E /* Bored1.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = Bored1.mp3; path = "../../MELLOW MIND FILES/Recommended Music Files/Actual Files/Bored1.mp3"; sourceTree = "<group>"; };
+		B814F5962446B79B00F5C70E /* Happy1.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = Happy1.mp3; path = "../../MELLOW MIND FILES/Recommended Music Files/Actual Files/Happy1.mp3"; sourceTree = "<group>"; };
+		B814F5972446B79B00F5C70E /* Bored2.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = Bored2.mp3; path = "../../MELLOW MIND FILES/Recommended Music Files/Actual Files/Bored2.mp3"; sourceTree = "<group>"; };
+		B814F5982446B79B00F5C70E /* Mad1.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = Mad1.mp3; path = "../../MELLOW MIND FILES/Recommended Music Files/Actual Files/Mad1.mp3"; sourceTree = "<group>"; };
+		B814F5992446B79B00F5C70E /* Happy2.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = Happy2.mp3; path = "../../MELLOW MIND FILES/Recommended Music Files/Actual Files/Happy2.mp3"; sourceTree = "<group>"; };
+		B814F59A2446B79B00F5C70E /* Mad2.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = Mad2.mp3; path = "../../MELLOW MIND FILES/Recommended Music Files/Actual Files/Mad2.mp3"; sourceTree = "<group>"; };
+		B814F59B2446B79B00F5C70E /* Sad1.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = Sad1.mp3; path = "../../MELLOW MIND FILES/Recommended Music Files/Actual Files/Sad1.mp3"; sourceTree = "<group>"; };
+		B814F59C2446B79B00F5C70E /* Sad2.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = Sad2.mp3; path = "../../MELLOW MIND FILES/Recommended Music Files/Actual Files/Sad2.mp3"; sourceTree = "<group>"; };
+		B814F59D2446B79B00F5C70E /* Stressed2.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = Stressed2.mp3; path = "../../MELLOW MIND FILES/Recommended Music Files/Actual Files/Stressed2.mp3"; sourceTree = "<group>"; };
+		B814F59E2446B79B00F5C70E /* Stressed1.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = Stressed1.mp3; path = "../../MELLOW MIND FILES/Recommended Music Files/Actual Files/Stressed1.mp3"; sourceTree = "<group>"; };
+		B814F59F2446B79B00F5C70E /* Anxious2.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = Anxious2.mp3; path = "../../MELLOW MIND FILES/Recommended Music Files/Actual Files/Anxious2.mp3"; sourceTree = "<group>"; };
+		B814F5A02446B79B00F5C70E /* Anxious1.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = Anxious1.mp3; path = "../../MELLOW MIND FILES/Recommended Music Files/Actual Files/Anxious1.mp3"; sourceTree = "<group>"; };
+		B814F5AD2446B7F500F5C70E /* F-Triad.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = "F-Triad.mp3"; path = "../../MELLOW MIND FILES/Make Music Sounds/F-Triad.mp3"; sourceTree = "<group>"; };
+		B814F5AF2446B82100F5C70E /* C Triad.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = "C Triad.mp3"; path = "../../MELLOW MIND FILES/Make Music Sounds/C Triad.mp3"; sourceTree = "<group>"; };
+		B814F5B02446B82100F5C70E /* C-Major-Scale.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = "C-Major-Scale.mp3"; path = "../../MELLOW MIND FILES/Make Music Sounds/C-Major-Scale.mp3"; sourceTree = "<group>"; };
+		B814F5B12446B82100F5C70E /* C Pentatonic Scale.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = "C Pentatonic Scale.mp3"; path = "../../MELLOW MIND FILES/Make Music Sounds/C Pentatonic Scale.mp3"; sourceTree = "<group>"; };
+		B814F5B22446B82100F5C70E /* D Triad.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = "D Triad.mp3"; path = "../../MELLOW MIND FILES/Make Music Sounds/D Triad.mp3"; sourceTree = "<group>"; };
+		B814F5B32446B82100F5C70E /* E-Triad.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = "E-Triad.mp3"; path = "../../MELLOW MIND FILES/Make Music Sounds/E-Triad.mp3"; sourceTree = "<group>"; };
 		B81C847A2429B19B002E3E17 /* marimba timer.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = "marimba timer.mp3"; path = "../../../Downloads/marimba timer.mp3"; sourceTree = "<group>"; };
 		B8282CE52420070B0012CF6D /* SignUpViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignUpViewController.swift; sourceTree = "<group>"; };
 		B8282CEE2420072B0012CF6D /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
 		B8282CF0242009310012CF6D /* InitialViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InitialViewController.swift; sourceTree = "<group>"; };
 		B8282CF2242022410012CF6D /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = "GoogleService-Info.plist"; path = "../../../Downloads/GoogleService-Info.plist"; sourceTree = "<group>"; };
 		B8282CF5242037A70012CF6D /* Utilities.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Utilities.swift; sourceTree = "<group>"; };
-		B82AC3E624391B39000CDCAB /* HappyTwo.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = HappyTwo.mp3; path = "../../MELLOW MIND IMAGES/Recommended Music Files/HappyTwo.mp3"; sourceTree = "<group>"; };
-		B82AC3E724391B39000CDCAB /* StressedTwo.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = StressedTwo.mp3; path = "../../MELLOW MIND IMAGES/Recommended Music Files/StressedTwo.mp3"; sourceTree = "<group>"; };
-		B82AC3E824391B39000CDCAB /* StressedOne.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = StressedOne.mp3; path = "../../MELLOW MIND IMAGES/Recommended Music Files/StressedOne.mp3"; sourceTree = "<group>"; };
-		B82AC3E924391B39000CDCAB /* AnxiousTwo.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = AnxiousTwo.mp3; path = "../../MELLOW MIND IMAGES/Recommended Music Files/AnxiousTwo.mp3"; sourceTree = "<group>"; };
-		B82AC3EA24391B39000CDCAB /* AnxiousOne.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = AnxiousOne.mp3; path = "../../MELLOW MIND IMAGES/Recommended Music Files/AnxiousOne.mp3"; sourceTree = "<group>"; };
-		B82AC3EB24391B39000CDCAB /* BoredOne.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = BoredOne.mp3; path = "../../MELLOW MIND IMAGES/Recommended Music Files/BoredOne.mp3"; sourceTree = "<group>"; };
-		B82AC3EC24391B39000CDCAB /* MadTwo.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = MadTwo.mp3; path = "../../MELLOW MIND IMAGES/Recommended Music Files/MadTwo.mp3"; sourceTree = "<group>"; };
-		B82AC3ED24391B39000CDCAB /* SadTwo.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = SadTwo.mp3; path = "../../MELLOW MIND IMAGES/Recommended Music Files/SadTwo.mp3"; sourceTree = "<group>"; };
-		B82AC3EE24391B39000CDCAB /* HappyOne.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = HappyOne.mp3; path = "../../MELLOW MIND IMAGES/Recommended Music Files/HappyOne.mp3"; sourceTree = "<group>"; };
-		B82AC3EF24391B39000CDCAB /* BoredTwo.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = BoredTwo.mp3; path = "../../MELLOW MIND IMAGES/Recommended Music Files/BoredTwo.mp3"; sourceTree = "<group>"; };
-		B82AC3F024391B39000CDCAB /* SadOne.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = SadOne.mp3; path = "../../MELLOW MIND IMAGES/Recommended Music Files/SadOne.mp3"; sourceTree = "<group>"; };
-		B82AC3F124391B39000CDCAB /* MadOne.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = MadOne.mp3; path = "../../MELLOW MIND IMAGES/Recommended Music Files/MadOne.mp3"; sourceTree = "<group>"; };
 		B83FDFAA242EB0D8007CF170 /* Emotions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Emotions.swift; sourceTree = "<group>"; };
 		B8B3184423D3C72600B14979 /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
 		B8B3184623D3C87C00B14979 /* SampleAudio_0.4mb.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = SampleAudio_0.4mb.mp3; path = ../../../Downloads/SampleAudio_0.4mb.mp3; sourceTree = "<group>"; };
@@ -367,26 +367,26 @@
 				B8282CEE2420072B0012CF6D /* LoginViewController.swift */,
 				B8282CF0242009310012CF6D /* InitialViewController.swift */,
 				B8282CF2242022410012CF6D /* GoogleService-Info.plist */,
-				B81514E0243A812F005DE264 /* C Pentatonic Scale.mp3 */,
-				B81514E2243A812F005DE264 /* C Triad.mp3 */,
-				B81514DE243A812F005DE264 /* C-Major-Scale.mp3 */,
-				B81514DF243A812F005DE264 /* D Triad.mp3 */,
-				B81514DD243A812F005DE264 /* E-Triad.mp3 */,
-				B81514E1243A812F005DE264 /* F-Triad.mp3 */,
+				B814F5B12446B82100F5C70E /* C Pentatonic Scale.mp3 */,
+				B814F5AF2446B82100F5C70E /* C Triad.mp3 */,
+				B814F5B02446B82100F5C70E /* C-Major-Scale.mp3 */,
+				B814F5B22446B82100F5C70E /* D Triad.mp3 */,
+				B814F5B32446B82100F5C70E /* E-Triad.mp3 */,
+				B814F5AD2446B7F500F5C70E /* F-Triad.mp3 */,
 				B8B3184623D3C87C00B14979 /* SampleAudio_0.4mb.mp3 */,
 				B81C847A2429B19B002E3E17 /* marimba timer.mp3 */,
-				B82AC3EA24391B39000CDCAB /* AnxiousOne.mp3 */,
-				B82AC3E924391B39000CDCAB /* AnxiousTwo.mp3 */,
-				B82AC3EB24391B39000CDCAB /* BoredOne.mp3 */,
-				B82AC3EF24391B39000CDCAB /* BoredTwo.mp3 */,
-				B82AC3EE24391B39000CDCAB /* HappyOne.mp3 */,
-				B82AC3E624391B39000CDCAB /* HappyTwo.mp3 */,
-				B82AC3F124391B39000CDCAB /* MadOne.mp3 */,
-				B82AC3EC24391B39000CDCAB /* MadTwo.mp3 */,
-				B82AC3F024391B39000CDCAB /* SadOne.mp3 */,
-				B82AC3ED24391B39000CDCAB /* SadTwo.mp3 */,
-				B82AC3E824391B39000CDCAB /* StressedOne.mp3 */,
-				B82AC3E724391B39000CDCAB /* StressedTwo.mp3 */,
+				B814F5A02446B79B00F5C70E /* Anxious1.mp3 */,
+				B814F59F2446B79B00F5C70E /* Anxious2.mp3 */,
+				B814F5952446B79B00F5C70E /* Bored1.mp3 */,
+				B814F5972446B79B00F5C70E /* Bored2.mp3 */,
+				B814F5962446B79B00F5C70E /* Happy1.mp3 */,
+				B814F5992446B79B00F5C70E /* Happy2.mp3 */,
+				B814F5982446B79B00F5C70E /* Mad1.mp3 */,
+				B814F59A2446B79B00F5C70E /* Mad2.mp3 */,
+				B814F59B2446B79B00F5C70E /* Sad1.mp3 */,
+				B814F59C2446B79B00F5C70E /* Sad2.mp3 */,
+				B814F59E2446B79B00F5C70E /* Stressed1.mp3 */,
+				B814F59D2446B79B00F5C70E /* Stressed2.mp3 */,
 				B8B54D2B241C5A2E00D09810 /* SQLite.xcodeproj */,
 				B8CD204123C276E50031CC57 /* Assets.xcassets */,
 				B8CD204323C276E50031CC57 /* LaunchScreen.storyboard */,
@@ -584,43 +584,43 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				B82AC3F524391B39000CDCAB /* AnxiousTwo.mp3 in Resources */,
-				B82AC3F924391B39000CDCAB /* SadTwo.mp3 in Resources */,
+				B814F5A82446B79B00F5C70E /* Sad2.mp3 in Resources */,
 				B8DA12D3242050CB00183266 /* B1.mp3 in Resources */,
 				B8DA12CB2420509000183266 /* G1.mp3 in Resources */,
-				B82AC3FB24391B39000CDCAB /* BoredTwo.mp3 in Resources */,
 				B8DA12C52420507B00183266 /* E1.mp3 in Resources */,
 				B8DA12D5242050D300183266 /* C2.mp3 in Resources */,
+				B814F5AA2446B79B00F5C70E /* Stressed1.mp3 in Resources */,
 				B8DA12C32420507400183266 /* D#1.mp3 in Resources */,
-				B82AC3FC24391B39000CDCAB /* SadOne.mp3 in Resources */,
-				B82AC3FD24391B39000CDCAB /* MadOne.mp3 in Resources */,
 				B8CD204523C276E50031CC57 /* LaunchScreen.storyboard in Resources */,
-				B81514E8243A812F005DE264 /* C Triad.mp3 in Resources */,
+				B814F5A32446B79B00F5C70E /* Bored2.mp3 in Resources */,
+				B814F5A62446B79B00F5C70E /* Mad2.mp3 in Resources */,
+				B814F5A22446B79B00F5C70E /* Happy1.mp3 in Resources */,
 				B8DA12C92420508900183266 /* F#1.mp3 in Resources */,
 				B8DA12CF242050B900183266 /* A1.mp3 in Resources */,
-				B81514E5243A812F005DE264 /* D Triad.mp3 in Resources */,
-				B82AC3FA24391B39000CDCAB /* HappyOne.mp3 in Resources */,
-				B82AC3F324391B39000CDCAB /* StressedTwo.mp3 in Resources */,
-				B81514E3243A812F005DE264 /* E-Triad.mp3 in Resources */,
+				B814F5A42446B79B00F5C70E /* Mad1.mp3 in Resources */,
+				B814F5AE2446B7F500F5C70E /* F-Triad.mp3 in Resources */,
+				B814F5B52446B82100F5C70E /* C-Major-Scale.mp3 in Resources */,
+				B814F5A72446B79B00F5C70E /* Sad1.mp3 in Resources */,
 				B8DA12C12420506E00183266 /* D1.mp3 in Resources */,
-				B82AC3F424391B39000CDCAB /* StressedOne.mp3 in Resources */,
 				B8CD204223C276E50031CC57 /* Assets.xcassets in Resources */,
-				B82AC3F624391B39000CDCAB /* AnxiousOne.mp3 in Resources */,
-				B82AC3F224391B39000CDCAB /* HappyTwo.mp3 in Resources */,
 				B81C84822429B19B002E3E17 /* marimba timer.mp3 in Resources */,
+				B814F5A92446B79B00F5C70E /* Stressed2.mp3 in Resources */,
 				B8DA12C72420508300183266 /* F1.mp3 in Resources */,
 				B8282CF3242022420012CF6D /* GoogleService-Info.plist in Resources */,
-				B81514E4243A812F005DE264 /* C-Major-Scale.mp3 in Resources */,
+				B814F5A12446B79B00F5C70E /* Bored1.mp3 in Resources */,
+				B814F5AC2446B79B00F5C70E /* Anxious1.mp3 in Resources */,
 				B8DA12D1242050C200183266 /* A#1.mp3 in Resources */,
 				B8CD204023C276E20031CC57 /* Main.storyboard in Resources */,
-				B81514E7243A812F005DE264 /* F-Triad.mp3 in Resources */,
+				B814F5B42446B82100F5C70E /* C Triad.mp3 in Resources */,
 				B8DA12CD242050B000183266 /* G#1.mp3 in Resources */,
 				B8DA12BF2420504D00183266 /* C#1.mp3 in Resources */,
-				B81514E6243A812F005DE264 /* C Pentatonic Scale.mp3 in Resources */,
-				B82AC3F824391B39000CDCAB /* MadTwo.mp3 in Resources */,
+				B814F5B82446B82100F5C70E /* E-Triad.mp3 in Resources */,
+				B814F5B62446B82100F5C70E /* C Pentatonic Scale.mp3 in Resources */,
+				B814F5A52446B79B00F5C70E /* Happy2.mp3 in Resources */,
 				B8DA12BB2420501C00183266 /* C1.mp3 in Resources */,
+				B814F5B72446B82100F5C70E /* D Triad.mp3 in Resources */,
 				B8B3184723D3C87C00B14979 /* SampleAudio_0.4mb.mp3 in Resources */,
-				B82AC3F724391B39000CDCAB /* BoredOne.mp3 in Resources */,
+				B814F5AB2446B79B00F5C70E /* Anxious2.mp3 in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

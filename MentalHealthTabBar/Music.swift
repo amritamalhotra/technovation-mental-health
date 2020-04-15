@@ -29,10 +29,12 @@ class Music: UIViewController {
     @IBOutlet weak var image1: UIImageView!
     @IBOutlet weak var image2: UIImageView!
     
+    var number:Int!
+    
     override func viewDidLoad() {
         super.viewDidLoad()
         
-        let h1sound =  Bundle.main.path(forResource: "HappyOne", ofType: "mp3")
+        let h1sound =  Bundle.main.path(forResource: "Happy1", ofType: "mp3")
         
         do {
             h1Player = try AVAudioPlayer(contentsOf: URL(fileURLWithPath: h1sound!))
@@ -40,7 +42,7 @@ class Music: UIViewController {
         catch {
             print(error)
         }
-        let h2sound =  Bundle.main.path(forResource: "HappyTwo", ofType: "mp3")
+        let h2sound =  Bundle.main.path(forResource: "Happy2", ofType: "mp3")
         
         do {
             h2Player = try AVAudioPlayer(contentsOf: URL(fileURLWithPath: h2sound!))
@@ -48,7 +50,7 @@ class Music: UIViewController {
         catch {
             print(error)
         }
-        let sad1sound =  Bundle.main.path(forResource: "SadOne", ofType: "mp3")
+        let sad1sound =  Bundle.main.path(forResource: "Sad1", ofType: "mp3")
         
         do {
             sad1Player = try AVAudioPlayer(contentsOf: URL(fileURLWithPath: sad1sound!))
@@ -56,7 +58,7 @@ class Music: UIViewController {
         catch {
             print(error)
         }
-        let sad2sound =  Bundle.main.path(forResource: "SadTwo", ofType: "mp3")
+        let sad2sound =  Bundle.main.path(forResource: "Sad2", ofType: "mp3")
         
         do {
             sad2Player = try AVAudioPlayer(contentsOf: URL(fileURLWithPath: sad2sound!))
@@ -64,7 +66,7 @@ class Music: UIViewController {
         catch {
             print(error)
         }
-        let str1sound =  Bundle.main.path(forResource: "StressedOne", ofType: "mp3")
+        let str1sound =  Bundle.main.path(forResource: "Stressed1", ofType: "mp3")
         
         do {
             str1Player = try AVAudioPlayer(contentsOf: URL(fileURLWithPath: str1sound!))
@@ -72,7 +74,7 @@ class Music: UIViewController {
         catch {
             print(error)
         }
-        let str2sound =  Bundle.main.path(forResource: "StressedTwo", ofType: "mp3")
+        let str2sound =  Bundle.main.path(forResource: "Stressed2", ofType: "mp3")
         
         do {
             str2Player = try AVAudioPlayer(contentsOf: URL(fileURLWithPath: str2sound!))
@@ -80,7 +82,7 @@ class Music: UIViewController {
         catch {
             print(error)
         }
-        let bor1sound =  Bundle.main.path(forResource: "BoredOne", ofType: "mp3")
+        let bor1sound =  Bundle.main.path(forResource: "Bored1", ofType: "mp3")
         
         do {
             bor1Player = try AVAudioPlayer(contentsOf: URL(fileURLWithPath: bor1sound!))
@@ -88,7 +90,7 @@ class Music: UIViewController {
         catch {
             print(error)
         }
-        let bor2sound =  Bundle.main.path(forResource: "BoredTwo", ofType: "mp3")
+        let bor2sound =  Bundle.main.path(forResource: "Bored2", ofType: "mp3")
         
         do {
             bor2Player = try AVAudioPlayer(contentsOf: URL(fileURLWithPath: bor2sound!))
@@ -96,7 +98,7 @@ class Music: UIViewController {
         catch {
             print(error)
         }
-        let mad1sound =  Bundle.main.path(forResource: "MadOne", ofType: "mp3")
+        let mad1sound =  Bundle.main.path(forResource: "Mad1", ofType: "mp3")
         
         do {
             mad1Player = try AVAudioPlayer(contentsOf: URL(fileURLWithPath: mad1sound!))
@@ -104,7 +106,7 @@ class Music: UIViewController {
         catch {
             print(error)
         }
-        let mad2sound =  Bundle.main.path(forResource: "MadTwo", ofType: "mp3")
+        let mad2sound =  Bundle.main.path(forResource: "Mad2", ofType: "mp3")
         
         do {
             mad2Player = try AVAudioPlayer(contentsOf: URL(fileURLWithPath: mad2sound!))
@@ -112,7 +114,7 @@ class Music: UIViewController {
         catch {
             print(error)
         }
-        let anx1sound =  Bundle.main.path(forResource: "AnxiousOne", ofType: "mp3")
+        let anx1sound =  Bundle.main.path(forResource: "Anxious1", ofType: "mp3")
         
         do {
             anx1Player = try AVAudioPlayer(contentsOf: URL(fileURLWithPath: anx1sound!))
@@ -120,7 +122,7 @@ class Music: UIViewController {
         catch {
             print(error)
         }
-        let anx2sound =  Bundle.main.path(forResource: "AnxiousTwo", ofType: "mp3")
+        let anx2sound =  Bundle.main.path(forResource: "Anxious2", ofType: "mp3")
         
         do {
             anx2Player = try AVAudioPlayer(contentsOf: URL(fileURLWithPath: anx2sound!))
@@ -133,6 +135,7 @@ class Music: UIViewController {
     }
     
     @IBAction func music1Play(_ sender: Any) {
+        number = 1
         let currentEmotion = Emotions.shared.theEmotion
         if (currentEmotion == "happy!") {
             h1Player.play()
@@ -154,6 +157,7 @@ class Music: UIViewController {
         }
     }
     @IBAction func music2Play(_ sender: Any) {
+        number = 2
         let currentEmotion = Emotions.shared.theEmotion
         if (currentEmotion == "happy!") {
             h2Player.play()
@@ -223,6 +227,93 @@ class Music: UIViewController {
             image1.image = image
             let imagetwo : UIImage = UIImage(named:"note2gray")!
             image2.image = imagetwo
+        }
+    }
+    
+    @IBAction func playMusic(_ sender: Any) {
+        if (number == 1) {
+            let currentEmotion = Emotions.shared.theEmotion
+            if (currentEmotion == "happy!") {
+                h1Player.play()
+            }
+            else if (currentEmotion == "sad") {
+                sad1Player.play()
+            }
+            if (currentEmotion == "stressed") {
+                str1Player.play()
+            }
+            if (currentEmotion == "bored") {
+                bor1Player.play()
+            }
+            if (currentEmotion == "mad") {
+                mad1Player.play()
+            }
+            if (currentEmotion == "anxious") {
+                anx1Player.play()
+            }
+        } else if (number == 2) {
+            let currentEmotion = Emotions.shared.theEmotion
+            if (currentEmotion == "happy!") {
+                h2Player.play()
+            }
+            if (currentEmotion == "sad") {
+                sad2Player.play()
+            }
+            if (currentEmotion == "stressed") {
+                str2Player.play()
+            }
+            if (currentEmotion == "bored") {
+                bor2Player.play()
+            }
+            if (currentEmotion == "mad") {
+                mad2Player.play()
+            }
+            if (currentEmotion == "anxious") {
+                anx2Player.play()
+            }
+        }
+    }
+    @IBAction func pauseMusic(_ sender: Any) {
+        if (number == 1) {
+            let currentEmotion = Emotions.shared.theEmotion
+            if (currentEmotion == "happy!") {
+                h1Player.stop()
+            }
+            else if (currentEmotion == "sad") {
+                sad1Player.stop()
+            }
+            if (currentEmotion == "stressed") {
+                str1Player.stop()
+            }
+            if (currentEmotion == "bored") {
+                bor1Player.stop()
+            }
+            if (currentEmotion == "mad") {
+                mad1Player.stop()
+            }
+            if (currentEmotion == "anxious") {
+                anx1Player.stop()
+            }
+        } else if (number == 2) {
+            let currentEmotion = Emotions.shared.theEmotion
+            if (currentEmotion == "happy!") {
+                h2Player.stop()
+            }
+            if (currentEmotion == "sad") {
+                sad2Player.stop()
+            }
+            if (currentEmotion == "stressed") {
+                str2Player.stop()
+            }
+            if (currentEmotion == "bored") {
+                bor2Player.stop()
+            }
+            if (currentEmotion == "mad") {
+                mad2Player.stop()
+            }
+            if (currentEmotion == "anxious") {
+                anx2Player.stop()
+            }
         }
     }
     

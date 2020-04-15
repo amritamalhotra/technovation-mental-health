@@ -10,7 +10,7 @@
         <!--Home-->
         <scene sceneID="hNz-n2-bh7">
             <objects>
-                <viewController modalPresentationStyle="fullScreen" id="9pv-A4-QxB" customClass="FirstViewController" customModule="MellowMind2" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController modalPresentationStyle="fullScreen" id="9pv-A4-QxB" customClass="FirstViewController" customModule="MellowMind" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="tsR-hK-woN">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -129,7 +129,7 @@
         <!--Resources-->
         <scene sceneID="hrx-4f-3Fe">
             <objects>
-                <viewController title="Resources" id="pkP-wy-E0G" customClass="SecondViewController" customModule="MellowMind2" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController title="Resources" id="pkP-wy-E0G" customClass="SecondViewController" customModule="MellowMind" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="8mM-ZZ-HvB">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -373,7 +373,7 @@
         <!--Exercises-->
         <scene sceneID="Fd5-Dh-tiP">
             <objects>
-                <viewController modalPresentationStyle="fullScreen" id="zVY-bl-AFX" customClass="Exercises" customModule="MellowMind2" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController modalPresentationStyle="fullScreen" id="zVY-bl-AFX" customClass="Exercises" customModule="MellowMind" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="we2-Ke-WkO">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -533,7 +533,7 @@
         <!--Game2-->
         <scene sceneID="QVp-uN-kQg">
             <objects>
-                <viewController modalPresentationStyle="fullScreen" id="bc2-Nc-84X" customClass="Game2" customModule="MellowMind2" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController modalPresentationStyle="fullScreen" id="bc2-Nc-84X" customClass="Game2" customModule="MellowMind" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="ETl-Lb-57N">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -651,7 +651,7 @@
         <!--Tips-->
         <scene sceneID="y8X-DQ-9N5">
             <objects>
-                <viewController storyboardIdentifier="Tips" providesPresentationContextTransitionStyle="YES" modalPresentationStyle="fullScreen" id="i5j-W9-Vat" customClass="Tips" customModule="MellowMind2" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController storyboardIdentifier="Tips" providesPresentationContextTransitionStyle="YES" modalPresentationStyle="fullScreen" id="i5j-W9-Vat" customClass="Tips" customModule="MellowMind" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="cHh-sH-WYD">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -810,13 +810,13 @@
         <!--Music-->
         <scene sceneID="qhy-pK-1zE">
             <objects>
-                <viewController modalPresentationStyle="fullScreen" id="8C5-Vb-kR4" customClass="Music" customModule="MellowMind2" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController modalPresentationStyle="fullScreen" id="8C5-Vb-kR4" customClass="Music" customModule="MellowMind" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="uA5-DV-XmG">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="ndB-vY-jmL">
-                                <rect key="frame" x="296" y="340" width="21" height="22"/>
+                                <rect key="frame" x="296" y="399" width="21" height="22"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <color key="tintColor" cocoaTouchSystemColor="darkTextColor"/>
                                 <state key="normal" image="music.mic" catalog="system"/>
@@ -895,21 +895,21 @@
                                 </connections>
                             </button>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="click here to play your own music:" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="8v8-rg-YUw">
-                                <rect key="frame" x="46" y="331" width="245" height="40"/>
+                                <rect key="frame" x="46" y="390" width="245" height="40"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <fontDescription key="fontDescription" name="SnellRoundhand" family="Snell Roundhand" pointSize="20"/>
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="why it helps:" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="GdT-h1-TtI">
-                                <rect key="frame" x="16" y="379" width="146" height="40"/>
+                                <rect key="frame" x="16" y="438" width="146" height="40"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <fontDescription key="fontDescription" name="SnellRoundhand" family="Snell Roundhand" pointSize="20"/>
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
                             <label opaque="NO" userInteractionEnabled="NO" tag="1" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="this is a nice light background" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="viH-RA-v9W">
-                                <rect key="frame" x="16" y="417" width="343" height="133"/>
+                                <rect key="frame" x="16" y="476" width="343" height="133"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <color key="backgroundColor" systemColor="opaqueSeparatorColor" red="0.77647058820000003" green="0.77647058820000003" blue="0.7843137255" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <color key="tintColor" cocoaTouchSystemColor="darkTextColor"/>
@@ -918,7 +918,7 @@
                                 <nil key="highlightedColor"/>
                             </label>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="5" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="ckO-qO-im6">
-                                <rect key="frame" x="26" y="421" width="325" height="125"/>
+                                <rect key="frame" x="26" y="480" width="325" height="125"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <string key="text">Music is proven to help relieve anger and stress. Learning an instrument can be a good pastime and keep you calm during tough times. Listening to music can distract you from your worries.</string>
                                 <fontDescription key="fontDescription" name="Optima-Regular" family="Optima" pointSize="17"/>
@@ -934,6 +934,28 @@
                                 </state>
                                 <connections>
                                     <action selector="getMyMusic:" destination="8C5-Vb-kR4" eventType="touchUpInside" id="lg5-TP-XZC"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="n3K-Y8-Jx8">
+                                <rect key="frame" x="133" y="331" width="31" height="33"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" name="Optima-Regular" family="Optima" pointSize="17"/>
+                                <state key="normal" title="Play">
+                                    <color key="titleColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                </state>
+                                <connections>
+                                    <action selector="playMusic:" destination="8C5-Vb-kR4" eventType="touchUpInside" id="e8C-Dc-y37"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="3Qe-ZE-EcH">
+                                <rect key="frame" x="199" y="331" width="41" height="33"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" name="Optima-Regular" family="Optima" pointSize="17"/>
+                                <state key="normal" title="Pause">
+                                    <color key="titleColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                </state>
+                                <connections>
+                                    <action selector="pauseMusic:" destination="8C5-Vb-kR4" eventType="touchUpInside" id="ycm-Lc-WP8"/>
                                 </connections>
                             </button>
                         </subviews>
@@ -978,7 +1000,7 @@
         <!--Make Music-->
         <scene sceneID="At1-in-KQK">
             <objects>
-                <viewController modalPresentationStyle="fullScreen" id="pKw-yA-T2n" customClass="MakeMusic" customModule="MellowMind2" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController modalPresentationStyle="fullScreen" id="pKw-yA-T2n" customClass="MakeMusic" customModule="MellowMind" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="mro-YE-04u">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -1313,7 +1335,7 @@
         <!--Guided Breathing-->
         <scene sceneID="lAk-Rq-PJ2">
             <objects>
-                <viewController modalPresentationStyle="fullScreen" id="a3j-KE-iq5" customClass="GuidedBreathing" customModule="MellowMind2" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController modalPresentationStyle="fullScreen" id="a3j-KE-iq5" customClass="GuidedBreathing" customModule="MellowMind" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="Svg-f7-B55">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -1417,7 +1439,7 @@
         <!--Journal-->
         <scene sceneID="pp8-EV-3zJ">
             <objects>
-                <viewController modalPresentationStyle="fullScreen" id="Umf-pV-0Ob" customClass="Journal" customModule="MellowMind2" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController modalPresentationStyle="fullScreen" id="Umf-pV-0Ob" customClass="Journal" customModule="MellowMind" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="We5-f5-mjU">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -1544,7 +1566,7 @@
         <!--Login View Controller-->
         <scene sceneID="Y5J-4t-W79">
             <objects>
-                <viewController modalPresentationStyle="fullScreen" id="PWa-fZ-nii" customClass="LoginViewController" customModule="MellowMind2" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController modalPresentationStyle="fullScreen" id="PWa-fZ-nii" customClass="LoginViewController" customModule="MellowMind" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="4OC-Pj-upF">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -1639,7 +1661,7 @@
         <!--Game1-->
         <scene sceneID="Mku-Sm-d8v">
             <objects>
-                <viewController modalPresentationStyle="fullScreen" id="exh-o9-Wap" customClass="Game1" customModule="MellowMind2" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController modalPresentationStyle="fullScreen" id="exh-o9-Wap" customClass="Game1" customModule="MellowMind" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="ofc-8o-m3L">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -1832,7 +1854,7 @@
         <!--Positivity Reminders-->
         <scene sceneID="mfl-DL-vbR">
             <objects>
-                <viewController modalPresentationStyle="fullScreen" id="McO-a6-a0n" customClass="PositivityReminders" customModule="MellowMind2" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController modalPresentationStyle="fullScreen" id="McO-a6-a0n" customClass="PositivityReminders" customModule="MellowMind" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="53H-pl-LQv">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -2020,7 +2042,7 @@
         <!--Sign Up View Controller-->
         <scene sceneID="m77-38-MEZ">
             <objects>
-                <viewController modalPresentationStyle="fullScreen" id="Zz3-We-eYY" customClass="SignUpViewController" customModule="MellowMind2" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController modalPresentationStyle="fullScreen" id="Zz3-We-eYY" customClass="SignUpViewController" customModule="MellowMind" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="k1O-7A-myS">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -2127,7 +2149,7 @@
         <!--Item-->
         <scene sceneID="N88-Q1-1M1">
             <objects>
-                <viewController modalPresentationStyle="fullScreen" id="N7I-c5-icf" customClass="InitialViewController" customModule="MellowMind2" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController modalPresentationStyle="fullScreen" id="N7I-c5-icf" customClass="InitialViewController" customModule="MellowMind" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="43i-5T-ITM">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
