@@ -9,6 +9,9 @@
 import UIKit
 
 class Game2: UIViewController {
+    
+    @IBOutlet weak var flyingBird: UIImageView!
+    
 
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -19,15 +22,15 @@ class Game2: UIViewController {
     @IBAction func gameTwoToExercises(_ sender: Any) {
         self.dismiss(animated: true, completion: nil)
     }
-    
-    /*
-    // MARK: - Navigation
-
-    // In a storyboard-based application, you will often want to do a little preparation before navigation
-    override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
-        // Get the new view controller using segue.destination.
-        // Pass the selected object to the new view controller.
+    @IBAction func flyBird(_ sender: Any) {
+        while ((flyingBird.frame.origin.x > 0) && (flyingBird.frame.origin.y > 0)) {
+        let xPosition = flyingBird.frame.origin.x - 10
+        let yPosition = flyingBird.frame.origin.y - 20
+        let width = flyingBird.frame.size.width
+        let height = flyingBird.frame.size.height
+            UIImageView.animate(withDuration: 5.0, animations: {
+            self.flyingBird.frame = CGRect(x: xPosition, y: yPosition, width: width, height: height)
+        })
+        }
     }
-    */
-
 }

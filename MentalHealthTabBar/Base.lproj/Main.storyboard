@@ -34,34 +34,34 @@
                                 <nil key="highlightedColor"/>
                             </label>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="P6g-zO-aQO">
-                                <rect key="frame" x="157" y="85" width="59" height="54"/>
+                                <rect key="frame" x="164" y="90" width="46" height="43"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <state key="normal" title="meh" image="mehemoji1-1"/>
+                                <state key="normal" title="meh" image="mehemoji1"/>
                                 <connections>
                                     <action selector="boredPressed:" destination="9pv-A4-QxB" eventType="touchUpInside" id="QjJ-TS-dnK"/>
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="pQd-nn-vvr">
-                                <rect key="frame" x="70" y="307" width="57" height="54"/>
+                                <rect key="frame" x="70" y="310" width="47" height="47"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <state key="normal" title="sad" image="sademoji1-1"/>
+                                <state key="normal" title="sad" image="sademoji1"/>
                                 <connections>
                                     <action selector="sadPressed:" destination="9pv-A4-QxB" eventType="touchUpInside" id="lN0-J0-dRc"/>
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="tSw-ul-DnQ">
-                                <rect key="frame" x="162" y="343" width="57" height="59"/>
+                                <rect key="frame" x="168" y="349" width="47" height="47"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="53"/>
-                                <state key="normal" title="happy" image="happyemoji1-1"/>
+                                <state key="normal" title="happy" image="happyemoji1"/>
                                 <connections>
                                     <action selector="happyPressed:" destination="9pv-A4-QxB" eventType="touchUpInside" id="odt-Am-7yg"/>
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="64j-Wa-wPc">
-                                <rect key="frame" x="248" y="123" width="58" height="58"/>
+                                <rect key="frame" x="256" y="128" width="45" height="44"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <state key="normal" title="nervous" image="nervousemoji1-1"/>
+                                <state key="normal" title="nervous" image="nervousemoji1"/>
                                 <connections>
                                     <action selector="anxiousPressed:" destination="9pv-A4-QxB" eventType="touchUpInside" id="LuS-KN-2nF"/>
                                 </connections>
@@ -73,11 +73,10 @@
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="QdS-y1-jyZ">
-                                <rect key="frame" x="56" y="108" width="75" height="94"/>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="QdS-y1-jyZ">
+                                <rect key="frame" x="70" y="132" width="47" height="42"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="48"/>
-                                <state key="normal" title="🤯"/>
+                                <state key="normal" image="stressedemoji"/>
                                 <connections>
                                     <action selector="stressedPressed:" destination="9pv-A4-QxB" eventType="touchUpInside" id="pOI-Qy-CPX"/>
                                 </connections>
@@ -96,14 +95,6 @@
                                 <color key="textColor" systemColor="systemIndigoColor" red="0.34509803919999998" green="0.33725490200000002" blue="0.83921568629999999" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="wLd-S3-S6T">
-                                <rect key="frame" x="249" y="298" width="60" height="72"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <state key="normal" title="angry" image="angryemoji1-1"/>
-                                <connections>
-                                    <action selector="madPressed:" destination="9pv-A4-QxB" eventType="touchUpInside" id="hlZ-Fo-sQc"/>
-                                </connections>
-                            </button>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="mellow mind" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="5" baselineAdjustment="alignBaselines" adjustsFontForContentSizeCategory="YES" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="XQh-8L-tAX">
                                 <rect key="frame" x="39" y="14" width="296" height="68"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
@@ -111,6 +102,14 @@
                                 <color key="textColor" systemColor="systemIndigoColor" red="0.34509803919999998" green="0.33725490200000002" blue="0.83921568629999999" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <nil key="highlightedColor"/>
                             </label>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="wLd-S3-S6T">
+                                <rect key="frame" x="260" y="307" width="48" height="45"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" title="angry" image="angryemoji1"/>
+                                <connections>
+                                    <action selector="madPressed:" destination="9pv-A4-QxB" eventType="touchUpInside" id="hlZ-Fo-sQc"/>
+                                </connections>
+                            </button>
                         </subviews>
                         <color key="backgroundColor" red="0.76812982380163941" green="0.86753259910984959" blue="1" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                         <viewLayoutGuide key="safeArea" id="PQr-Ze-W5v"/>
@@ -561,43 +560,36 @@
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="birds" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="KGb-a8-rl8">
-                                <rect key="frame" x="52" y="107" width="272" height="21"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <fontDescription key="fontDescription" name="Optima-Regular" family="Optima" pointSize="17"/>
-                                <nil key="textColor"/>
-                                <nil key="highlightedColor"/>
-                            </label>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="trees" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="8KR-dJ-Mfe">
-                                <rect key="frame" x="51" y="136" width="272" height="21"/>
+                                <rect key="frame" x="51" y="107" width="272" height="21"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <fontDescription key="fontDescription" name="Optima-Regular" family="Optima" pointSize="17"/>
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="flowers" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="EH5-Fy-5tI">
-                                <rect key="frame" x="51" y="165" width="272" height="25"/>
+                                <rect key="frame" x="51" y="136" width="272" height="25"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <fontDescription key="fontDescription" name="Optima-Regular" family="Optima" pointSize="17"/>
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="lake" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="6MO-Sb-194">
-                                <rect key="frame" x="52" y="198" width="272" height="21"/>
+                                <rect key="frame" x="52" y="169" width="272" height="21"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <fontDescription key="fontDescription" name="Optima-Regular" family="Optima" pointSize="17"/>
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="rain sounds" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="JpR-yK-boI">
-                                <rect key="frame" x="52" y="227" width="272" height="21"/>
+                                <rect key="frame" x="52" y="198" width="272" height="21"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <fontDescription key="fontDescription" name="Optima-Regular" family="Optima" pointSize="17"/>
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="chirping bird sounds" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="cih-AK-cCC">
-                                <rect key="frame" x="51" y="256" width="272" height="21"/>
+                                <rect key="frame" x="51" y="227" width="272" height="21"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <fontDescription key="fontDescription" name="Optima-Regular" family="Optima" pointSize="17"/>
                                 <nil key="textColor"/>
@@ -611,42 +603,33 @@
                                 <nil key="highlightedColor"/>
                                 <color key="shadowColor" systemColor="systemBlueColor" red="0.0" green="0.47843137250000001" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                             </label>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="REPEATED HITTING GAME" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="4d1-nD-wGX">
-                                <rect key="frame" x="54" y="319" width="272" height="21"/>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="flyingbird" translatesAutoresizingMaskIntoConstraints="NO" id="Cka-ic-Qcn">
+                                <rect key="frame" x="212" y="312" width="147" height="87"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <fontDescription key="fontDescription" name="Optima-Regular" family="Optima" pointSize="17"/>
-                                <nil key="textColor"/>
-                                <nil key="highlightedColor"/>
-                            </label>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="different objects to choose from" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Nf2-qh-2w7">
-                                <rect key="frame" x="51" y="348" width="272" height="21"/>
+                            </imageView>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="sittingbird" translatesAutoresizingMaskIntoConstraints="NO" id="vuE-Md-JvP">
+                                <rect key="frame" x="16" y="312" width="147" height="87"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <fontDescription key="fontDescription" name="Optima-Regular" family="Optima" pointSize="17"/>
-                                <nil key="textColor"/>
-                                <nil key="highlightedColor"/>
-                            </label>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="sound effects" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="5PK-HO-PtC">
-                                <rect key="frame" x="50" y="377" width="272" height="21"/>
+                            </imageView>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="FbE-CP-rAx">
+                                <rect key="frame" x="172" y="430" width="30" height="30"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <fontDescription key="fontDescription" name="Optima-Regular" family="Optima" pointSize="17"/>
-                                <nil key="textColor"/>
-                                <nil key="highlightedColor"/>
-                            </label>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="non violent" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="fvx-At-uIF">
-                                <rect key="frame" x="50" y="406" width="272" height="25"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <fontDescription key="fontDescription" name="Optima-Regular" family="Optima" pointSize="17"/>
-                                <nil key="textColor"/>
-                                <nil key="highlightedColor"/>
-                            </label>
+                                <state key="normal" title="FLY!"/>
+                                <connections>
+                                    <action selector="flyBird:" destination="bc2-Nc-84X" eventType="touchUpInside" id="HHl-Y5-MZv"/>
+                                </connections>
+                            </button>
                         </subviews>
                         <color key="backgroundColor" red="1" green="0.72549812739999997" blue="0.68946066019999996" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                         <viewLayoutGuide key="safeArea" id="ovO-Zj-cIZ"/>
                     </view>
+                    <connections>
+                        <outlet property="flyingBird" destination="Cka-ic-Qcn" id="w3n-fU-nYj"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="BkY-F1-ydI" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="750" y="1060"/>
+            <point key="canvasLocation" x="749.60000000000002" y="1059.2203898050975"/>
         </scene>
         <!--Tips-->
         <scene sceneID="y8X-DQ-9N5">
@@ -2249,25 +2232,29 @@
         <image name="3.circle" catalog="system" width="128" height="121"/>
         <image name="4.circle" catalog="system" width="128" height="121"/>
         <image name="8.circle" catalog="system" width="128" height="121"/>
-        <image name="angryemoji1-1" width="676" height="824"/>
+        <image name="angryemoji1" width="564" height="537"/>
         <image name="arrow.left" catalog="system" width="128" height="98"/>
         <image name="book.fill" catalog="system" width="128" height="100"/>
         <image name="breathe" width="365" height="301"/>
+        <image name="flyingbird" width="1487" height="1142"/>
         <image name="gamecontroller.fill" catalog="system" width="128" height="82"/>
+        <image name="happyemoji1" width="527" height="532"/>
         <image name="happyemoji1-1" width="661" height="668"/>
         <image name="house.fill" catalog="system" width="128" height="106"/>
         <image name="journalpen" width="439" height="460"/>
         <image name="keyboard" width="960" height="275"/>
         <image name="lightbulb.fill" catalog="system" width="113" height="128"/>
-        <image name="mehemoji1-1" width="699" height="624"/>
+        <image name="mehemoji1" width="551" height="532"/>
         <image name="mellowmind" width="987" height="849"/>
         <image name="mentalhealthlogo1" width="816" height="739"/>
         <image name="music.mic" catalog="system" width="128" height="118"/>
         <image name="music.note" catalog="system" width="97" height="128"/>
-        <image name="nervousemoji1-1" width="728" height="702"/>
-        <image name="sademoji1-1" width="663" height="614"/>
+        <image name="nervousemoji1" width="539" height="537"/>
+        <image name="sademoji1" width="534" height="536"/>
+        <image name="sittingbird" width="1390" height="946"/>
         <image name="smashicon" width="568" height="545"/>
         <image name="speaker.3.fill" catalog="system" width="128" height="90"/>
+        <image name="stressedemoji" width="559" height="514"/>
         <image name="treeicon" width="272" height="299"/>
     </resources>
 </document>
