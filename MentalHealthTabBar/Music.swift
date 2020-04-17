@@ -29,10 +29,22 @@ class Music: UIViewController {
     @IBOutlet weak var image1: UIImageView!
     @IBOutlet weak var image2: UIImageView!
     
+    @IBOutlet weak var getMusicButton: UIButton!
+    @IBOutlet weak var playMusic: UIButton!
+    @IBOutlet weak var pauseMusic: UIButton!
+    
+    
     var number:Int!
     
     override func viewDidLoad() {
         super.viewDidLoad()
+        
+        getMusicButton.layer.borderWidth = 0.5
+        playMusic.layer.borderWidth = 0.5
+        pauseMusic.layer.borderWidth = 0.5
+        getMusicButton.layer.cornerRadius = 10
+        playMusic.layer.cornerRadius = 10
+        pauseMusic.layer.cornerRadius = 10
         
         let h1sound =  Bundle.main.path(forResource: "Happy1", ofType: "mp3")
         
@@ -130,8 +142,6 @@ class Music: UIViewController {
         catch {
             print(error)
         }
-
-        // Do any additional setup after loading the view.
     }
     
     @IBAction func music1Play(_ sender: Any) {
@@ -319,5 +329,8 @@ class Music: UIViewController {
     
     @IBAction func toMusicMaker(_ sender: UIButton) {
         performSegue(withIdentifier: "toMakeMusic", sender: self)
+    }
+    @IBAction func toSources(_ sender: UIButton) {
+        performSegue(withIdentifier: "toSources", sender: self)
     }
 }

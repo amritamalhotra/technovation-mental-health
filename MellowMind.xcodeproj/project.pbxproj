@@ -36,6 +36,7 @@
 		B814F5B72446B82100F5C70E /* D Triad.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = B814F5B22446B82100F5C70E /* D Triad.mp3 */; };
 		B814F5B82446B82100F5C70E /* E-Triad.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = B814F5B32446B82100F5C70E /* E-Triad.mp3 */; };
 		B81C84822429B19B002E3E17 /* marimba timer.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = B81C847A2429B19B002E3E17 /* marimba timer.mp3 */; };
+		B81F65A2244958CE00247342 /* MusicSources.swift in Sources */ = {isa = PBXBuildFile; fileRef = B81F65A1244958CE00247342 /* MusicSources.swift */; };
 		B8282CE62420070B0012CF6D /* SignUpViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B8282CE52420070B0012CF6D /* SignUpViewController.swift */; };
 		B8282CEF2420072B0012CF6D /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B8282CEE2420072B0012CF6D /* LoginViewController.swift */; };
 		B8282CF1242009310012CF6D /* InitialViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B8282CF0242009310012CF6D /* InitialViewController.swift */; };
@@ -191,6 +192,7 @@
 		B814F5B22446B82100F5C70E /* D Triad.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = "D Triad.mp3"; path = "../../MELLOW MIND FILES/Make Music Sounds/D Triad.mp3"; sourceTree = "<group>"; };
 		B814F5B32446B82100F5C70E /* E-Triad.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = "E-Triad.mp3"; path = "../../MELLOW MIND FILES/Make Music Sounds/E-Triad.mp3"; sourceTree = "<group>"; };
 		B81C847A2429B19B002E3E17 /* marimba timer.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = "marimba timer.mp3"; path = "../../../Downloads/marimba timer.mp3"; sourceTree = "<group>"; };
+		B81F65A1244958CE00247342 /* MusicSources.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MusicSources.swift; sourceTree = "<group>"; };
 		B8282CE52420070B0012CF6D /* SignUpViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignUpViewController.swift; sourceTree = "<group>"; };
 		B8282CEE2420072B0012CF6D /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
 		B8282CF0242009310012CF6D /* InitialViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InitialViewController.swift; sourceTree = "<group>"; };
@@ -339,6 +341,7 @@
 				B83FDFAA242EB0D8007CF170 /* Emotions.swift */,
 				B8CD203C23C276E20031CC57 /* Resources.swift */,
 				B8120DDF23C6327B004A3E42 /* Music.swift */,
+				B81F65A1244958CE00247342 /* MusicSources.swift */,
 				B8120DE123C632D8004A3E42 /* Exercises.swift */,
 				B8120DE323C632F8004A3E42 /* Tips.swift */,
 				B8120DE523C6333C004A3E42 /* Journal.swift */,
@@ -752,6 +755,7 @@
 			files = (
 				B8CD203D23C276E20031CC57 /* Resources.swift in Sources */,
 				B8120DE223C632D8004A3E42 /* Exercises.swift in Sources */,
+				B81F65A2244958CE00247342 /* MusicSources.swift in Sources */,
 				B8CD203B23C276E20031CC57 /* Home.swift in Sources */,
 				B83FDFAB242EB0D8007CF170 /* Emotions.swift in Sources */,
 				B8282CEF2420072B0012CF6D /* LoginViewController.swift in Sources */,

@@ -14,6 +14,11 @@ class Tips: UIViewController {
     @IBOutlet weak var result: UITextView!
     @IBOutlet weak var emotionLabel: UILabel!
     @IBOutlet weak var tipText: UILabel!
+    @IBOutlet weak var getTipsButton: UIButton!
+    @IBOutlet weak var addButton: UIButton!
+    @IBOutlet weak var deleteButton: UIButton!
+    @IBOutlet weak var editButton: UIButton!
+    @IBOutlet weak var viewButton: UIButton!
     
     var database: Connection!
     let tipsTable = Table("tips")
@@ -22,6 +27,17 @@ class Tips: UIViewController {
     
     override func viewDidLoad() {
         super.viewDidLoad()
+        
+        getTipsButton.layer.cornerRadius = 10
+        getTipsButton.layer.borderWidth = 0.5
+        addButton.layer.cornerRadius = 10
+        addButton.layer.borderWidth = 0.5
+        deleteButton.layer.cornerRadius = 10
+        deleteButton.layer.borderWidth = 0.5
+        editButton.layer.cornerRadius = 10
+        editButton.layer.borderWidth = 0.5
+        viewButton.layer.cornerRadius = 10
+        viewButton.layer.borderWidth = 0.5
         
         do {
             let documentDirectory = try FileManager.default.url(for: .documentDirectory, in: .userDomainMask, appropriateFor: nil, create: true)
