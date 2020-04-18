@@ -140,9 +140,6 @@ class SecondViewController: UIViewController {
     override func touchesBegan(_ touches: Set<UITouch>, with event: UIEvent?) {
         numberInfo.resignFirstResponder()
     }
-    @IBAction func makeTestCall(_ sender: Any) {
-        UIApplication.shared.open(URL(string:"tel://5107342459")! as URL, options: [:], completionHandler: nil)
-    }
     @IBAction func openTestWebsite(_ sender: Any) {
     UIApplication.shared.open(URL(string:"https://suicidepreventionlifeline.org/")! as URL, options: [:], completionHandler: nil)
     }

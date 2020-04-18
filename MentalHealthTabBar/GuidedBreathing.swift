@@ -25,6 +25,14 @@ class GuidedBreathing: UIViewController {
     var myExTimer: Timer!
     
     var marimba = AVAudioPlayer()
+    var marimba1 = AVAudioPlayer()
+    var marimba2 = AVAudioPlayer()
+    var marimba3 = AVAudioPlayer()
+    var marimba4 = AVAudioPlayer()
+    var marimba5 = AVAudioPlayer()
+    var marimba6 = AVAudioPlayer()
+    
+    var setting = 1
     
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -40,12 +48,59 @@ class GuidedBreathing: UIViewController {
         catch {
             print(error)
         }
-
-        // Do any additional setup after loading the view.
+        let marimba1Sound =  Bundle.main.path(forResource: "segment 1", ofType: "mp3")
+        
+        do {
+            marimba1 = try AVAudioPlayer(contentsOf: URL(fileURLWithPath: marimba1Sound!))
+            }
+        catch {
+            print(error)
+        }
+        let marimba2Sound =  Bundle.main.path(forResource: "segment 2", ofType: "mp3")
+        
+        do {
+            marimba2 = try AVAudioPlayer(contentsOf: URL(fileURLWithPath: marimba2Sound!))
+            }
+        catch {
+            print(error)
+        }
+        let marimba3Sound =  Bundle.main.path(forResource: "segment-3", ofType: "mp3")
+        
+        do {
+            marimba3 = try AVAudioPlayer(contentsOf: URL(fileURLWithPath: marimba3Sound!))
+            }
+        catch {
+            print(error)
+        }
+        let marimba4Sound =  Bundle.main.path(forResource: "segment-4", ofType: "mp3")
+        
+        do {
+            marimba4 = try AVAudioPlayer(contentsOf: URL(fileURLWithPath: marimba4Sound!))
+            }
+        catch {
+            print(error)
+        }
+        let marimba5Sound =  Bundle.main.path(forResource: "segment-5", ofType: "mp3")
+        
+        do {
+            marimba5 = try AVAudioPlayer(contentsOf: URL(fileURLWithPath: marimba5Sound!))
+            }
+        catch {
+            print(error)
+        }
+        let marimba6Sound =  Bundle.main.path(forResource: "segment-6", ofType: "mp3")
+        
+        do {
+            marimba6 = try AVAudioPlayer(contentsOf: URL(fileURLWithPath: marimba6Sound!))
+            }
+        catch {
+            print(error)
+        }
     }
     
     @IBAction func updateSlider(_ sender: Any) {
         let value = Int(timeSlider.value)
+        setting = value - 2
         var exValue:Int
         if value <= 6 {
             exValue = Int(timeSlider.value) * 2
@@ -88,7 +143,25 @@ class GuidedBreathing: UIViewController {
     
     @IBAction func beginBreathing(_ sender: Any) {
         myTimer = Timer.scheduledTimer(timeInterval: 1, target: self, selector: #selector(updateTimeLabel), userInfo: nil, repeats: true)
-        marimba.play()
+        if (setting == 1) {
+            sleep(1)
+            marimba1.play()
+        } else if (setting == 2) {
+            sleep(1)
+            marimba2.play()
+        } else if (setting == 3) {
+            sleep(1)
+            marimba3.play()
+        } else if (setting == 4) {
+            sleep(1)
+            marimba4.play()
+        } else if (setting == 5) {
+            sleep(1)
+            marimba5.play()
+        } else if (setting == 6) {
+            sleep(1)
+            marimba6.play()
+        }
         wipeData()
     }
     

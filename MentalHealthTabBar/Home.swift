@@ -20,32 +20,32 @@ class FirstViewController: UIViewController {
     
     @IBAction func happyPressed(_ sender: Any) {
         Emotions.shared.theEmotion = "happy!"
-        Emotions.shared.theTip = "This is a happy tip. It will state how to stay happy, how to improve your life, and how to help others become happy."
+        Emotions.shared.theTip = "Giving back to others can be rewarding. Also, try a new activity, such as drawing or writing in a journal."
         display.text = "Happy: Recommended Exercises:\nPlay on the keyboard on the Music page!\n\nWrite in your journal on the Exercises page!\n\nListen to some music on the Music page!"
     }
     @IBAction func sadPressed(_ sender: Any) {
         display.text = "Sad: Recommended Exercises:\nExplore the nature scene on the Exercises page!\n\nListen to some music on the Music page!\n\nTry guided breathing on the Exercises page!"
         Emotions.shared.theEmotion = "sad"
-        Emotions.shared.theTip = "This is a sad tip. It will state how to become happier and how it's ok to be sad sometimes and you can still be happy."
+        Emotions.shared.theTip = "Try going outside to exercise or enjoy nature. If you need to talk to someone, don’t be afraid to ask for help."
     }
     @IBAction func stressedPressed(_ sender: Any) {
         display.text = "Stressed: Recommended Exercises:\nTry guided breathing on the Exercises page!\n\nPlay some music on the Music page!\n\nWrite in your journal on the Exercises page!"
         Emotions.shared.theEmotion = "stressed"
-        Emotions.shared.theTip = "This is a stressed tip. It will state how to keep calm and get rid of stress-inducers in your life to be happy!"
+        Emotions.shared.theTip = "Take a short break to check in with your feelings. Spending some time in nature or with friends can help relieve stress."
     }
     @IBAction func boredPressed(_ sender: Any) {
         display.text = "Bored: Recommended Exercises:\nTry the clicking game on the Exercises page!\n\nExplore the nature scene on the Exercises page!\n\nWrite in your journal on the Exercises page!"
         Emotions.shared.theEmotion = "bored"
-        Emotions.shared.theTip = "This is a bored tip. It will state different ideas of how to occupy yourself and how you can be happy."
+        Emotions.shared.theTip = "Play a game or listen to some music. Helping others is also a good way to make your day positive and productive."
     }
     @IBAction func anxiousPressed(_ sender: Any) {
         display.text = "Anxious: Recommended Exercises:\nTry guided breathing on the Exercises page!\n\nListen to some music on the Music page!\n\nPlay the clicking game on the Exercises page!"
         Emotions.shared.theEmotion = "anxious"
-        Emotions.shared.theTip = "This is an anxious tip. It will state how to keep calm even in the most sketchy of situations and how anxiety can be controlled."
+        Emotions.shared.theTip = "Close your eyes. Spend some time in nature, and talk about your worries if you’re too overwhelmed."
     }
     @IBAction func madPressed(_ sender: Any) {
         display.text = "Mad: Recommended Exercises:\nPlay the clicking game on the Exercises page!\n\nPlay on the keyboard on the Music page!\n\nTry guided breathing on the Exercises page!"
         Emotions.shared.theEmotion = "mad"
-        Emotions.shared.theTip = "This is a mad tip. It will state how to stay calm and not injure anybody or yourself when things aren't going your way."
+        Emotions.shared.theTip = "Take a few deep breaths and find a safe way to let out your anger. Distract yourself by playing a game."
     }
 }
