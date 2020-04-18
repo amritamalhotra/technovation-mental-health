@@ -24,7 +24,6 @@ class GuidedBreathing: UIViewController {
     var myTimer: Timer!
     var myExTimer: Timer!
     
-    var marimba = AVAudioPlayer()
     var marimba1 = AVAudioPlayer()
     var marimba2 = AVAudioPlayer()
     var marimba3 = AVAudioPlayer()
@@ -39,15 +38,6 @@ class GuidedBreathing: UIViewController {
         
         timeLabel.alpha = 0
         timeExhaleLabel.alpha = 0
-        
-        let marimbaSound =  Bundle.main.path(forResource: "marimba timer", ofType: "mp3")
-        
-        do {
-            marimba = try AVAudioPlayer(contentsOf: URL(fileURLWithPath: marimbaSound!))
-            }
-        catch {
-            print(error)
-        }
         let marimba1Sound =  Bundle.main.path(forResource: "segment 1", ofType: "mp3")
         
         do {

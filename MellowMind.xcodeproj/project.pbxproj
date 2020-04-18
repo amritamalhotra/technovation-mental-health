@@ -35,7 +35,6 @@
 		B814F5B62446B82100F5C70E /* C Pentatonic Scale.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = B814F5B12446B82100F5C70E /* C Pentatonic Scale.mp3 */; };
 		B814F5B72446B82100F5C70E /* D Triad.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = B814F5B22446B82100F5C70E /* D Triad.mp3 */; };
 		B814F5B82446B82100F5C70E /* E-Triad.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = B814F5B32446B82100F5C70E /* E-Triad.mp3 */; };
-		B81C84822429B19B002E3E17 /* marimba timer.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = B81C847A2429B19B002E3E17 /* marimba timer.mp3 */; };
 		B81F65A2244958CE00247342 /* MusicSources.swift in Sources */ = {isa = PBXBuildFile; fileRef = B81F65A1244958CE00247342 /* MusicSources.swift */; };
 		B8282CE62420070B0012CF6D /* SignUpViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B8282CE52420070B0012CF6D /* SignUpViewController.swift */; };
 		B8282CEF2420072B0012CF6D /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B8282CEE2420072B0012CF6D /* LoginViewController.swift */; };
@@ -80,6 +79,8 @@
 		B8DA12D1242050C200183266 /* A#1.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = B8DA12D0242050C200183266 /* A#1.mp3 */; };
 		B8DA12D3242050CB00183266 /* B1.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = B8DA12D2242050CB00183266 /* B1.mp3 */; };
 		B8DA12D5242050D300183266 /* C2.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = B8DA12D4242050D300183266 /* C2.mp3 */; };
+		B8F3FC99244BBDB7007D49A7 /* river flowing.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = B8F3FC91244BBDB7007D49A7 /* river flowing.mp3 */; };
+		B8F3FC9B244BCACC007D49A7 /* birds chirping.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = B8F3FC9A244BCACC007D49A7 /* birds chirping.mp3 */; };
 		CA24762C525BFAD1B2F6DEC7 /* Pods_MentalHealthTabBarTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B0568F033685AABF7FED4768 /* Pods_MentalHealthTabBarTests.framework */; };
 /* End PBXBuildFile section */
 
@@ -197,7 +198,6 @@
 		B814F5B12446B82100F5C70E /* C Pentatonic Scale.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = "C Pentatonic Scale.mp3"; path = "../../MELLOW MIND FILES/Make Music Sounds/C Pentatonic Scale.mp3"; sourceTree = "<group>"; };
 		B814F5B22446B82100F5C70E /* D Triad.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = "D Triad.mp3"; path = "../../MELLOW MIND FILES/Make Music Sounds/D Triad.mp3"; sourceTree = "<group>"; };
 		B814F5B32446B82100F5C70E /* E-Triad.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = "E-Triad.mp3"; path = "../../MELLOW MIND FILES/Make Music Sounds/E-Triad.mp3"; sourceTree = "<group>"; };
-		B81C847A2429B19B002E3E17 /* marimba timer.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = "marimba timer.mp3"; path = "../../../Downloads/marimba timer.mp3"; sourceTree = "<group>"; };
 		B81F65A1244958CE00247342 /* MusicSources.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MusicSources.swift; sourceTree = "<group>"; };
 		B8282CE52420070B0012CF6D /* SignUpViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignUpViewController.swift; sourceTree = "<group>"; };
 		B8282CEE2420072B0012CF6D /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
@@ -246,6 +246,8 @@
 		B8DA12D0242050C200183266 /* A#1.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = "A#1.mp3"; path = "../../../Downloads/A#1.mp3"; sourceTree = "<group>"; };
 		B8DA12D2242050CB00183266 /* B1.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = B1.mp3; path = ../../../Downloads/B1.mp3; sourceTree = "<group>"; };
 		B8DA12D4242050D300183266 /* C2.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = C2.mp3; path = ../../../Downloads/C2.mp3; sourceTree = "<group>"; };
+		B8F3FC91244BBDB7007D49A7 /* river flowing.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = "river flowing.mp3"; path = "../../MELLOW MIND FILES/Nature Scene/river flowing.mp3"; sourceTree = "<group>"; };
+		B8F3FC9A244BCACC007D49A7 /* birds chirping.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = "birds chirping.mp3"; path = "../../MELLOW MIND FILES/Nature Scene/birds chirping.mp3"; sourceTree = "<group>"; };
 		C931E1C187788192F697F374 /* Pods_MentalHealthTabBar.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_MentalHealthTabBar.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		E2944E642A14FA2DB4660675 /* Pods_MentalHealthTabBar_MentalHealthTabBarUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_MentalHealthTabBar_MentalHealthTabBarUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		F5CD1380CF632FE22283C610 /* Pods-MentalHealthTabBar-MentalHealthTabBarUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MentalHealthTabBar-MentalHealthTabBarUITests.debug.xcconfig"; path = "Target Support Files/Pods-MentalHealthTabBar-MentalHealthTabBarUITests/Pods-MentalHealthTabBar-MentalHealthTabBarUITests.debug.xcconfig"; sourceTree = "<group>"; };
@@ -363,6 +365,8 @@
 				B8120DED23C633AF004A3E42 /* Game1.swift */,
 				B8120DEF23C633C6004A3E42 /* Game2.swift */,
 				B8CD203E23C276E20031CC57 /* Main.storyboard */,
+				B8F3FC91244BBDB7007D49A7 /* river flowing.mp3 */,
+				B8F3FC9A244BCACC007D49A7 /* birds chirping.mp3 */,
 				B8DA12D4242050D300183266 /* C2.mp3 */,
 				B8DA12D2242050CB00183266 /* B1.mp3 */,
 				B8DA12D0242050C200183266 /* A#1.mp3 */,
@@ -389,7 +393,6 @@
 				B814F5B32446B82100F5C70E /* E-Triad.mp3 */,
 				B814F5AD2446B7F500F5C70E /* F-Triad.mp3 */,
 				B8B3184623D3C87C00B14979 /* SampleAudio_0.4mb.mp3 */,
-				B81C847A2429B19B002E3E17 /* marimba timer.mp3 */,
 				B814F5A02446B79B00F5C70E /* Anxious1.mp3 */,
 				B814F59F2446B79B00F5C70E /* Anxious2.mp3 */,
 				B814F5952446B79B00F5C70E /* Bored1.mp3 */,
@@ -612,6 +615,8 @@
 				B8DA12D5242050D300183266 /* C2.mp3 in Resources */,
 				B814F5AA2446B79B00F5C70E /* Stressed1.mp3 in Resources */,
 				B84B7D87244BA90E00D3E08A /* segment-3.mp3 in Resources */,
+				B8F3FC99244BBDB7007D49A7 /* river flowing.mp3 in Resources */,
+				B8F3FC9B244BCACC007D49A7 /* birds chirping.mp3 in Resources */,
 				B8DA12C32420507400183266 /* D#1.mp3 in Resources */,
 				B84B7D89244BA90E00D3E08A /* segment-5.mp3 in Resources */,
 				B8CD204523C276E50031CC57 /* LaunchScreen.storyboard in Resources */,
@@ -627,7 +632,6 @@
 				B814F5A72446B79B00F5C70E /* Sad1.mp3 in Resources */,
 				B8DA12C12420506E00183266 /* D1.mp3 in Resources */,
 				B8CD204223C276E50031CC57 /* Assets.xcassets in Resources */,
-				B81C84822429B19B002E3E17 /* marimba timer.mp3 in Resources */,
 				B814F5A92446B79B00F5C70E /* Stressed2.mp3 in Resources */,
 				B8DA12C72420508300183266 /* F1.mp3 in Resources */,
 				B8282CF3242022420012CF6D /* GoogleService-Info.plist in Resources */,

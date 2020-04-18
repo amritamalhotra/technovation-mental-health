@@ -7,30 +7,76 @@
 //
 
 import UIKit
+import AVFoundation
 
 class Game2: UIViewController {
     
+    var riverPlayer = AVAudioPlayer()
+    var birdPlayer = AVAudioPlayer()
     @IBOutlet weak var flyingBird: UIImageView!
+    @IBOutlet weak var flyingBird2: UIImageView!
     
-
     override func viewDidLoad() {
         super.viewDidLoad()
-
-        // Do any additional setup after loading the view.
+        let riversound =  Bundle.main.path(forResource: "river flowing", ofType: "mp3")
+        
+        do {
+            riverPlayer = try AVAudioPlayer(contentsOf: URL(fileURLWithPath: riversound!))
+            }
+        catch {
+            print(error)
+        }
+        let birdsound =  Bundle.main.path(forResource: "birds chirping", ofType: "mp3")
+        
+        do {
+            birdPlayer = try AVAudioPlayer(contentsOf: URL(fileURLWithPath: birdsound!))
+            }
+        catch {
+            print(error)
+        }
     }
     
     @IBAction func gameTwoToExercises(_ sender: Any) {
         self.dismiss(animated: true, completion: nil)
     }
     @IBAction func flyBird(_ sender: Any) {
-        while ((flyingBird.frame.origin.x > 0) && (flyingBird.frame.origin.y > 0)) {
-        let xPosition = flyingBird.frame.origin.x - 10
-        let yPosition = flyingBird.frame.origin.y - 20
+        birdPlayer.play()
+        while (flyingBird.frame.origin.x > -50 && flyingBird.frame.origin.y > -50) {
+        let xPosition = flyingBird.frame.origin.x - 50
+        let yPosition = flyingBird.frame.origin.y - 30
         let width = flyingBird.frame.size.width
         let height = flyingBird.frame.size.height
-            UIImageView.animate(withDuration: 5.0, animations: {
+        UIImageView.animate(withDuration: 4.0, animations: {
             self.flyingBird.frame = CGRect(x: xPosition, y: yPosition, width: width, height: height)
         })
         }
     }
+    @IBAction func flyBird2(_ sender: Any) {
+        birdPlayer.play()
+        while (flyingBird2.frame.origin.x > -50 && flyingBird2.frame.origin.y > -50) {
+        let xPosition = flyingBird2.frame.origin.x - 20
+        let yPosition = flyingBird2.frame.origin.y - 50
+        let width = flyingBird2.frame.size.width
+        let height = flyingBird2.frame.size.height
+        UIImageView.animate(withDuration: 4.0, animations: {
+            self.flyingBird2.frame = CGRect(x: xPosition, y: yPosition, width: width, height: height)
+        })
+        }
+    }
+    
+    @IBAction func resetScene(_ sender: Any) {
+        UIImageView.animate(withDuration: 5.0, animations: {
+            self.flyingBird.frame = CGRect(x: 328, y: 222, width: self.flyingBird.frame.size.width, height: self.flyingBird.frame.size.height)
+        })
+        UIImageView.animate(withDuration: 5.0, animations: {
+            self.flyingBird2.frame = CGRect(x: 159, y: 254, width: self.flyingBird2.frame.size.width, height: self.flyingBird2.frame.size.height)
+        })
+    }
+    @IBAction func stopSound(_ sender: Any) {
+        riverPlayer.stop()
+    }
+    @IBAction func playSound(_ sender: Any) {
+        riverPlayer.play()
+    }
+    
 }
