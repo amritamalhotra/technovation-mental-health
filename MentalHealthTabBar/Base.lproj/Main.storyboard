@@ -303,10 +303,10 @@
                                 <nil key="highlightedColor"/>
                             </label>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="mEW-mE-to0">
-                                <rect key="frame" x="20" y="398" width="177" height="33"/>
+                                <rect key="frame" x="9" y="398" width="107" height="33"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <fontDescription key="fontDescription" name="Optima-Regular" family="Optima" pointSize="17"/>
-                                <state key="normal" title="Add Emergency Contact">
+                                <state key="normal" title="Add Contact">
                                     <color key="titleColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 </state>
                                 <connections>
@@ -314,7 +314,7 @@
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="x4D-EB-IGb">
-                                <rect key="frame" x="264" y="398" width="89" height="33"/>
+                                <rect key="frame" x="142" y="398" width="89" height="33"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <fontDescription key="fontDescription" name="Optima-Regular" family="Optima" pointSize="17"/>
                                 <state key="normal" title="Edit Contact">
@@ -335,6 +335,17 @@
                                     <action selector="editUser:" destination="pkP-wy-E0G" eventType="touchUpInside" id="QyZ-QY-ya0"/>
                                 </connections>
                             </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="8jm-1u-Xft">
+                                <rect key="frame" x="256" y="399" width="103" height="30"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" name="Optima-Regular" family="Optima" pointSize="17"/>
+                                <state key="normal" title="View Contact">
+                                    <color key="titleColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                </state>
+                                <connections>
+                                    <action selector="viewContact:" destination="pkP-wy-E0G" eventType="touchUpInside" id="QPL-yO-SZg"/>
+                                </connections>
+                            </button>
                         </subviews>
                         <color key="backgroundColor" red="0.76862745098039209" green="0.8666666666666667" blue="1" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                         <viewLayoutGuide key="safeArea" id="iuy-XG-NSg"/>
@@ -350,6 +361,7 @@
                         <outlet property="aofhButton" destination="rba-8Y-Pis" id="TAr-eW-Ofg"/>
                         <outlet property="callContactButton" destination="h1m-SX-kIv" id="Q0z-SU-BdX"/>
                         <outlet property="contactDisplay" destination="SUu-8b-M1m" id="6r0-Ui-uSF"/>
+                        <outlet property="editContactButton" destination="x4D-EB-IGb" id="9Rz-xa-KaW"/>
                         <outlet property="enter" destination="obv-3v-Zm8" id="5XY-ia-s7L"/>
                         <outlet property="enterEdit" destination="O1O-h8-nW7" id="3OU-BN-WKA"/>
                         <outlet property="nameInfo" destination="06e-t9-N8r" id="lKQ-DY-Hmg"/>
@@ -544,7 +556,7 @@
                                 <state key="normal" title="Button"/>
                             </button>
                             <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="sittingbird" translatesAutoresizingMaskIntoConstraints="NO" id="DLM-lQ-WWk">
-                                <rect key="frame" x="86" y="328" width="36" height="23"/>
+                                <rect key="frame" x="96" y="328" width="26" height="23"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             </imageView>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="back to exercises" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="sef-X5-CAJ">
@@ -567,7 +579,7 @@
                                 <rect key="frame" x="312" y="212" width="63" height="51"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             </imageView>
-                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="sittingbird" translatesAutoresizingMaskIntoConstraints="NO" id="vuE-Md-JvP">
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="sittingbirdflipped" translatesAutoresizingMaskIntoConstraints="NO" id="vuE-Md-JvP">
                                 <rect key="frame" x="239" y="60" width="78" height="48"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             </imageView>
@@ -619,7 +631,7 @@
                                 </connections>
                             </button>
                             <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="flyingbird" translatesAutoresizingMaskIntoConstraints="NO" id="nI6-DV-ono">
-                                <rect key="frame" x="159" y="254" width="56" height="48"/>
+                                <rect key="frame" x="170" y="254" width="45" height="48"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             </imageView>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="click the flying birds!" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="7kt-IF-cRn">
@@ -2087,14 +2099,6 @@
                                     <action selector="updateNotificationPressed:" destination="McO-a6-a0n" eventType="touchUpInside" id="qvY-JF-zLH"/>
                                 </connections>
                             </button>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Kk8-yc-t1Y">
-                                <rect key="frame" x="84" y="277" width="233" height="30"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <state key="normal" title="View Current Notification Settings"/>
-                                <connections>
-                                    <action selector="loadData:" destination="McO-a6-a0n" eventType="touchUpInside" id="SFg-ZJ-WdV"/>
-                                </connections>
-                            </button>
                         </subviews>
                         <color key="backgroundColor" red="1" green="0.72549812739999997" blue="0.68946066019999996" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                         <viewLayoutGuide key="safeArea" id="bse-Ho-1fM"/>
@@ -2342,6 +2346,7 @@
         <image name="nervousemoji1" width="539" height="537"/>
         <image name="sademoji1" width="534" height="536"/>
         <image name="sittingbird" width="1390" height="946"/>
+        <image name="sittingbirdflipped" width="1270" height="1006"/>
         <image name="smashicon" width="568" height="545"/>
         <image name="speaker.3.fill" catalog="system" width="128" height="90"/>
         <image name="stressedemoji" width="559" height="514"/>

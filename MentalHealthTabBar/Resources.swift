@@ -23,6 +23,7 @@ class SecondViewController: UIViewController {
     @IBOutlet weak var enterEdit: UIButton!
     @IBOutlet weak var contactDisplay: UITextView!
     @IBOutlet weak var addContactButton: UIButton!
+    @IBOutlet weak var editContactButton: UIButton!
     @IBOutlet weak var splButton: UIButton!
     @IBOutlet weak var adaaButton: UIButton!
     @IBOutlet weak var aofhButton: UIButton!
@@ -73,14 +74,6 @@ class SecondViewController: UIViewController {
         SCCbutton.layer.borderColor = UIColor.black.cgColor
         ANYCbutton.layer.borderColor = UIColor.black.cgColor
         
-        do {
-        let contacts = try self.database.prepare(self.contactTable)
-        for contact in contacts {
-            contactDisplay.text = "current contact info: \nName: \(contact[self.name])\nPhone Number: \(contact[self.number])"
-            }
-        } catch {
-            print(error)
-        }
         nameInfo.alpha = 0
         numberInfo.alpha = 0
         enter.alpha = 0
@@ -96,6 +89,16 @@ class SecondViewController: UIViewController {
         numberInfo.alpha = 1
         enterEdit.alpha = 1
         enter.alpha = 0
+    }
+    @IBAction func viewContact(_ sender: Any) {
+        do {
+        let contacts = try self.database.prepare(self.contactTable)
+        for contact in contacts {
+            contactDisplay.text = "current contact info: \nName: \(contact[self.name])\nPhone Number: \(contact[self.number])"
+            }
+        } catch {
+            print(error)
+        }
     }
     @IBAction func editUser(_ sender: Any) {
         let contactID = 1
@@ -135,7 +138,9 @@ class SecondViewController: UIViewController {
             print(error)
         }
         contactDisplay.text = "current contact info:\nName: \(name)\nNumber: \(number!)"
-        addContactButton.alpha = 0
+        nameInfo.alpha = 0
+        numberInfo.alpha = 0
+        enter.alpha = 0
     }
     override func touchesBegan(_ touches: Set<UITouch>, with event: UIEvent?) {
         numberInfo.resignFirstResponder()

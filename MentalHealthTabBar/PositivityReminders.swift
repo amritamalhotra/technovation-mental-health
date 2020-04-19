@@ -54,60 +54,58 @@ class PositivityReminders: UIViewController {
         myDateComponents.calendar = Calendar.current
     }
     
-    @IBAction func loadData(_ sender: Any) {
-        let defaults = UserDefaults()
-        let loadedHour = defaults.object(forKey: "hour") as! NSInteger
-        let loadedMin = defaults.object(forKey: "minute") as! NSInteger
-        let hourString = String(loadedHour)
-        let minString = String(loadedMin)
-        currentTimeDisplay.text = "Hour: " + (hourString) + "Minute: " + (minString)
-        
-        var myDateComponents = DateComponents()
-        myDateComponents.calendar = Calendar.current
-                
-        notifHour = Int(loadedHour)
-        notifMin = Int(loadedMin)
-                
-        myDateComponents.hour = notifHour
-        myDateComponents.minute = notifMin
-                
-        let hour = String(notifHour)
-        var minute:String
-        if (notifMin < 10) {
-            minute = "0" + String(notifMin)
-        } else {
-            minute = String(notifMin)
-        }
-                    
-        currentTimeDisplay.text = "\(hour):\(minute)"
-                
-        let content = UNMutableNotificationContent()
-        content.title = "Positive Reminder!"
-        content.body = message
-        content.sound = UNNotificationSound.default
-                    
-        //            let trigger = UNTimeIntervalNotificationTrigger(timeInterval: 7, repeats: false)
-        let trigger2 = UNCalendarNotificationTrigger(dateMatching: myDateComponents, repeats: true)
-                    
-        //            let request = UNNotificationRequest(identifier: "testIdentifier", content: content, trigger: trigger)
-        let request2 = UNNotificationRequest(identifier: "testCalender", content: content, trigger: trigger2)
-                    
-        //            UNUserNotificationCenter.current().add(request, withCompletionHandler: nil)
-        UNUserNotificationCenter.current().add(request2, withCompletionHandler: nil)
-    }
+//    @IBAction func loadData(_ sender: Any) {
+//        let defaults = UserDefaults()
+//        let loadedHour = defaults.object(forKey: "hour") as! Int
+//        let loadedMin = defaults.object(forKey: "minute") as! Int
+//        currentTimeDisplay.text = "This is the loaded data + \(loadedHour) + \(loadedMin)"
+//    }
     
     @IBAction func updateNotificationPressed(_ sender: Any) {
-        var savedHour:NSInteger
-        var savedMinute:NSInteger
+//        var savedHour:NSInteger
+//        var savedMinute:NSInteger
         var sHour:Int
         var sMin:Int
         sHour = Int(hourInput.text!)!
-        savedHour = sHour
+//        savedHour = sHour
         sMin = Int(minuteInput.text!)!
-        savedMinute = sMin
+//        savedMinute = sMin
         
-        let defaults = UserDefaults()
-        defaults.set(savedHour, forKey: "hour")
-        defaults.set(savedMinute, forKey: "minute")
+//        let defaults = UserDefaults()
+//        defaults.set(savedHour, forKey: "hour")
+//        defaults.set(savedMinute, forKey: "minute")
+        
+        let hour = String(sHour)
+        var minute:String
+        if (sMin < 10) {
+            minute = "0" + String(sMin)
+        } else {
+            minute = String(sMin)
+        }
+        currentTimeDisplay.text = "\(hour):\(minute)"
+        
+        var realDateComponents = DateComponents()
+        realDateComponents.calendar = Calendar.current
+                        
+        //notifHour = Int(loadedHour)
+        //notifMin = Int(loadedMin)
+        
+        realDateComponents.day = 1
+        realDateComponents.hour = sHour
+        realDateComponents.minute = sMin
+                        
+        let realContent = UNMutableNotificationContent()
+        realContent.title = "Positive Reminder!"
+        realContent.body = message
+        realContent.sound = UNNotificationSound.default
+                            
+        //let trigger = UNTimeIntervalNotificationTrigger(timeInterval: 7, repeats: false)
+        let trigger2 = UNCalendarNotificationTrigger(dateMatching: realDateComponents, repeats: true)
+                            
+        //let request = UNNotificationRequest(identifier: "testIdentifier", content: content, trigger: trigger)
+        let request2 = UNNotificationRequest(identifier: "testCalender", content: realContent, trigger: trigger2)
+                            
+        //UNUserNotificationCenter.current().add(request, withCompletionHandler: nil)
+        UNUserNotificationCenter.current().add(request2, withCompletionHandler: nil)
     }
 }

@@ -65,12 +65,10 @@ class Game2: UIViewController {
     }
     
     @IBAction func resetScene(_ sender: Any) {
-        UIImageView.animate(withDuration: 5.0, animations: {
-            self.flyingBird.frame = CGRect(x: 328, y: 222, width: self.flyingBird.frame.size.width, height: self.flyingBird.frame.size.height)
-        })
-        UIImageView.animate(withDuration: 5.0, animations: {
-            self.flyingBird2.frame = CGRect(x: 159, y: 254, width: self.flyingBird2.frame.size.width, height: self.flyingBird2.frame.size.height)
-        })
+        flyingBird.frame.origin.x = 328
+        flyingBird.frame.origin.y = 222
+        flyingBird2.frame.origin.x = 159
+        flyingBird2.frame.origin.y = 254
     }
     @IBAction func stopSound(_ sender: Any) {
         riverPlayer.stop()
