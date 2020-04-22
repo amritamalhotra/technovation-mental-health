@@ -13,17 +13,17 @@ import Firebase
 class SignUpViewController: UIViewController {
     
     @IBOutlet weak var emailTextField: UITextField!
-    @IBOutlet weak var usernameTextField: UITextField!
     @IBOutlet weak var passwordTextField: UITextField!
-    @IBOutlet weak var keywordTextField: UITextField!
     @IBOutlet weak var createAccountButton: UIButton!
     @IBOutlet weak var errorLabel: UILabel!
     
 
     override func viewDidLoad() {
         super.viewDidLoad()
+        emailTextField.delegate = self
+        passwordTextField.delegate = self
+        self.view.addGestureRecognizer(UITapGestureRecognizer(target: self, action: #selector(UIInputViewController.dismissKeyboard)))
         
-        // Do any additional setup after loading the view.
         setUpElements()
     }
     
@@ -34,16 +34,12 @@ class SignUpViewController: UIViewController {
         createAccountButton.layer.borderColor = UIColor.lightGray.cgColor
     }
     
-    // returns nil if everything is correct, error message if incorrect
     func validateFields() -> String? {
-        
-        // Check that all fields are filled in
-        
+                
         if  passwordTextField.text?.trimmingCharacters(in: .whitespacesAndNewlines) == "" || emailTextField.text?.trimmingCharacters(in: .whitespacesAndNewlines) == "" {
             return "Please fill in all fields."
         }
         
-        // Check if the password is secure
         let cleanedPassword = passwordTextField.text!.trimmingCharacters(in: .whitespacesAndNewlines)
         if Utilities.isPasswordValid(cleanedPassword) == false {
             return "Please make sure your password is at least 6 characters long."
@@ -54,35 +50,24 @@ class SignUpViewController: UIViewController {
     
     @IBAction func createAccountTapped(_ sender: Any) {
         
-        // Validate the fields
         let error = validateFields()
         if error != nil {
-            
-            // Something wrong with fields, show error message
             showError(error!)
         }
         else {
-            // Create cleaned versions of the data
             let email = self.emailTextField.text!.trimmingCharacters(in: .whitespacesAndNewlines)
             let password = self.passwordTextField.text!.trimmingCharacters(in: .whitespacesAndNewlines)
-            // Create the user
             Auth.auth().createUser(withEmail: email, password: password) { (result, err) in
-                // Check for errors
                 if err != nil {
-                    // There was an error
                     self.showError("Error creating user")
                 }
                 else {
-                    
-                    // User created successfully
                     let db = Firestore.firestore()
                     db.collection("users").addDocument(data: ["uid": result!.user.uid]) { (error) in
                         if error != nil {
-                            // Show error message
                             self.showError("Error saving user data")
                         }
                     }
-                    // Transition to the home screen
                     self.transitionToHome()
                 }
             }
@@ -96,12 +81,16 @@ class SignUpViewController: UIViewController {
     }
     
     func transitionToHome() {
-        
         let myHomeViewController = storyboard?.instantiateViewController(identifier: Constants.Storyboard.realHomeView) as? UITabBarController
-        
         view.window?.rootViewController = myHomeViewController
         view.window?.makeKeyAndVisible()
-        
     }
-    
+    @objc func dismissKeyboard() {
+        emailTextField.resignFirstResponder()
+        passwordTextField.resignFirstResponder()
+    }
+    @objc func textFieldShouldReturn(textField: UITextField) -> Bool {
+        textField.resignFirstResponder()
+        return true
+    }
 }

@@ -18,8 +18,10 @@ class LoginViewController: UIViewController {
     
     override func viewDidLoad() {
         super.viewDidLoad()
+        emailTextField.delegate = self
+        passwordTextField.delegate = self
+        self.view.addGestureRecognizer(UITapGestureRecognizer(target: self, action: #selector(UIInputViewController.dismissKeyboard)))
 
-        // Do any additional setup after loading the view.
         setUpElements()
     }
     func setUpElements() {
@@ -31,13 +33,9 @@ class LoginViewController: UIViewController {
     
     @IBAction func loginTapped(_ sender: Any) {
         
-        // Validate Text Fields
-        
-        // Create cleaned versions of the text fields
         let email = emailTextField.text!.trimmingCharacters(in: .whitespacesAndNewlines)
         let password = passwordTextField.text!.trimmingCharacters(in: .whitespacesAndNewlines)
         
-        // Signing in the user
         Auth.auth().signIn(withEmail: email, password: password) { (result, error) in
             if error != nil {
                 // Couldn't sign in
@@ -52,6 +50,14 @@ class LoginViewController: UIViewController {
             }
         }
         
+    }
+    @objc func dismissKeyboard() {
+        emailTextField.resignFirstResponder()
+        passwordTextField.resignFirstResponder()
+    }
+    @objc func textFieldShouldReturn(textField: UITextField) -> Bool {
+        textField.resignFirstResponder()
+        return true
     }
     
 }

@@ -36,6 +36,9 @@ class SecondViewController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
         
+        nameInfo.delegate = self
+        self.view.addGestureRecognizer(UITapGestureRecognizer(target: self, action: #selector(UIInputViewController.dismissKeyboard)))
+        
         do {
             let documentDirectory = try FileManager.default.url(for: .documentDirectory, in: .userDomainMask, appropriateFor: nil, create: true)
             let fileUrl = documentDirectory.appendingPathComponent("contacts").appendingPathExtension("sqlite3")
@@ -94,7 +97,9 @@ class SecondViewController: UIViewController {
         do {
         let contacts = try self.database.prepare(self.contactTable)
         for contact in contacts {
+            if contact[self.id] == 1 {
             contactDisplay.text = "current contact info: \nName: \(contact[self.name])\nPhone Number: \(contact[self.number])"
+            }
             }
         } catch {
             print(error)
@@ -115,7 +120,9 @@ class SecondViewController: UIViewController {
         do {
         let contacts = try self.database.prepare(self.contactTable)
         for contact in contacts {
+            if contact[self.id] == 1 {
             contactDisplay.text = "current contact info: \nName: \(contact[self.name])\nPhone Number: \(contact[self.number])"
+            }
             }
         } catch {
             print(error)
@@ -167,7 +174,23 @@ class SecondViewController: UIViewController {
         UIApplication.shared.open(URL(string:"tel://18002334357")! as URL, options: [:], completionHandler: nil)
     }
     @IBAction func callContact(_ sender: Any) {
-        let contact = self.contactTable.filter(self.id == 1)
-        UIApplication.shared.open(URL(string:"tel://\(contact[self.number])")! as URL, options: [:], completionHandler: nil)
+        do {
+            let contacts = try self.database.prepare(self.contactTable)
+            for contact in contacts {
+                if contact[self.id] == 1 {
+                UIApplication.shared.open(URL(string:"tel://\(contact[self.number])")! as URL, options: [:], completionHandler: nil)
+                }
+            }
+        } catch {
+            print(error)
+        }
+    }
+    
+    @objc func dismissKeyboard() {
+        nameInfo.resignFirstResponder()
+    }
+    @objc func textFieldShouldReturn(textField: UITextField) -> Bool {
+        textField.resignFirstResponder()
+        return true
     }
 }

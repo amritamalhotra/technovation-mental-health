@@ -25,6 +25,10 @@ class PositivityReminders: UIViewController {
     
     override func viewDidLoad() {
         super.viewDidLoad()
+        
+        hourInput.delegate = self
+        minuteInput.delegate = self
+        self.view.addGestureRecognizer(UITapGestureRecognizer(target: self, action: #selector(UIInputViewController.dismissKeyboard)))
         messageDisplay.text = message
     }
     
@@ -90,7 +94,7 @@ class PositivityReminders: UIViewController {
         //notifHour = Int(loadedHour)
         //notifMin = Int(loadedMin)
         
-        realDateComponents.day = 1
+//        realDateComponents.day = 1
         realDateComponents.hour = sHour
         realDateComponents.minute = sMin
                         
@@ -99,13 +103,22 @@ class PositivityReminders: UIViewController {
         realContent.body = message
         realContent.sound = UNNotificationSound.default
                             
-        //let trigger = UNTimeIntervalNotificationTrigger(timeInterval: 7, repeats: false)
+//        let trigger = UNTimeIntervalNotificationTrigger(timeInterval: 7, repeats: false)
         let trigger2 = UNCalendarNotificationTrigger(dateMatching: realDateComponents, repeats: true)
                             
-        //let request = UNNotificationRequest(identifier: "testIdentifier", content: content, trigger: trigger)
+//        let request = UNNotificationRequest(identifier: "testIdentifier", content: realContent, trigger: trigger)
         let request2 = UNNotificationRequest(identifier: "testCalender", content: realContent, trigger: trigger2)
                             
-        //UNUserNotificationCenter.current().add(request, withCompletionHandler: nil)
+//        UNUserNotificationCenter.current().add(request, withCompletionHandler: nil)
         UNUserNotificationCenter.current().add(request2, withCompletionHandler: nil)
+    }
+    
+    @objc func dismissKeyboard() {
+        hourInput.resignFirstResponder()
+        minuteInput.resignFirstResponder()
+    }
+    @objc func textFieldShouldReturn(textField: UITextField) -> Bool {
+        textField.resignFirstResponder()
+        return true
     }
 }

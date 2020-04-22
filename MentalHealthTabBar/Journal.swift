@@ -30,13 +30,7 @@ class Journal: UIViewController {
         } catch {
             print(error)
         }
-    }
-    
-    @IBAction func journalToExercises(_ sender: Any) {
-        self.dismiss(animated: true, completion: nil)
-    }
-    
-    @IBAction func createJournal(_ sender: Any) {
+        
         let createJournal = self.journalTable.create {
             (table) in
             table.column(self.id, primaryKey: true)
@@ -49,6 +43,10 @@ class Journal: UIViewController {
         } catch {
             print(error)
         }
+    }
+    
+    @IBAction func journalToExercises(_ sender: Any) {
+        self.dismiss(animated: true, completion: nil)
     }
     
     @IBAction func newEntry(_ sender: Any) {

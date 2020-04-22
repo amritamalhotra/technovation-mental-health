@@ -7,10 +7,8 @@
 //
 
 import UIKit
-import AVFoundation
 
 class Game1: UIViewController {
-    var audioPlayer = AVAudioPlayer()
     
     @IBOutlet weak var displayedImage: UIImageView!
     @IBOutlet weak var button1: UIButton!
@@ -37,26 +35,10 @@ class Game1: UIViewController {
         button9.alpha = 0
         button10.alpha = 0
         
-        let sound = Bundle.main.path(forResource: "SampleAudio_0.4mb", ofType: "mp3")
-        
-        do {
-            audioPlayer = try AVAudioPlayer(contentsOf: URL(fileURLWithPath: sound!))
-        }
-        catch{
-            print(error)
-        }
-
-        // Do any additional setup after loading the view.
     }
     
     @IBAction func gameOneToExercises(_ sender: Any) {
         self.dismiss(animated: true, completion: nil)
-    }
-    @IBAction func playHit(_ sender: Any) {
-        audioPlayer.play()
-    }
-    @IBAction func stopHit(_ sender: Any) {
-        audioPlayer.stop()
     }
     
     @IBAction func button1Hit(_ sender: Any) {
