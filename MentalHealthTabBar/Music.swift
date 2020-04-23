@@ -33,7 +33,6 @@ class Music: UIViewController {
     @IBOutlet weak var playMusic: UIButton!
     @IBOutlet weak var pauseMusic: UIButton!
     
-    
     var number:Int!
     
     override func viewDidLoad() {

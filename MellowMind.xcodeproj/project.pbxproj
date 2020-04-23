@@ -48,9 +48,6 @@
 		B84B7D88244BA90E00D3E08A /* segment-6.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = B84B7D82244BA90D00D3E08A /* segment-6.mp3 */; };
 		B84B7D89244BA90E00D3E08A /* segment-5.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = B84B7D83244BA90D00D3E08A /* segment-5.mp3 */; };
 		B84B7D8A244BA90E00D3E08A /* segment 2.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = B84B7D84244BA90E00D3E08A /* segment 2.mp3 */; };
-		B8B3184723D3C87C00B14979 /* SampleAudio_0.4mb.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = B8B3184623D3C87C00B14979 /* SampleAudio_0.4mb.mp3 */; };
-		B8B3184823D3C87C00B14979 /* SampleAudio_0.4mb.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = B8B3184623D3C87C00B14979 /* SampleAudio_0.4mb.mp3 */; };
-		B8B3184923D3C87C00B14979 /* SampleAudio_0.4mb.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = B8B3184623D3C87C00B14979 /* SampleAudio_0.4mb.mp3 */; };
 		B8B54D43241C5A7600D09810 /* SQLite.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B8B54D36241C5A2E00D09810 /* SQLite.framework */; };
 		B8B54D44241C5A7600D09810 /* SQLite.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = B8B54D36241C5A2E00D09810 /* SQLite.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 		B8CD203723C276E20031CC57 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B8CD203623C276E20031CC57 /* AppDelegate.swift */; };
@@ -212,7 +209,6 @@
 		B84B7D83244BA90D00D3E08A /* segment-5.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = "segment-5.mp3"; path = "../../MELLOW MIND FILES/Breathing Music/segment-5.mp3"; sourceTree = "<group>"; };
 		B84B7D84244BA90E00D3E08A /* segment 2.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = "segment 2.mp3"; path = "../../MELLOW MIND FILES/Breathing Music/segment 2.mp3"; sourceTree = "<group>"; };
 		B8B3184423D3C72600B14979 /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
-		B8B3184623D3C87C00B14979 /* SampleAudio_0.4mb.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = SampleAudio_0.4mb.mp3; path = ../../../Downloads/SampleAudio_0.4mb.mp3; sourceTree = "<group>"; };
 		B8B3185A23D3DA2F00B14979 /* MentalHealthTabBar.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = MentalHealthTabBar.entitlements; sourceTree = "<group>"; };
 		B8B54D2B241C5A2E00D09810 /* SQLite.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = SQLite.xcodeproj; path = "../../../Downloads/SQLite.swift-master/SQLite.xcodeproj"; sourceTree = "<group>"; };
 		B8CD203323C276E20031CC57 /* MellowMind.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MellowMind.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -391,7 +387,6 @@
 				B814F5B22446B82100F5C70E /* D Triad.mp3 */,
 				B814F5B32446B82100F5C70E /* E-Triad.mp3 */,
 				B814F5AD2446B7F500F5C70E /* F-Triad.mp3 */,
-				B8B3184623D3C87C00B14979 /* SampleAudio_0.4mb.mp3 */,
 				B814F5A02446B79B00F5C70E /* Anxious1.mp3 */,
 				B814F59F2446B79B00F5C70E /* Anxious2.mp3 */,
 				B814F5952446B79B00F5C70E /* Bored1.mp3 */,
@@ -649,7 +644,6 @@
 				B8DA12BB2420501C00183266 /* C1.mp3 in Resources */,
 				B84B7D86244BA90E00D3E08A /* segment 1.mp3 in Resources */,
 				B814F5B72446B82100F5C70E /* D Triad.mp3 in Resources */,
-				B8B3184723D3C87C00B14979 /* SampleAudio_0.4mb.mp3 in Resources */,
 				B814F5AB2446B79B00F5C70E /* Anxious2.mp3 in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -658,7 +652,6 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				B8B3184823D3C87C00B14979 /* SampleAudio_0.4mb.mp3 in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -666,7 +659,6 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				B8B3184923D3C87C00B14979 /* SampleAudio_0.4mb.mp3 in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

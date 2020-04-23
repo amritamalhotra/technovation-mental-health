@@ -99,7 +99,7 @@ class SecondViewController: UIViewController {
         for contact in contacts {
             if contact[self.id] == 1 {
             contactDisplay.text = "current contact info: \nName: \(contact[self.name])\nPhone Number: \(contact[self.number])"
-            }
+                }
             }
         } catch {
             print(error)
@@ -122,7 +122,7 @@ class SecondViewController: UIViewController {
         for contact in contacts {
             if contact[self.id] == 1 {
             contactDisplay.text = "current contact info: \nName: \(contact[self.name])\nPhone Number: \(contact[self.number])"
-            }
+                }
             }
         } catch {
             print(error)

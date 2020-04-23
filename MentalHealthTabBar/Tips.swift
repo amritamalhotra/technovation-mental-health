@@ -142,9 +142,6 @@ class Tips: UIViewController {
         tipText.text = Emotions.shared.theTip
     }
     
-    override func touchesBegan(_ touches: Set<UITouch>, with event: UIEvent?) {
-    }
-    
 }
 extension UIViewController : UITextFieldDelegate {
     public func textFieldShouldReturn(_ textField: UITextField) -> Bool {

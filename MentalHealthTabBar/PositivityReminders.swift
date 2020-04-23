@@ -26,17 +26,19 @@ class PositivityReminders: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
         
+        UNUserNotificationCenter.current().requestAuthorization(options: [.alert, .sound, .badge], completionHandler: {didAllow, error in})
+        
         hourInput.delegate = self
         minuteInput.delegate = self
         self.view.addGestureRecognizer(UITapGestureRecognizer(target: self, action: #selector(UIInputViewController.dismissKeyboard)))
-        messageDisplay.text = message
+        messageDisplay.text = "Current Message: \(message)"
     }
     
     @IBAction func goback(_ sender: Any) {
         self.dismiss(animated: true, completion: nil)
     }
     @IBAction func setDefaultMessage(_ sender: Any) {
-        message = "Keep Calm and Carry On!"
+        message = "Stay positive! All will be well."
         messageDisplay.text = "Current Message:\n\(message)"
     }
     @IBAction func enterPressed(_ sender: Any) {
@@ -58,27 +60,12 @@ class PositivityReminders: UIViewController {
         myDateComponents.calendar = Calendar.current
     }
     
-//    @IBAction func loadData(_ sender: Any) {
-//        let defaults = UserDefaults()
-//        let loadedHour = defaults.object(forKey: "hour") as! Int
-//        let loadedMin = defaults.object(forKey: "minute") as! Int
-//        currentTimeDisplay.text = "This is the loaded data + \(loadedHour) + \(loadedMin)"
-//    }
-    
     @IBAction func updateNotificationPressed(_ sender: Any) {
-//        var savedHour:NSInteger
-//        var savedMinute:NSInteger
         var sHour:Int
         var sMin:Int
         sHour = Int(hourInput.text!)!
-//        savedHour = sHour
         sMin = Int(minuteInput.text!)!
-//        savedMinute = sMin
-        
-//        let defaults = UserDefaults()
-//        defaults.set(savedHour, forKey: "hour")
-//        defaults.set(savedMinute, forKey: "minute")
-        
+
         let hour = String(sHour)
         var minute:String
         if (sMin < 10) {
@@ -90,11 +77,7 @@ class PositivityReminders: UIViewController {
         
         var realDateComponents = DateComponents()
         realDateComponents.calendar = Calendar.current
-                        
-        //notifHour = Int(loadedHour)
-        //notifMin = Int(loadedMin)
-        
-//        realDateComponents.day = 1
+
         realDateComponents.hour = sHour
         realDateComponents.minute = sMin
                         
@@ -103,13 +86,10 @@ class PositivityReminders: UIViewController {
         realContent.body = message
         realContent.sound = UNNotificationSound.default
                             
-//        let trigger = UNTimeIntervalNotificationTrigger(timeInterval: 7, repeats: false)
         let trigger2 = UNCalendarNotificationTrigger(dateMatching: realDateComponents, repeats: true)
                             
-//        let request = UNNotificationRequest(identifier: "testIdentifier", content: realContent, trigger: trigger)
         let request2 = UNNotificationRequest(identifier: "testCalender", content: realContent, trigger: trigger2)
                             
-//        UNUserNotificationCenter.current().add(request, withCompletionHandler: nil)
         UNUserNotificationCenter.current().add(request2, withCompletionHandler: nil)
     }
     
