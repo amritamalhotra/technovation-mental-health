@@ -87,8 +87,7 @@ class GuidedBreathing: UIViewController {
             print(error)
         }
     }
-    
-    @IBAction func updateSlider(_ sender: Any) {
+    @IBAction func updateBreathingValue(_ sender: Any) {
         let value = Int(timeSlider.value)
         setting = value - 2
         var exValue:Int
@@ -102,6 +101,7 @@ class GuidedBreathing: UIViewController {
         timeLeft = value
         exTimeLeft = exValue
     }
+  
     
     @objc func updateTimeLabel() {
         timeLabel.alpha = 1

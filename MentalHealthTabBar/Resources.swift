@@ -17,6 +17,10 @@ class SecondViewController: UIViewController {
     let name = Expression<String>("name")
     let number = Expression<Int>("number")
     
+    @IBOutlet weak var helpLabel: UILabel!
+    @IBOutlet weak var webLabel: UILabel!
+    @IBOutlet weak var nashLabel: UILabel!
+    @IBOutlet weak var nsphLabel: UILabel!
     @IBOutlet weak var nameInfo: UITextField!
     @IBOutlet weak var numberInfo: UITextField!
     @IBOutlet weak var enter: UIButton!
@@ -32,6 +36,7 @@ class SecondViewController: UIViewController {
     @IBOutlet weak var SCCbutton: UIButton!
     @IBOutlet weak var ANYCbutton: UIButton!
     @IBOutlet weak var callContactButton: UIButton!
+    @IBOutlet weak var cancelButton: UIButton!
     
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -83,15 +88,54 @@ class SecondViewController: UIViewController {
         enterEdit.alpha = 0
     }
     @IBAction func addEmergencyContact(_ sender: Any) {
+        cancelButton.alpha = 1
         nameInfo.alpha = 1
         numberInfo.alpha = 1
         enter.alpha = 1
+        enterEdit.alpha = 0
+        helpLabel.alpha = 0
+        webLabel.alpha = 0
+        nashLabel.alpha = 0
+        nsphLabel.alpha = 0
+        splButton.alpha = 0
+        adaaButton.alpha = 0
+        aofhButton.alpha = 0
+        NASHbutton.alpha = 0
+        NSPHbutton.alpha = 0
+        SCCbutton.alpha = 0
+        ANYCbutton.alpha = 0
+        callContactButton.alpha = 0
+        nameInfo.frame.origin.x = 24
+        nameInfo.frame.origin.y = 78
+        numberInfo.frame.origin.x = 64
+        numberInfo.frame.origin.y = 125
+        enter.frame.origin.x = 171
+        enter.frame.origin.y = 171
     }
     @IBAction func editContact(_ sender: Any) {
+        cancelButton.alpha = 1
         nameInfo.alpha = 1
         numberInfo.alpha = 1
         enterEdit.alpha = 1
         enter.alpha = 0
+        helpLabel.alpha = 0
+        webLabel.alpha = 0
+        nashLabel.alpha = 0
+        nsphLabel.alpha = 0
+        splButton.alpha = 0
+        adaaButton.alpha = 0
+        aofhButton.alpha = 0
+        NASHbutton.alpha = 0
+        NSPHbutton.alpha = 0
+        SCCbutton.alpha = 0
+        ANYCbutton.alpha = 0
+        callContactButton.alpha = 0
+        nameInfo.frame.origin.x = 24
+        nameInfo.frame.origin.y = 78
+        numberInfo.frame.origin.x = 64
+        numberInfo.frame.origin.y = 125
+        enterEdit.frame.origin.x = 171
+        enterEdit.frame.origin.y = 171
     }
     @IBAction func viewContact(_ sender: Any) {
         do {
@@ -130,6 +174,51 @@ class SecondViewController: UIViewController {
         nameInfo.alpha = 0
         numberInfo.alpha = 0
         enterEdit.alpha = 0
+        cancelButton.alpha = 0
+        helpLabel.alpha = 1
+        webLabel.alpha = 1
+        nashLabel.alpha = 1
+        nsphLabel.alpha = 1
+        splButton.alpha = 1
+        adaaButton.alpha = 1
+        aofhButton.alpha = 1
+        NASHbutton.alpha = 1
+        NSPHbutton.alpha = 1
+        SCCbutton.alpha = 1
+        ANYCbutton.alpha = 1
+        callContactButton.alpha = 1
+        nameInfo.frame.origin.x = 24
+        nameInfo.frame.origin.y = 436
+        numberInfo.frame.origin.x = 60
+        numberInfo.frame.origin.y = 477
+        enterEdit.frame.origin.x = 170
+        enterEdit.frame.origin.y = 513
+    }
+    @IBAction func cancel(_ sender: Any) {
+        nameInfo.alpha = 0
+        numberInfo.alpha = 0
+        enterEdit.alpha = 0
+        enter.alpha = 0
+        helpLabel.alpha = 1
+        webLabel.alpha = 1
+        nashLabel.alpha = 1
+        nsphLabel.alpha = 1
+        splButton.alpha = 1
+        adaaButton.alpha = 1
+        aofhButton.alpha = 1
+        NASHbutton.alpha = 1
+        NSPHbutton.alpha = 1
+        SCCbutton.alpha = 1
+        ANYCbutton.alpha = 1
+        callContactButton.alpha = 1
+        nameInfo.frame.origin.x = 24
+        nameInfo.frame.origin.y = 436
+        numberInfo.frame.origin.x = 60
+        numberInfo.frame.origin.y = 477
+        enterEdit.frame.origin.x = 170
+        enterEdit.frame.origin.y = 513
+        enter.frame.origin.x = 170
+        enter.frame.origin.y = 513
     }
     @IBAction func enter(_ sender: Any) {
         let name = nameInfo.text!
@@ -145,9 +234,29 @@ class SecondViewController: UIViewController {
             print(error)
         }
         contactDisplay.text = "current contact info:\nName: \(name)\nNumber: \(number!)"
+        
         nameInfo.alpha = 0
         numberInfo.alpha = 0
         enter.alpha = 0
+        cancelButton.alpha = 0
+        helpLabel.alpha = 1
+        webLabel.alpha = 1
+        nashLabel.alpha = 1
+        nsphLabel.alpha = 1
+        splButton.alpha = 1
+        adaaButton.alpha = 1
+        aofhButton.alpha = 1
+        NASHbutton.alpha = 1
+        NSPHbutton.alpha = 1
+        SCCbutton.alpha = 1
+        ANYCbutton.alpha = 1
+        callContactButton.alpha = 1
+        nameInfo.frame.origin.x = 24
+        nameInfo.frame.origin.y = 436
+        numberInfo.frame.origin.x = 60
+        numberInfo.frame.origin.y = 477
+        enter.frame.origin.x = 170
+        enter.frame.origin.y = 513
     }
     override func touchesBegan(_ touches: Set<UITouch>, with event: UIEvent?) {
         numberInfo.resignFirstResponder()
